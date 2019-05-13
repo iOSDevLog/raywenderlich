@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dMf-wh-djy">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Axh-TU-BPl">
+            <objects>
+                <viewController id="dMf-wh-djy" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="soN-2W-yNh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Pc-aH-eaW" userLabel="DIY Scroll View" customClass="DIYScrollView" customModule="CustomScrollVIew" customModuleProvider="target">
+                                <rect key="frame" x="37.666666666666657" y="112.33333333333331" width="300" height="587.33333333333348"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Im8-MS-nKt">
+                                        <rect key="frame" x="20" y="30" width="260" height="1350"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" image="ringPlanet" translatesAutoresizingMaskIntoConstraints="NO" id="LGr-nl-2BJ">
+                                                <rect key="frame" x="0.0" y="0.0" width="260" height="150"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="150" id="hb6-XY-maH"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" image="happyStar" translatesAutoresizingMaskIntoConstraints="NO" id="JO9-wp-lBZ">
+                                                <rect key="frame" x="0.0" y="149.99999999999997" width="260" height="150.00000000000003"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="150" id="sNw-H7-X5R"/>
+                                                </constraints>
+                                            </imageView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="4F4-7y-PtY">
+                                                <rect key="frame" x="0.0" y="300" width="260" height="150"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" image="earth" translatesAutoresizingMaskIntoConstraints="NO" id="TpW-Rr-pCX">
+                                                        <rect key="frame" x="0.0" y="0.0" width="120" height="150"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="150" id="4zq-Jm-NR5"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" image="spaceMonkey" translatesAutoresizingMaskIntoConstraints="NO" id="mt0-mx-5nk">
+                                                        <rect key="frame" x="140" y="0.0" width="120" height="150"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="150" id="nRT-i3-Hpj"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
+                                            </stackView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" image="redPlanet" translatesAutoresizingMaskIntoConstraints="NO" id="Tdb-pr-qhP">
+                                                <rect key="frame" x="0.0" y="450" width="260" height="150"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="150" id="KJ1-4t-t8g"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" image="moon2" translatesAutoresizingMaskIntoConstraints="NO" id="E3h-5C-vMx">
+                                                <rect key="frame" x="0.0" y="600" width="260" height="150"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="150" id="G8q-QG-eKz"/>
+                                                </constraints>
+                                            </imageView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="7W1-HL-VeL">
+                                                <rect key="frame" x="0.0" y="750" width="260" height="450"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" image="purplePlanet" translatesAutoresizingMaskIntoConstraints="NO" id="Pxp-2F-qn6">
+                                                        <rect key="frame" x="0.0" y="0.0" width="260" height="150"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="150" id="gyG-Zb-Rio"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" image="rocket" translatesAutoresizingMaskIntoConstraints="NO" id="1Nx-3g-mt8">
+                                                        <rect key="frame" x="0.0" y="149.99999999999989" width="260" height="150"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="150" id="khR-Ce-bnt"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" image="orangePlanet" translatesAutoresizingMaskIntoConstraints="NO" id="TmR-2O-Sjg">
+                                                        <rect key="frame" x="0.0" y="299.99999999999989" width="260" height="150"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="150" id="IJb-ai-AHG"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
+                                            </stackView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" image="moon1" translatesAutoresizingMaskIntoConstraints="NO" id="b06-jq-JK1">
+                                                <rect key="frame" x="0.0" y="1200" width="260" height="150"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="150" id="zy3-ES-PPm"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.036861431617625812" green="0.20215588589247005" blue="0.26805719339622641" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstItem="Im8-MS-nKt" firstAttribute="leading" secondItem="8Pc-aH-eaW" secondAttribute="leading" constant="20" id="HHY-fN-ANk"/>
+                                    <constraint firstAttribute="trailing" secondItem="Im8-MS-nKt" secondAttribute="trailing" constant="20" id="ly1-Ca-4pi"/>
+                                    <constraint firstItem="Im8-MS-nKt" firstAttribute="top" secondItem="8Pc-aH-eaW" secondAttribute="top" constant="30" id="qsZ-z8-A00"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="xD9-9R-mhb" appends="YES" id="CQU-WH-Mxh"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="8Pc-aH-eaW" firstAttribute="centerX" secondItem="soN-2W-yNh" secondAttribute="centerX" id="E1X-wQ-TxY"/>
+                            <constraint firstItem="8Pc-aH-eaW" firstAttribute="height" secondItem="HHe-Ic-xBo" secondAttribute="height" multiplier="0.8" id="FCA-Bu-48j"/>
+                            <constraint firstItem="8Pc-aH-eaW" firstAttribute="centerY" secondItem="soN-2W-yNh" secondAttribute="centerY" id="U0i-rU-4Rg"/>
+                            <constraint firstItem="8Pc-aH-eaW" firstAttribute="width" secondItem="HHe-Ic-xBo" secondAttribute="width" multiplier="0.8" id="s4V-SC-nWf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="HHe-Ic-xBo"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G6u-v6-NaD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="xD9-9R-mhb">
+                    <connections>
+                        <action selector="handlePan:" destination="8Pc-aH-eaW" id="2zY-VT-LqI"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="120.8" y="87.706146926536732"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="earth" width="1000" height="1000"/>
+        <image name="happyStar" width="1000" height="1000"/>
+        <image name="moon1" width="1000" height="1000"/>
+        <image name="moon2" width="1000" height="1000"/>
+        <image name="orangePlanet" width="1000" height="1000"/>
+        <image name="purplePlanet" width="1000" height="1000"/>
+        <image name="redPlanet" width="1000" height="1000"/>
+        <image name="ringPlanet" width="1000" height="1000"/>
+        <image name="rocket" width="1000" height="1000"/>
+        <image name="spaceMonkey" width="236" height="316"/>
+    </resources>
+</document>

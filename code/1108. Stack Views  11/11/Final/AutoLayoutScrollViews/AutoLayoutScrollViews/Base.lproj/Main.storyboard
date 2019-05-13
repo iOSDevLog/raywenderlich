@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13189.4" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13165.3"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AutoLayoutScrollViews" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="euI-uj-EDC">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="TSJ-PN-s6u">
+                                        <rect key="frame" x="0.0" y="28" width="320" height="664.5"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ray" translatesAutoresizingMaskIntoConstraints="NO" id="OVX-Iu-4ew">
+                                                <rect key="frame" x="60" y="0.0" width="200" height="200"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="200" id="UsY-LA-asL"/>
+                                                    <constraint firstAttribute="height" constant="200" id="Ztd-nV-7Ho"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ray Wenderlich" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="itH-F7-sUe">
+                                                <rect key="frame" x="82.5" y="211" width="155.5" height="25.5"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="21"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="p1r-ue-92h">
+                                                <rect key="frame" x="0.0" y="247.5" width="320" height="417"/>
+                                                <mutableString key="text">Ray is part of a great team - the raywenderlich.com team, a group of over 100 developers and editors from across the world. He and the rest of the team are passionate both about making apps and teaching others the techniques to make them.
+
+Ray founded the software development company called Razeware which employs a variety of developers all over the world to design tutorials and even better apps.
+
+Ray has spoken at numerous conferences has even developed his own conference: RWDevCon. RWDevCon features some of the brightest developers in the iOS space in a tutorial based speaking format so that the audience not only understands the concepts, but actually gets to put it into practice.
+
+When Ray’s not programming, he’s probably playing video games, role playing games, or board games.
+</mutableString>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="TSJ-PN-s6u" firstAttribute="top" secondItem="euI-uj-EDC" secondAttribute="top" constant="28" id="F9m-Iu-N4f"/>
+                                    <constraint firstAttribute="bottom" secondItem="TSJ-PN-s6u" secondAttribute="bottom" constant="25.5" id="fAG-oO-Dwu"/>
+                                    <constraint firstAttribute="trailing" secondItem="TSJ-PN-s6u" secondAttribute="trailing" id="fOR-3h-SVb"/>
+                                    <constraint firstItem="TSJ-PN-s6u" firstAttribute="leading" secondItem="euI-uj-EDC" secondAttribute="leading" id="jSQ-eb-MBr"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="euI-uj-EDC" secondAttribute="bottom" id="C3w-ux-1r7"/>
+                            <constraint firstItem="euI-uj-EDC" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="PK8-pS-GQ4"/>
+                            <constraint firstItem="euI-uj-EDC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="YJU-If-tcT"/>
+                            <constraint firstItem="TSJ-PN-s6u" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="efZ-R8-xt2"/>
+                            <constraint firstAttribute="trailing" secondItem="euI-uj-EDC" secondAttribute="trailing" id="kr2-li-hAL"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="textView" destination="p1r-ue-92h" id="UEH-cw-UR5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="120" y="109.85915492957747"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Ray" width="100" height="100"/>
+    </resources>
+</document>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='raw'>
+    <pages>
+        <page name='Table of Contents'/>
+        <page name='1. Completed Demo'/>
+        <page name='2. The View Controllers'/>
+        <page name='3. The User Profile Model'/>
+        <page name='4. The App State Model'/>
+        <page name='5. The Redux Store'/>
+        <page name='6. The Observable'/>
+        <page name='7. Managing Dependencies'/>
+        <page name='8. Putting it All Together'/>
+        <page name='9. All the Source'/>
+        <page name='Copyright'/>
+    </pages>
+</playground>

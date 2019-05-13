@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="FJL-h2-6xI">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Park Map View Controller-->
+        <scene sceneID="QZh-Ha-k2y">
+            <objects>
+                <viewController id="FJL-h2-6xI" customClass="ParkMapViewController" customModule="Park_View" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yqm-V9-xHS"/>
+                        <viewControllerLayoutGuide type="bottom" id="fgY-G0-IZK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="85d-Cq-wea">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pcn-Dt-rxz">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <items>
+                                    <navigationItem id="u0b-XA-3yy">
+                                        <nil key="title"/>
+                                        <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="dOn-Vf-gxB">
+                                            <rect key="frame" x="72.5" y="6.5" width="230" height="31"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <segments>
+                                                <segment title="Map"/>
+                                                <segment title="Hybrid"/>
+                                                <segment title="Satellite"/>
+                                            </segments>
+                                            <connections>
+                                                <action selector="mapTypeChangedWithSender:" destination="FJL-h2-6xI" eventType="valueChanged" id="vRf-ub-eHW"/>
+                                            </connections>
+                                        </segmentedControl>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="U67-gq-Z2V">
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <connections>
+                                    <outlet property="delegate" destination="FJL-h2-6xI" id="fov-51-aHk"/>
+                                </connections>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="U67-gq-Z2V" firstAttribute="top" secondItem="pcn-Dt-rxz" secondAttribute="bottom" id="7Dg-qa-0vr"/>
+                            <constraint firstItem="fgY-G0-IZK" firstAttribute="top" secondItem="U67-gq-Z2V" secondAttribute="bottom" id="R5z-6H-E7L"/>
+                            <constraint firstItem="U67-gq-Z2V" firstAttribute="leading" secondItem="85d-Cq-wea" secondAttribute="leading" id="ixl-jD-ulh"/>
+                            <constraint firstItem="pcn-Dt-rxz" firstAttribute="trailing" secondItem="85d-Cq-wea" secondAttribute="trailing" id="kGq-IC-JIs"/>
+                            <constraint firstItem="pcn-Dt-rxz" firstAttribute="leading" secondItem="85d-Cq-wea" secondAttribute="leading" id="kdd-Mo-jDZ"/>
+                            <constraint firstAttribute="trailing" secondItem="U67-gq-Z2V" secondAttribute="trailing" id="qfF-2T-O3M"/>
+                            <constraint firstItem="pcn-Dt-rxz" firstAttribute="top" secondItem="85d-Cq-wea" secondAttribute="top" id="xhS-MP-nDF"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="8gk-sc-ytX"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="mapTypeSegmentedControl" destination="dOn-Vf-gxB" id="kUw-eT-ocy"/>
+                        <outlet property="mapView" destination="U67-gq-Z2V" id="HZr-ah-bFa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LwU-tG-gVr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1224.8" y="273.91304347826087"/>
+        </scene>
+    </scenes>
+</document>

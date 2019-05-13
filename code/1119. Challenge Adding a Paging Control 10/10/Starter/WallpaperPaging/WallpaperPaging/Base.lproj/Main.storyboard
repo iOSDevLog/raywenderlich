@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WallpaperPaging" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zRx-4F-apu">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </scrollView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="dr4-lA-pqS">
+                                <rect key="frame" x="16" y="630" width="343" height="37"/>
+                            </pageControl>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="zRx-4F-apu" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="4FJ-0K-ED6"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="zRx-4F-apu" secondAttribute="bottom" id="HlC-b7-gww"/>
+                            <constraint firstItem="dr4-lA-pqS" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="MS5-a7-sz2"/>
+                            <constraint firstItem="dr4-lA-pqS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="c9B-no-t4A"/>
+                            <constraint firstAttribute="trailing" secondItem="zRx-4F-apu" secondAttribute="trailing" id="eH0-rz-qeM"/>
+                            <constraint firstItem="zRx-4F-apu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="wP3-Ug-o5h"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="dr4-lA-pqS" secondAttribute="bottom" id="yvl-vB-Uba"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="pageControl" destination="dr4-lA-pqS" id="WNf-kz-VRw"/>
+                        <outlet property="scrollView" destination="zRx-4F-apu" id="Ymw-1v-hv4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="549.60000000000002" y="52.623688155922046"/>
+        </scene>
+        <!--Wallpaper View Controller-->
+        <scene sceneID="khL-9B-TEp">
+            <objects>
+                <viewController storyboardIdentifier="WallpaperViewController" id="mTN-lq-HAz" customClass="WallpaperViewController" customModule="WallpaperPaging" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RuU-cI-rAx"/>
+                        <viewControllerLayoutGuide type="bottom" id="CgP-Bk-GL9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8LN-pf-MDQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8Q8-Wu-IRA">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="8Q8-Wu-IRA" secondAttribute="trailing" id="23z-9Y-1a5"/>
+                            <constraint firstItem="8Q8-Wu-IRA" firstAttribute="top" secondItem="8LN-pf-MDQ" secondAttribute="top" id="qpw-CE-pPf"/>
+                            <constraint firstItem="CgP-Bk-GL9" firstAttribute="top" secondItem="8Q8-Wu-IRA" secondAttribute="bottom" id="wbH-id-D7q"/>
+                            <constraint firstItem="8Q8-Wu-IRA" firstAttribute="leading" secondItem="8LN-pf-MDQ" secondAttribute="leading" id="y2w-XU-LEo"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="wallpaperImageView" destination="8Q8-Wu-IRA" id="g5l-1c-ykN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cnm-7x-SYn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1257" y="53"/>
+        </scene>
+    </scenes>
+</document>

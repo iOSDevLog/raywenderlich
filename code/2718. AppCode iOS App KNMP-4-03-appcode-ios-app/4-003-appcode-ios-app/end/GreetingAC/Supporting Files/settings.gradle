@@ -1,0 +1,3 @@
+include(":GreetingAC")
+project(":GreetingAC").projectDir = file("../GreetingAC")
+rootProject.name = file("..").name

@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D331E0D81BDEC825005B8F78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D331E0D71BDEC825005B8F78 /* AppDelegate.swift */; };
+		D331E0DA1BDEC825005B8F78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D331E0D91BDEC825005B8F78 /* ViewController.swift */; };
+		D331E0DD1BDEC825005B8F78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D331E0DB1BDEC825005B8F78 /* Main.storyboard */; };
+		D331E0DF1BDEC825005B8F78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D331E0DE1BDEC825005B8F78 /* Assets.xcassets */; };
+		D331E0E21BDEC825005B8F78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D331E0E01BDEC825005B8F78 /* LaunchScreen.storyboard */; };
+		D331E1041BDEC847005B8F78 /* attribution.txt in Resources */ = {isa = PBXBuildFile; fileRef = D331E0EA1BDEC847005B8F78 /* attribution.txt */; settings = {ASSET_TAGS = (); }; };
+		D331E1051BDEC847005B8F78 /* bee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D331E0EB1BDEC847005B8F78 /* bee.jpg */; settings = {ASSET_TAGS = (); }; };
+		D331E1061BDEC847005B8F78 /* beetle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D331E0EC1BDEC847005B8F78 /* beetle.jpg */; settings = {ASSET_TAGS = (); }; };
+		D331E1071BDEC847005B8F78 /* burritoInsect.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D331E0ED1BDEC847005B8F78 /* burritoInsect.jpg */; settings = {ASSET_TAGS = (); }; };
+		D331E1081BDEC847005B8F78 /* caterpillar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D331E0EE1BDEC847005B8F78 /* caterpillar.jpg */; settings = {ASSET_TAGS = (); }; };
+		D331E1091BDEC847005B8F78 /* centipede.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D331E0EF1BDEC847005B8F78 /* centipede.jpg */; settings = {ASSET_TAGS = (); }; };
+		D331E10A1BDEC847005B8F78 /* cicada.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D331E0F01BDEC847005B8F78 /* cicada.jpg */; settings = {ASSET_TAGS = (); }; };
+		D331E10B1BDEC847005B8F78 /* cockroach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D331E0F11BDEC847005B8F78 /* cockroach.jpg */; settings = {ASSET_TAGS = (); }; };
+		D331E10C1BDEC847005B8F78 /* exoskeleton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D331E0F21BDEC847005B8F78 /* exoskeleton.jpg */; settings = {ASSET_TAGS = (); }; };
+		D331E10D1BDEC847005B8F78 /* fly.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D331E0F31BDEC847005B8F78 /* fly.jpg */; settings = {ASSET_TAGS = (); }; };
+		D331E10E1BDEC847005B8F78 /* giantMoth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D331E0F41BDEC847005B8F78 /* giantMoth.jpg */; settings = {ASSET_TAGS = (); }; };
+		D331E10F1BDEC847005B8F78 /* grasshopper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D331E0F51BDEC847005B8F78 /* grasshopper.jpg */; settings = {ASSET_TAGS = (); }; };
+		D331E1101BDEC847005B8F78 /* ladybug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D331E0F61BDEC847005B8F78 /* ladybug.jpg */; settings = {ASSET_TAGS = (); }; };
+		D331E1111BDEC847005B8F78 /* mosquito.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D331E0F71BDEC847005B8F78 /* mosquito.jpg */; settings = {ASSET_TAGS = (); }; };
+		D331E1121BDEC847005B8F78 /* potatoBug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D331E0F81BDEC847005B8F78 /* potatoBug.jpg */; settings = {ASSET_TAGS = (); }; };
+		D331E1131BDEC847005B8F78 /* prayingMantis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D331E0F91BDEC847005B8F78 /* prayingMantis.jpg */; settings = {ASSET_TAGS = (); }; };
+		D331E1141BDEC847005B8F78 /* roach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D331E0FA1BDEC847005B8F78 /* roach.jpg */; settings = {ASSET_TAGS = (); }; };
+		D331E1151BDEC847005B8F78 /* robberFly.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D331E0FB1BDEC847005B8F78 /* robberFly.jpg */; settings = {ASSET_TAGS = (); }; };
+		D331E1161BDEC847005B8F78 /* ScaryBug.swift in Sources */ = {isa = PBXBuildFile; fileRef = D331E0FC1BDEC847005B8F78 /* ScaryBug.swift */; settings = {ASSET_TAGS = (); }; };
+		D331E1171BDEC847005B8F78 /* scorpion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D331E0FD1BDEC847005B8F78 /* scorpion.jpg */; settings = {ASSET_TAGS = (); }; };
+		D331E1181BDEC847005B8F78 /* shieldBug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D331E0FE1BDEC847005B8F78 /* shieldBug.jpg */; settings = {ASSET_TAGS = (); }; };
+		D331E1191BDEC847005B8F78 /* shockedface2_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = D331E0FF1BDEC847005B8F78 /* shockedface2_empty.png */; settings = {ASSET_TAGS = (); }; };
+		D331E11A1BDEC847005B8F78 /* shockedface2_full.png in Resources */ = {isa = PBXBuildFile; fileRef = D331E1001BDEC847005B8F78 /* shockedface2_full.png */; settings = {ASSET_TAGS = (); }; };
+		D331E11B1BDEC847005B8F78 /* stagBeetle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D331E1011BDEC847005B8F78 /* stagBeetle.jpg */; settings = {ASSET_TAGS = (); }; };
+		D331E11C1BDEC847005B8F78 /* stinkbug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D331E1021BDEC847005B8F78 /* stinkbug.jpg */; settings = {ASSET_TAGS = (); }; };
+		D331E11D1BDEC847005B8F78 /* wolfSpider.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D331E1031BDEC847005B8F78 /* wolfSpider.jpg */; settings = {ASSET_TAGS = (); }; };
+		D34841671BE12AA50038B8F3 /* EditTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34841661BE12AA50038B8F3 /* EditTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		D38B48B01BE11D75004C3D29 /* ScaryBugTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38B48AF1BE11D75004C3D29 /* ScaryBugTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		D3D9D7771BDFBF5F00DE9F44 /* ScaryBugsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D9D7761BDFBF5F00DE9F44 /* ScaryBugsTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		D3D9D77B1BDFC37100DE9F44 /* BugSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D9D77A1BDFC37100DE9F44 /* BugSection.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D331E0D41BDEC825005B8F78 /* ScaryBugs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScaryBugs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D331E0D71BDEC825005B8F78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D331E0D91BDEC825005B8F78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D331E0DC1BDEC825005B8F78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D331E0DE1BDEC825005B8F78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D331E0E11BDEC825005B8F78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D331E0E31BDEC825005B8F78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D331E0EA1BDEC847005B8F78 /* attribution.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = attribution.txt; sourceTree = "<group>"; };
+		D331E0EB1BDEC847005B8F78 /* bee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bee.jpg; sourceTree = "<group>"; };
+		D331E0EC1BDEC847005B8F78 /* beetle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beetle.jpg; sourceTree = "<group>"; };
+		D331E0ED1BDEC847005B8F78 /* burritoInsect.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = burritoInsect.jpg; sourceTree = "<group>"; };
+		D331E0EE1BDEC847005B8F78 /* caterpillar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = caterpillar.jpg; sourceTree = "<group>"; };
+		D331E0EF1BDEC847005B8F78 /* centipede.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = centipede.jpg; sourceTree = "<group>"; };
+		D331E0F01BDEC847005B8F78 /* cicada.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cicada.jpg; sourceTree = "<group>"; };
+		D331E0F11BDEC847005B8F78 /* cockroach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cockroach.jpg; sourceTree = "<group>"; };
+		D331E0F21BDEC847005B8F78 /* exoskeleton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = exoskeleton.jpg; sourceTree = "<group>"; };
+		D331E0F31BDEC847005B8F78 /* fly.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fly.jpg; sourceTree = "<group>"; };
+		D331E0F41BDEC847005B8F78 /* giantMoth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = giantMoth.jpg; sourceTree = "<group>"; };
+		D331E0F51BDEC847005B8F78 /* grasshopper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grasshopper.jpg; sourceTree = "<group>"; };
+		D331E0F61BDEC847005B8F78 /* ladybug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ladybug.jpg; sourceTree = "<group>"; };
+		D331E0F71BDEC847005B8F78 /* mosquito.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mosquito.jpg; sourceTree = "<group>"; };
+		D331E0F81BDEC847005B8F78 /* potatoBug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potatoBug.jpg; sourceTree = "<group>"; };
+		D331E0F91BDEC847005B8F78 /* prayingMantis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = prayingMantis.jpg; sourceTree = "<group>"; };
+		D331E0FA1BDEC847005B8F78 /* roach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = roach.jpg; sourceTree = "<group>"; };
+		D331E0FB1BDEC847005B8F78 /* robberFly.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = robberFly.jpg; sourceTree = "<group>"; };
+		D331E0FC1BDEC847005B8F78 /* ScaryBug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaryBug.swift; sourceTree = "<group>"; };
+		D331E0FD1BDEC847005B8F78 /* scorpion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scorpion.jpg; sourceTree = "<group>"; };
+		D331E0FE1BDEC847005B8F78 /* shieldBug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shieldBug.jpg; sourceTree = "<group>"; };
+		D331E0FF1BDEC847005B8F78 /* shockedface2_empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shockedface2_empty.png; sourceTree = "<group>"; };
+		D331E1001BDEC847005B8F78 /* shockedface2_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shockedface2_full.png; sourceTree = "<group>"; };
+		D331E1011BDEC847005B8F78 /* stagBeetle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stagBeetle.jpg; sourceTree = "<group>"; };
+		D331E1021BDEC847005B8F78 /* stinkbug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stinkbug.jpg; sourceTree = "<group>"; };
+		D331E1031BDEC847005B8F78 /* wolfSpider.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfSpider.jpg; sourceTree = "<group>"; };
+		D34841661BE12AA50038B8F3 /* EditTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditTableViewController.swift; sourceTree = "<group>"; };
+		D38B48AF1BE11D75004C3D29 /* ScaryBugTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaryBugTableViewCell.swift; sourceTree = "<group>"; };
+		D3D9D7761BDFBF5F00DE9F44 /* ScaryBugsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaryBugsTableViewController.swift; sourceTree = "<group>"; };
+		D3D9D77A1BDFC37100DE9F44 /* BugSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BugSection.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D331E0D11BDEC825005B8F78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D331E0CB1BDEC825005B8F78 = {
+			isa = PBXGroup;
+			children = (
+				D331E0D61BDEC825005B8F78 /* ScaryBugs */,
+				D331E0D51BDEC825005B8F78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D331E0D51BDEC825005B8F78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D331E0D41BDEC825005B8F78 /* ScaryBugs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D331E0D61BDEC825005B8F78 /* ScaryBugs */ = {
+			isa = PBXGroup;
+			children = (
+				D331E0E91BDEC847005B8F78 /* Challenge Resources */,
+				D331E0D71BDEC825005B8F78 /* AppDelegate.swift */,
+				D331E0D91BDEC825005B8F78 /* ViewController.swift */,
+				D331E0DB1BDEC825005B8F78 /* Main.storyboard */,
+				D38B48AF1BE11D75004C3D29 /* ScaryBugTableViewCell.swift */,
+				D331E0DE1BDEC825005B8F78 /* Assets.xcassets */,
+				D331E0E01BDEC825005B8F78 /* LaunchScreen.storyboard */,
+				D3D9D7761BDFBF5F00DE9F44 /* ScaryBugsTableViewController.swift */,
+				D3D9D77A1BDFC37100DE9F44 /* BugSection.swift */,
+				D331E0E31BDEC825005B8F78 /* Info.plist */,
+				D34841661BE12AA50038B8F3 /* EditTableViewController.swift */,
+			);
+			path = ScaryBugs;
+			sourceTree = "<group>";
+		};
+		D331E0E91BDEC847005B8F78 /* Challenge Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D331E0EA1BDEC847005B8F78 /* attribution.txt */,
+				D331E0EB1BDEC847005B8F78 /* bee.jpg */,
+				D331E0EC1BDEC847005B8F78 /* beetle.jpg */,
+				D331E0ED1BDEC847005B8F78 /* burritoInsect.jpg */,
+				D331E0EE1BDEC847005B8F78 /* caterpillar.jpg */,
+				D331E0EF1BDEC847005B8F78 /* centipede.jpg */,
+				D331E0F01BDEC847005B8F78 /* cicada.jpg */,
+				D331E0F11BDEC847005B8F78 /* cockroach.jpg */,
+				D331E0F21BDEC847005B8F78 /* exoskeleton.jpg */,
+				D331E0F31BDEC847005B8F78 /* fly.jpg */,
+				D331E0F41BDEC847005B8F78 /* giantMoth.jpg */,
+				D331E0F51BDEC847005B8F78 /* grasshopper.jpg */,
+				D331E0F61BDEC847005B8F78 /* ladybug.jpg */,
+				D331E0F71BDEC847005B8F78 /* mosquito.jpg */,
+				D331E0F81BDEC847005B8F78 /* potatoBug.jpg */,
+				D331E0F91BDEC847005B8F78 /* prayingMantis.jpg */,
+				D331E0FA1BDEC847005B8F78 /* roach.jpg */,
+				D331E0FB1BDEC847005B8F78 /* robberFly.jpg */,
+				D331E0FC1BDEC847005B8F78 /* ScaryBug.swift */,
+				D331E0FD1BDEC847005B8F78 /* scorpion.jpg */,
+				D331E0FE1BDEC847005B8F78 /* shieldBug.jpg */,
+				D331E0FF1BDEC847005B8F78 /* shockedface2_empty.png */,
+				D331E1001BDEC847005B8F78 /* shockedface2_full.png */,
+				D331E1011BDEC847005B8F78 /* stagBeetle.jpg */,
+				D331E1021BDEC847005B8F78 /* stinkbug.jpg */,
+				D331E1031BDEC847005B8F78 /* wolfSpider.jpg */,
+			);
+			path = "Challenge Resources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D331E0D31BDEC825005B8F78 /* ScaryBugs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D331E0E61BDEC825005B8F78 /* Build configuration list for PBXNativeTarget "ScaryBugs" */;
+			buildPhases = (
+				D331E0D01BDEC825005B8F78 /* Sources */,
+				D331E0D11BDEC825005B8F78 /* Frameworks */,
+				D331E0D21BDEC825005B8F78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScaryBugs;
+			productName = ScaryBugs;
+			productReference = D331E0D41BDEC825005B8F78 /* ScaryBugs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D331E0CC1BDEC825005B8F78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Razeware LLC";
+				TargetAttributes = {
+					D331E0D31BDEC825005B8F78 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = D331E0CF1BDEC825005B8F78 /* Build configuration list for PBXProject "ScaryBugs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D331E0CB1BDEC825005B8F78;
+			productRefGroup = D331E0D51BDEC825005B8F78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D331E0D31BDEC825005B8F78 /* ScaryBugs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D331E0D21BDEC825005B8F78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D331E1181BDEC847005B8F78 /* shieldBug.jpg in Resources */,
+				D331E1191BDEC847005B8F78 /* shockedface2_empty.png in Resources */,
+				D331E0E21BDEC825005B8F78 /* LaunchScreen.storyboard in Resources */,
+				D331E10F1BDEC847005B8F78 /* grasshopper.jpg in Resources */,
+				D331E1101BDEC847005B8F78 /* ladybug.jpg in Resources */,
+				D331E1081BDEC847005B8F78 /* caterpillar.jpg in Resources */,
+				D331E1171BDEC847005B8F78 /* scorpion.jpg in Resources */,
+				D331E1151BDEC847005B8F78 /* robberFly.jpg in Resources */,
+				D331E1051BDEC847005B8F78 /* bee.jpg in Resources */,
+				D331E1061BDEC847005B8F78 /* beetle.jpg in Resources */,
+				D331E0DF1BDEC825005B8F78 /* Assets.xcassets in Resources */,
+				D331E1041BDEC847005B8F78 /* attribution.txt in Resources */,
+				D331E11A1BDEC847005B8F78 /* shockedface2_full.png in Resources */,
+				D331E1091BDEC847005B8F78 /* centipede.jpg in Resources */,
+				D331E1141BDEC847005B8F78 /* roach.jpg in Resources */,
+				D331E11C1BDEC847005B8F78 /* stinkbug.jpg in Resources */,
+				D331E10C1BDEC847005B8F78 /* exoskeleton.jpg in Resources */,
+				D331E1111BDEC847005B8F78 /* mosquito.jpg in Resources */,
+				D331E1131BDEC847005B8F78 /* prayingMantis.jpg in Resources */,
+				D331E1071BDEC847005B8F78 /* burritoInsect.jpg in Resources */,
+				D331E11D1BDEC847005B8F78 /* wolfSpider.jpg in Resources */,
+				D331E10B1BDEC847005B8F78 /* cockroach.jpg in Resources */,
+				D331E10A1BDEC847005B8F78 /* cicada.jpg in Resources */,
+				D331E10E1BDEC847005B8F78 /* giantMoth.jpg in Resources */,
+				D331E10D1BDEC847005B8F78 /* fly.jpg in Resources */,
+				D331E0DD1BDEC825005B8F78 /* Main.storyboard in Resources */,
+				D331E1121BDEC847005B8F78 /* potatoBug.jpg in Resources */,
+				D331E11B1BDEC847005B8F78 /* stagBeetle.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D331E0D01BDEC825005B8F78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D331E0DA1BDEC825005B8F78 /* ViewController.swift in Sources */,
+				D331E0D81BDEC825005B8F78 /* AppDelegate.swift in Sources */,
+				D3D9D77B1BDFC37100DE9F44 /* BugSection.swift in Sources */,
+				D34841671BE12AA50038B8F3 /* EditTableViewController.swift in Sources */,
+				D38B48B01BE11D75004C3D29 /* ScaryBugTableViewCell.swift in Sources */,
+				D331E1161BDEC847005B8F78 /* ScaryBug.swift in Sources */,
+				D3D9D7771BDFBF5F00DE9F44 /* ScaryBugsTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D331E0DB1BDEC825005B8F78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D331E0DC1BDEC825005B8F78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D331E0E01BDEC825005B8F78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D331E0E11BDEC825005B8F78 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D331E0E41BDEC825005B8F78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D331E0E51BDEC825005B8F78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D331E0E71BDEC825005B8F78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScaryBugs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.ScaryBugs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D331E0E81BDEC825005B8F78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScaryBugs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.ScaryBugs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D331E0CF1BDEC825005B8F78 /* Build configuration list for PBXProject "ScaryBugs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D331E0E41BDEC825005B8F78 /* Debug */,
+				D331E0E51BDEC825005B8F78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D331E0E61BDEC825005B8F78 /* Build configuration list for PBXNativeTarget "ScaryBugs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D331E0E71BDEC825005B8F78 /* Debug */,
+				D331E0E81BDEC825005B8F78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D331E0CC1BDEC825005B8F78 /* Project object */;
+}

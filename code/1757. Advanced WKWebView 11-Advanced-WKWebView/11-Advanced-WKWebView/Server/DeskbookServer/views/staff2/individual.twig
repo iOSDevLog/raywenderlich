@@ -1,0 +1,38 @@
+{% extends 'layout.twig' %}
+
+{% if staffMember.image is empty %}
+  {% set profileImage = '/images/headshot-placeholder.jpg' %}
+{% else %}
+  {% set profileImage = {{ staffMember.image }} %}
+{% endif %}
+
+{% block body %}
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-xs-12">
+        <div class="card hovercard">
+          <div class="cardheader">
+          </div>
+          <div class="backControl">
+            <span class="fa fa-chevron-left" onclick="javascript:history.go(-1);"></span>
+          </div>
+          <div class="avatar">
+            <img alt="" src="{{ profileImage }}">
+          </div>
+          <div class="info">
+            <div class="title">
+              {{ staffMember.name }}
+            </div>
+            <div class="desc"><a href="mailto:{{ staffMember.email }}">{{ staffMember.email }}</a></div>
+            <div class="desc">{{ staffMember.mobile }}</div>
+            <div class="desc">{{ staffMember.title }}</div>
+            <div class="desc">{{ staffMember.department }}</div>
+          </div>
+          <div class="bio">{{ staffMember.bio }}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}

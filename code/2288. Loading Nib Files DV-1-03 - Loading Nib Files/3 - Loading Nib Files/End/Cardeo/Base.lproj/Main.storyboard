@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Lesson-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="LessonViewController" customModule="Cardeo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="eoj-C2-Qwm">
+                                <rect key="frame" x="0.0" y="126" width="414" height="654"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5LE-CP-R3e" customClass="CardSuperview" customModule="Cardeo" customModuleProvider="target">
+                                        <rect key="frame" x="47.5" y="0.0" width="319" height="319"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="5LE-CP-R3e" secondAttribute="height" multiplier="1:1" id="2nL-pU-ITu"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tKg-Ox-mKZ">
+                                        <rect key="frame" x="47.5" y="335" width="319" height="319"/>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="tKg-Ox-mKZ" firstAttribute="width" secondItem="5LE-CP-R3e" secondAttribute="width" id="er8-kb-iyt"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" name="Lesson Background"/>
+                        <constraints>
+                            <constraint firstItem="eoj-C2-Qwm" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="4/5" id="3Lk-XB-bxf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eoj-C2-Qwm" secondAttribute="trailing" id="8y6-b2-jZq"/>
+                            <constraint firstItem="eoj-C2-Qwm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="B0w-mH-QOH"/>
+                            <constraint firstItem="eoj-C2-Qwm" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="gEI-Jl-eMO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Lesson" image="Lesson" id="H6G-eu-pgH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-694" y="1112"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Lesson" width="62" height="57"/>
+        <namedColor name="Lesson Background">
+            <color red="0.2196078431372549" green="0.2196078431372549" blue="0.25882352941176473" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+    <color key="tintColor" name="Cardeo Purple"/>
+</document>

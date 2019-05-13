@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RWBio" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wUd-V7-k0L">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V6G-Xm-gGF">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8bC-Xf-vdC">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="799.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ray Wenderlich" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oGh-BL-Ghe">
+                                                <rect key="frame" x="59" y="256" width="203.5" height="34"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="15n-5w-Smq">
+                                                <rect key="frame" x="19" y="298" width="281" height="481.5"/>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                <string key="text">Ray is part of a great team - the raywenderlich.com team, a group of over 100 developers and editors from across the world. He and the rest of the team are passionate both about making apps and teaching others the techniques to make them.
+
+When Ray’s not programming, he’s probably playing video games, role playing games, or board games.</string>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="speaker-ray-wenderlich" translatesAutoresizingMaskIntoConstraints="NO" id="X3X-ga-yf2">
+                                                <rect key="frame" x="16" y="8" width="288.5" height="240"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="X3X-ga-yf2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5zL-pA-he2"/>
+                                            <constraint firstItem="15n-5w-Smq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="11" id="Tjg-tC-5EI"/>
+                                            <constraint firstItem="oGh-BL-Ghe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Z7U-wb-ZGv"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="15n-5w-Smq" secondAttribute="trailing" constant="12" id="Zdu-IX-emw"/>
+                                            <constraint firstItem="15n-5w-Smq" firstAttribute="top" secondItem="oGh-BL-Ghe" secondAttribute="bottom" constant="8" id="dgp-3I-a5b"/>
+                                            <constraint firstItem="X3X-ga-yf2" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.3" id="oy7-HK-Ur5"/>
+                                            <constraint firstItem="oGh-BL-Ghe" firstAttribute="top" secondItem="X3X-ga-yf2" secondAttribute="bottom" constant="8" id="sQs-8g-qvP"/>
+                                            <constraint firstItem="X3X-ga-yf2" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.9" id="t16-IY-xwA"/>
+                                            <constraint firstItem="X3X-ga-yf2" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="8" id="urq-cQ-2pw"/>
+                                            <constraint firstAttribute="bottom" secondItem="15n-5w-Smq" secondAttribute="bottom" constant="20" id="wyE-2J-moA"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="HGb-er-NWa"/>
+                                    <constraint firstItem="8bC-Xf-vdC" firstAttribute="top" secondItem="V6G-Xm-gGF" secondAttribute="top" id="guS-Gh-fcj"/>
+                                    <constraint firstItem="8bC-Xf-vdC" firstAttribute="leading" secondItem="V6G-Xm-gGF" secondAttribute="leading" id="hjF-LE-NEA"/>
+                                    <constraint firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="s0l-sn-cld"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="V6G-Xm-gGF" firstAttribute="leading" secondItem="Fzz-nF-ueg" secondAttribute="leading" id="AQE-xp-a9d"/>
+                            <constraint firstItem="V6G-Xm-gGF" firstAttribute="trailing" secondItem="Fzz-nF-ueg" secondAttribute="trailing" id="CEk-fG-AkB"/>
+                            <constraint firstItem="8bC-Xf-vdC" firstAttribute="width" secondItem="wUd-V7-k0L" secondAttribute="width" id="GKU-lP-7gf"/>
+                            <constraint firstItem="V6G-Xm-gGF" firstAttribute="top" secondItem="wUd-V7-k0L" secondAttribute="top" id="akQ-j7-nch"/>
+                            <constraint firstItem="V6G-Xm-gGF" firstAttribute="bottom" secondItem="Fzz-nF-ueg" secondAttribute="bottom" id="lpO-hV-Wqn"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Fzz-nF-ueg"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="116.25" y="122.53521126760563"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="speaker-ray-wenderlich" width="320" height="240"/>
+    </resources>
+</document>

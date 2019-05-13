@@ -1,0 +1,43 @@
+1-05 # Intrinsic Content Size
+
+➠🐸CATIE🐸
+It's time to dive into a topic that's crucial to your understanding of Stack Views and Auto Layout: Intrinsic Content Size.
+
+➠[Slide 01] Some views have content that doesn't really have the concept of a size. A plain old UIView with a background color, for example. The color blue doesn't really care what size it is. It will fill up whatever area you tell it to. A color can't be truncated or stretched too far.
+
+➠[Slide 02] Some content has a very definite size. If you display an image that is 120 by 120 pixels, it can be scaled up or down, but it has an **intrinsic** size - 120 by 120. 
+
+➠This is pretty obvious for images, but it applies to some other types of content too. Text on a label, for example. 
+
+➠[Slide 03] The intrinsic content size of "Treasure Map" on this label is defined by the exact characters displayed using a specific font at a specific font size.
+
+➠[Slide 04] The intrinsic content size for a view is whatever size will *exactly* fit its size-aware content. 
+
+
+
+➠## Hugging and Compression 😺JESSY😺
+You can't always get what you want, and neither can views. In stack views, there will often be subviews competing for screen real estate. So who decides which view wins? 
+
+➠Auto Layout does.
+
+➠If you have a view with an intrinsic content size, and auto layout attempts to adjust that size, there are two factors used to determine the outcome: 
+[Slide 05] content hugging and compression resistance. 
+
+➠These are essentially rules that describe how important it is for content not to grow larger or shrink down smaller than its intrinsic size. 
+
+➠**Content hugging** defines the desire for a view to not be larger than its intrinsic size - think of the edges of a label *hugging* the text inside, like cling wrap. 
+
+➠**Compression resistance** defines the desire for a view to not be smaller than its intrinsic size - think of the content *pushing* against the edges of the view, trying to stop the crushing force of Auto Layout.
+
+
+
+➠## Priorities 🐸CATIE🐸
+So how do you adjust those rules? There are four priority values for you to set, and that is all the control you have. A vertical and horizontal priority for content hugging, and another pair for compression resistance.
+
+➠[Slide 06] In this epic battle between two labels fighting to take up horizontal space, it's the horizontal compression resistance priorities that will decide the winner.
+
+➠[Slide 07] In this swashbuckling duel between a vertically stacked label and image, both struggling to be as short as possible, the vertical content hugging priorities make the final call on who has to stretch out.
+
+➠Behind the scenes, content hugging and compression resistance are actually creating constraints for you, based on the priority values you set. We'll go into constraints in detail in the next section.
+
+➠Now that you have a better handle on intrinsic content size and how to control its influence, we can get back to stack views and our pirate handbook!

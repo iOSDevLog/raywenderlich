@@ -1,0 +1,30 @@
+#set("content") {
+  <h1>Create An Acronym</h1>
+
+  <form method="post">
+    <div class="form-group">
+      <label for="acronymShort">Acronym</label>
+      <input type="text" name="acronymShort" class="form-control" id="acronymShort"/>
+    </div>
+
+    <div class="form-group">
+      <label for="acronymLong">Meaning</label>
+      <input type="text" name="acronymLong" class="form-control" id="acronymLong"/>
+    </div>
+
+    <div class="form-group">
+      <label for="creator">Creator</label>
+      <select name="creator" class="form-control" id="creator">
+        #for(user in users) {
+          <option value="#(user.id)">
+            #(user.name)
+          </option>
+        }
+      </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+}
+
+#embed("base")

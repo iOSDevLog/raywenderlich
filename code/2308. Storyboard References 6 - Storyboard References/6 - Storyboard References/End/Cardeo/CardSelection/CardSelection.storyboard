@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2Pu-LH-qDz">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Cards-->
+        <scene sceneID="y98-6R-cGd">
+            <objects>
+                <tableViewController id="2Pu-LH-qDz" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="zh4-9D-3Hh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="checkmark" indentationWidth="10" reuseIdentifier="CardSelectionCell" rowHeight="200" id="XPq-2Z-4pM">
+                                <rect key="frame" x="0.0" y="28" width="414" height="200"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="XPq-2Z-4pM" id="J9m-22-aY7">
+                                    <rect key="frame" x="0.0" y="0.0" width="370" height="199.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ahE-ve-BAW" customClass="CardSuperview" customModule="Cardeo" customModuleProvider="target">
+                                            <rect key="frame" x="118" y="11" width="178" height="178"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="ahE-ve-BAW" secondAttribute="height" multiplier="1:1" id="e9q-ha-RCs"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="ahE-ve-BAW" firstAttribute="top" secondItem="J9m-22-aY7" secondAttribute="topMargin" id="eJl-qg-pTB"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="ahE-ve-BAW" secondAttribute="bottom" id="tFd-ex-lsW"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <constraints>
+                                    <constraint firstItem="ahE-ve-BAW" firstAttribute="centerX" secondItem="XPq-2Z-4pM" secondAttribute="centerX" id="kSB-Qy-DIe"/>
+                                </constraints>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="2Pu-LH-qDz" id="zmO-YX-o8M"/>
+                            <outlet property="delegate" destination="2Pu-LH-qDz" id="Ato-AH-eep"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Cards" image="Cards" id="uey-Fq-6uA"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zmt-iF-NuC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-211" y="39"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Cards" width="63" height="56"/>
+    </resources>
+</document>

@@ -1,0 +1,7 @@
+C:\Users\Brian\Desktop\GameReview\GameReview\bin\Debug\GameReview.exe.config
+C:\Users\Brian\Desktop\GameReview\GameReview\bin\Debug\GameReview.exe
+C:\Users\Brian\Desktop\GameReview\GameReview\bin\Debug\GameReview.pdb
+C:\Users\Brian\Desktop\GameReview\GameReview\obj\Debug\GameReview.csprojAssemblyReference.cache
+C:\Users\Brian\Desktop\GameReview\GameReview\obj\Debug\GameReview.csproj.CoreCompileInputs.cache
+C:\Users\Brian\Desktop\GameReview\GameReview\obj\Debug\GameReview.exe
+C:\Users\Brian\Desktop\GameReview\GameReview\obj\Debug\GameReview.pdb

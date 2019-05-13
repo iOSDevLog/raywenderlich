@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F592450C728A0EBABF5254F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5924B99F03E7A3A8918F877 /* Main.storyboard */; };
+		F5924BCD1659C5FB25F952F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F592448DDCD426623400A979 /* LaunchScreen.storyboard */; };
+		F5924DCAD605BED28F43DE02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F59245A8DB2A203233EA643C /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F592408AEB8130D818B6E6FD /* AppDelegate.kt */ = {isa = PBXFileReference; lastKnownFileType = file.kt; path = AppDelegate.kt; sourceTree = "<group>"; };
+		F59241196D4A8527BC6560EC /* GreetingAC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreetingAC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F592414E5F1EB7D0AA19CFF0 /* gradlew */ = {isa = PBXFileReference; lastKnownFileType = text; path = gradlew; sourceTree = "<group>"; };
+		F592419654246ECFCF704D2A /* gradle-wrapper.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = "gradle-wrapper.jar"; sourceTree = "<group>"; };
+		F592451C00B32C20C28D40B7 /* build.gradle.kts */ = {isa = PBXFileReference; lastKnownFileType = file.kts; path = build.gradle.kts; sourceTree = "<group>"; };
+		F5924551739854249F00D03B /* gradle-wrapper.properties */ = {isa = PBXFileReference; lastKnownFileType = file.properties; path = "gradle-wrapper.properties"; sourceTree = "<group>"; };
+		F59245A8DB2A203233EA643C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F592462522AAE854E0F202B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F592466BBC0B27232A5B1671 /* ViewController.kt */ = {isa = PBXFileReference; lastKnownFileType = file.kt; path = ViewController.kt; sourceTree = "<group>"; };
+		F592474D411308F9D7DC1EA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		F59247AB79102D45717B0274 /* build.gradle */ = {isa = PBXFileReference; lastKnownFileType = file.gradle; path = build.gradle; sourceTree = "<group>"; };
+		F59247F1E57A2A8CE163FF3C /* settings.gradle */ = {isa = PBXFileReference; lastKnownFileType = file.gradle; path = settings.gradle; sourceTree = "<group>"; };
+		F5924823410AAF8EADBDB705 /* main.kt */ = {isa = PBXFileReference; lastKnownFileType = file.kt; path = main.kt; sourceTree = "<group>"; };
+		F5924D73B2CA926B9E035BEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5924904BF841E06F9517DA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F592403A2C36B140CA7BDA87 /* gradle */ = {
+			isa = PBXGroup;
+			children = (
+				F592438F3EF0FD41F1758380 /* wrapper */,
+			);
+			path = gradle;
+			sourceTree = "<group>";
+		};
+		F592404B955F079FB90C4908 = {
+			isa = PBXGroup;
+			children = (
+				F59241502DF1BB986CA12D28 /* Products */,
+				F59246CAD8A1A6F53649DDD2 /* GreetingAC */,
+				F5924292BF929CD887476AE4 /* Supporting Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F59241502DF1BB986CA12D28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F59241196D4A8527BC6560EC /* GreetingAC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F592422CC49EB6CC4994E19A /* GreetingACMain */ = {
+			isa = PBXGroup;
+			children = (
+				F5924BAFAD5F4C4CB5037EEB /* kotlin */,
+			);
+			path = GreetingACMain;
+			sourceTree = "<group>";
+		};
+		F5924292BF929CD887476AE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F59247AB79102D45717B0274 /* build.gradle */,
+				F592414E5F1EB7D0AA19CFF0 /* gradlew */,
+				F592403A2C36B140CA7BDA87 /* gradle */,
+				F59247F1E57A2A8CE163FF3C /* settings.gradle */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F592438F3EF0FD41F1758380 /* wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				F5924551739854249F00D03B /* gradle-wrapper.properties */,
+				F592419654246ECFCF704D2A /* gradle-wrapper.jar */,
+			);
+			path = wrapper;
+			sourceTree = "<group>";
+		};
+		F59245BC8287CF82D33B8B96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F592451C00B32C20C28D40B7 /* build.gradle.kts */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F59246CAD8A1A6F53649DDD2 /* GreetingAC */ = {
+			isa = PBXGroup;
+			children = (
+				F59245BC8287CF82D33B8B96 /* Supporting Files */,
+				F592474D411308F9D7DC1EA0 /* Info.plist */,
+				F59245A8DB2A203233EA643C /* Assets.xcassets */,
+				F592448DDCD426623400A979 /* LaunchScreen.storyboard */,
+				F5924B99F03E7A3A8918F877 /* Main.storyboard */,
+				F59246D7FCC449FA5430F2AC /* src */,
+			);
+			path = GreetingAC;
+			sourceTree = "<group>";
+		};
+		F59246D7FCC449FA5430F2AC /* src */ = {
+			isa = PBXGroup;
+			children = (
+				F592422CC49EB6CC4994E19A /* GreetingACMain */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		F5924BAFAD5F4C4CB5037EEB /* kotlin */ = {
+			isa = PBXGroup;
+			children = (
+				F592408AEB8130D818B6E6FD /* AppDelegate.kt */,
+				F592466BBC0B27232A5B1671 /* ViewController.kt */,
+				F5924823410AAF8EADBDB705 /* main.kt */,
+			);
+			path = kotlin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F59240161E46B01947CA4908 /* GreetingAC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F592475789D4EB27C6FEE98A /* Build configuration list for PBXNativeTarget "GreetingAC" */;
+			buildPhases = (
+				F59249C258706ED2F5B1F912 /* Sources */,
+				F5924904BF841E06F9517DA6 /* Frameworks */,
+				F59244CB058ED7F7FB34E533 /* Resources */,
+				F5924B803A8F593D41ED07F0 /* Compile Kotlin/Native */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GreetingAC;
+			productName = GreetingAC;
+			productReference = F59241196D4A8527BC6560EC /* GreetingAC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5924168FE52147615445C66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Razeware;
+			};
+			buildConfigurationList = F5924B2D8191357640448A53 /* Build configuration list for PBXProject "GreetingAC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F592404B955F079FB90C4908;
+			productRefGroup = F59241502DF1BB986CA12D28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F59240161E46B01947CA4908 /* GreetingAC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F59244CB058ED7F7FB34E533 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5924DCAD605BED28F43DE02 /* Assets.xcassets in Resources */,
+				F5924BCD1659C5FB25F952F5 /* LaunchScreen.storyboard in Resources */,
+				F592450C728A0EBABF5254F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F5924B803A8F593D41ED07F0 /* Compile Kotlin/Native */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Compile Kotlin/Native";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "rm -f \"$TARGET_BUILD_DIR/$EXECUTABLE_PATH\"\nif [ -z \"$KOTLIN_NATIVE_BUILD_CAPABLE\" ]; then\n  \"$SRCROOT/gradlew\" -p \"$SRCROOT\" buildForXcode \\\n  -Ppreset.name=\"$KOTLIN_NATIVE_PRESET\" \\\n  -Pconfiguration.name=\"$CONFIGURATION\" \\\n  -Pconfiguration.build.dir=\"$CONFIGURATION_BUILD_DIR\"\nfi\ncp \"$TARGET_BUILD_DIR/$TARGET_NAME.kexe\" \"$TARGET_BUILD_DIR/$EXECUTABLE_PATH\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F59249C258706ED2F5B1F912 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F592448DDCD426623400A979 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F592462522AAE854E0F202B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F5924B99F03E7A3A8918F877 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5924D73B2CA926B9E035BEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F592430A67176B4F02CCB44F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F59245CE1BE5A003656E52DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5924AFD4E96D76089E53543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GreetingAC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.GreetingAC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = arm64;
+			};
+			name = Debug;
+		};
+		F5924C193AD1BCEB5EC26884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GreetingAC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.GreetingAC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = arm64;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F592475789D4EB27C6FEE98A /* Build configuration list for PBXNativeTarget "GreetingAC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5924AFD4E96D76089E53543 /* Debug */,
+				F5924C193AD1BCEB5EC26884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5924B2D8191357640448A53 /* Build configuration list for PBXProject "GreetingAC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F592430A67176B4F02CCB44F /* Debug */,
+				F59245CE1BE5A003656E52DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5924168FE52147615445C66 /* Project object */;
+}

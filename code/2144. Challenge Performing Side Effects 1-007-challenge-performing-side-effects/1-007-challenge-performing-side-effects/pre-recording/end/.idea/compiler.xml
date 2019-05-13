@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="1-005-subscribing-to-observables-1_main" target="1.8" />
+      <module name="1-005-subscribing-to-observables-1_test" target="1.8" />
+      <module name="1-007-challenge-performing-side-effects_main" target="1.8" />
+      <module name="1-007-challenge-performing-side-effects_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

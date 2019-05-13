@@ -1,0 +1,34 @@
+1-07 # Stack View Alignment and Distribution
+
+➠👯CATIE🐸  We’ve made some stack views and nested a stack view inside of another stack view!
+👯JESSY😺  We’ve talked about intrinsic content size, content hugging, and compression resistance!
+👯CATIE🐸  It’s time to put all of those things together to try out the Alignment and Distribution properties of stack views.
+
+➠Alignment CATIE🐸
+With the **alignment** property, you are specifying how to position the views perpendicular to the axis. 
+
+➠[Slide 01 - In] So, for a vertical stack view, you can align the leading, center, or trailing edges of the views. You might think of this like left, right, or center aligned text. In each of these cases, the stack view is going to use the intrinsic width of the content to determine the size, if there is one.
+
+➠[Slide 02] For a horizontal stack view, you can align the top, center, or bottom edges. In that case, the intrinsic *height* is used to determine the size.
+
+➠[Slide 03] The default value for alignment is **fill**, which will resize each view in the direction perpendicular to the axis in order to fill up the entire stack view.
+
+➠[Slide 04] Horizontal stack views have two more special options, that are specifically designed for laying out views that contain text. In those circumstances, you can align the views by their first baseline, the baseline of the first line of text, or the last baseline, the baseline of the last line of text.
+[Slide 04 - Out]
+➠That’s quite a lot of options! Let’s see Alignment at work in our app.
+
+
+➠Interlude ## Distribution JESSY😺
+**Distribution** determines how views will be arranged (or *distributed*) along the axis of a stack view. 
+
+➠[Slide 05 - In] The default value for this property is also **fill**. This will use the intrinsic content size of the views, but then grow or shrink one view depending on the content hugging or compression resistance priority. If there is a tie in the priority, the stack view resizes the first item in the arrangedSubviews array.
+
+➠[Slide 06] The next value, **fill equally**, is the only option that completely ignores the intrinsic content size of the subviews. It just makes them all the same size along the axis of the stack view.
+
+➠The **fill proportionally** option starts with the intrinsic content size, but then grows or shrinks the subviews in proportion to their intrinsic size.
+
+➠[Slide 07] The **equal spacing** option also starts with the intrinsic size, and if there is extra space in the stack view, it is split equally between the views. 
+
+If the stack view is smaller than needed, it uses the spacing property to keep a minimum space between the views, but then shrinks one of the views, using the compression resistance, again using arrangedSubviews to break a tie.
+
+➠[Slide 08] The last option is **Equal centering**. This works much like equal spacing, but instead of making the space between the edges of views equal, it makes the space from center to center equal.

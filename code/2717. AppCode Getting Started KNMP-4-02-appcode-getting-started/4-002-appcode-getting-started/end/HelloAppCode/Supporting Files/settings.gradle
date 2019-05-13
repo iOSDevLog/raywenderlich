@@ -1,0 +1,3 @@
+include(":HelloAppCode")
+project(":HelloAppCode").projectDir = file("../HelloAppCode")
+rootProject.name = file("..").name

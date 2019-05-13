@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='rendered'>
+    <pages>
+        <page name='Table of Contents'/>
+        <page name='1. Completed Demo'/>
+        <page name='2. The App State Model'/>
+        <page name='3. Redux Actions'/>
+        <page name='4. The Redux Reducer'/>
+        <page name='5. Side Effect Protocols'/>
+        <page name='6. The Use Case'/>
+        <page name='7. The Use Case Factory'/>
+        <page name='8. Managing Dependencies'/>
+        <page name='9. The IX Responder'/>
+        <page name='10. Putting it All Together'/>
+        <page name='11. All the Source'/>
+        <page name='Copyright'/>
+    </pages>
+</playground>

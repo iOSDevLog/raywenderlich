@@ -1,0 +1,9 @@
+platform :ios, '9.0'
+
+target 'Ritual' do
+  use_frameworks!
+
+  # Pods for Ritual
+  pod 'Fabric'
+  pod 'Crashlytics'
+end

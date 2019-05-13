@@ -1,0 +1,50 @@
+➠2-7 ## Course Conclusion
+
+➠👯CATIE🐸  This is it! The end of the Constraints section.
+👯JESSY😺  You’re now well-versed in creating and editing constraints.
+👯CATIE🐸  You’ve also picked up a lot of theory in this section, so you have a solid understanding of how Auto Layout is working, even behind the scenes on stack views.
+👯JESSY😺  Hold on to your pirate hats, we still have some parting advice to give you!
+
+
+➠😺JESSY😺
+We have three parting tips that will help you create more robust layouts. 
+
+➠[Slide 01] First, avoid using fixed values for width and height. 
+
+➠Why? For all the reasons that you need auto layout: multiple device sizes, user-specified font sizes, support for multiple languages, and you never know what Apple will come up with next. 
+
+➠If the size of a view is fixed, it can't adjust to a new scenario. Instead, think about **why** you arrived at a fixed number and create a layout that reflects that.
+
+➠CATIE🐸
+[Slide 02] Second Tip: Use the highest level construct you can. 
+
+If you can use a stack view to lay out all of your views, do it. It's better to learn how a stack view works and let it manage things for you, than to manage all of those constraints yourself.
+
+➠😺JESSY😺
+[Slide 03] Third, if the layout you want can *mostly* be achieved with a stack view, but you need a few things to change, start with the stack view and add individual constraints or a nested stack view to handle the exceptions. 
+
+➠For example, if most of your views are left aligned, but just one is right aligned, you can add a nested stack view with a single element to make it happen.
+
+
+
+➠(RW Only) 
+CATIE🐸
+[Slide 04] If you want to get a deeper understanding of Auto Layout, you should check out the follow-up course, Mastering Auto Layout.
+
+➠In that course, you’ll take a deeper look at constraints with constraint priorities to help you describe exactly how you want your layout to react to changes. You’ll look at using constraints in code, which can be useful for debugging Auto Layout issues. 
+
+➠You'll also learn about size classes, adaptive layout environments, and more!
+
+
+
+➠(RW Closing)
+👯JESSY😺  That’s all we’ve got for you in this course.
+➠👯CATIE🐸  We highly recommend you jump over to the Mastering Auto Layout course, and continue your Layout Adventures on the High Seas.
+👯JESSY😺  We hope you enjoyed learning Auto Layout with us! Thanks for watching, and we’ll see you next time!
+
+
+➠(Udemy Closing)
+👯CATIE🐸  That’s it! You’re prepared to move on with the course. We hope you had a great time learning Auto Layout with us.
+👯JESSY😺  We’ll be returning to teach you about the Collection View, the more powerful and flexible cousin of the Table View.
+👯CATIE🐸  All of the Auto Layout skills you’ve just picked up will come in handy, so jump right into the next section, when you’re ready.
+👯JESSY😺  We’ll meet you there!

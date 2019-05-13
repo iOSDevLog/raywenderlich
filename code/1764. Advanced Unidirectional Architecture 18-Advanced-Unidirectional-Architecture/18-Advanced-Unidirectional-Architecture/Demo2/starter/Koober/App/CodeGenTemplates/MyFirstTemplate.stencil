@@ -1,0 +1,7 @@
+/*
+Use Cases:
+
+{% for type in types.implementing.UseCase  %}
+- {{ type.name }}: {% for i in type.initializers %} {{ i.selectorName }} {% endfor %}
+{% endfor %}
+*/

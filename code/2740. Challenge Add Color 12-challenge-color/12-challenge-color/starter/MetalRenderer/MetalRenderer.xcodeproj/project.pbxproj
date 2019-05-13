@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7054FCCB221A49B600071E6C /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 7054FCCA221A49B600071E6C /* Shaders.metal */; };
+		705DD5EA221A8C9600222EBC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705DD5E9221A8C9600222EBC /* Model.swift */; };
+		705DD5ED221A8F3800222EBC /* train.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 705DD5EB221A8F3800222EBC /* train.mtl */; };
+		705DD5EE221A8F3800222EBC /* train.obj in Resources */ = {isa = PBXBuildFile; fileRef = 705DD5EC221A8F3800222EBC /* train.obj */; };
+		7065F40C221A3D2000A858EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7065F40B221A3D2000A858EB /* AppDelegate.swift */; };
+		7065F40E221A3D2000A858EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7065F40D221A3D2000A858EB /* ViewController.swift */; };
+		7065F410221A3D2100A858EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7065F40F221A3D2100A858EB /* Assets.xcassets */; };
+		7065F413221A3D2100A858EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7065F411221A3D2100A858EB /* Main.storyboard */; };
+		7065F41C221A3D9800A858EB /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7065F41B221A3D9800A858EB /* Renderer.swift */; };
+		70CA4A13221A7A6900C44CB2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CA4A12221A7A6900C44CB2 /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7054FCCA221A49B600071E6C /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		705DD5E9221A8C9600222EBC /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		705DD5EB221A8F3800222EBC /* train.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = train.mtl; sourceTree = "<group>"; };
+		705DD5EC221A8F3800222EBC /* train.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = train.obj; sourceTree = "<group>"; };
+		7065F408221A3D2000A858EB /* MetalRenderer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalRenderer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7065F40B221A3D2000A858EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7065F40D221A3D2000A858EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7065F40F221A3D2100A858EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7065F412221A3D2100A858EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7065F414221A3D2100A858EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7065F415221A3D2100A858EB /* MetalRenderer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MetalRenderer.entitlements; sourceTree = "<group>"; };
+		7065F41B221A3D9800A858EB /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		70CA4A12221A7A6900C44CB2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7065F405221A3D2000A858EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		705DD5EF221A8F4700222EBC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				705DD5EB221A8F3800222EBC /* train.mtl */,
+				705DD5EC221A8F3800222EBC /* train.obj */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7065F3FF221A3D2000A858EB = {
+			isa = PBXGroup;
+			children = (
+				7065F40A221A3D2000A858EB /* MetalRenderer */,
+				7065F409221A3D2000A858EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7065F409221A3D2000A858EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7065F408221A3D2000A858EB /* MetalRenderer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7065F40A221A3D2000A858EB /* MetalRenderer */ = {
+			isa = PBXGroup;
+			children = (
+				7065F40B221A3D2000A858EB /* AppDelegate.swift */,
+				7065F40D221A3D2000A858EB /* ViewController.swift */,
+				7065F41B221A3D9800A858EB /* Renderer.swift */,
+				705DD5E9221A8C9600222EBC /* Model.swift */,
+				7054FCCA221A49B600071E6C /* Shaders.metal */,
+				70CA4A12221A7A6900C44CB2 /* Extensions.swift */,
+				705DD5EF221A8F4700222EBC /* Models */,
+				7065F40F221A3D2100A858EB /* Assets.xcassets */,
+				7065F411221A3D2100A858EB /* Main.storyboard */,
+				7065F414221A3D2100A858EB /* Info.plist */,
+				7065F415221A3D2100A858EB /* MetalRenderer.entitlements */,
+			);
+			path = MetalRenderer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7065F407221A3D2000A858EB /* MetalRenderer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7065F418221A3D2100A858EB /* Build configuration list for PBXNativeTarget "MetalRenderer" */;
+			buildPhases = (
+				7065F404221A3D2000A858EB /* Sources */,
+				7065F405221A3D2000A858EB /* Frameworks */,
+				7065F406221A3D2000A858EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MetalRenderer;
+			productName = MetalRenderer;
+			productReference = 7065F408221A3D2000A858EB /* MetalRenderer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7065F400221A3D2000A858EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = razeware;
+				TargetAttributes = {
+					7065F407221A3D2000A858EB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 7065F403221A3D2000A858EB /* Build configuration list for PBXProject "MetalRenderer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7065F3FF221A3D2000A858EB;
+			productRefGroup = 7065F409221A3D2000A858EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7065F407221A3D2000A858EB /* MetalRenderer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7065F406221A3D2000A858EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				705DD5EE221A8F3800222EBC /* train.obj in Resources */,
+				7065F410221A3D2100A858EB /* Assets.xcassets in Resources */,
+				7065F413221A3D2100A858EB /* Main.storyboard in Resources */,
+				705DD5ED221A8F3800222EBC /* train.mtl in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7065F404221A3D2000A858EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70CA4A13221A7A6900C44CB2 /* Extensions.swift in Sources */,
+				7054FCCB221A49B600071E6C /* Shaders.metal in Sources */,
+				7065F40E221A3D2000A858EB /* ViewController.swift in Sources */,
+				705DD5EA221A8C9600222EBC /* Model.swift in Sources */,
+				7065F41C221A3D9800A858EB /* Renderer.swift in Sources */,
+				7065F40C221A3D2000A858EB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7065F411221A3D2100A858EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7065F412221A3D2100A858EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7065F416221A3D2100A858EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7065F417221A3D2100A858EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7065F419221A3D2100A858EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MetalRenderer/MetalRenderer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MetalRenderer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = razeware.MetalRenderer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		7065F41A221A3D2100A858EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MetalRenderer/MetalRenderer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MetalRenderer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = razeware.MetalRenderer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7065F403221A3D2000A858EB /* Build configuration list for PBXProject "MetalRenderer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7065F416221A3D2100A858EB /* Debug */,
+				7065F417221A3D2100A858EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7065F418221A3D2100A858EB /* Build configuration list for PBXNativeTarget "MetalRenderer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7065F419221A3D2100A858EB /* Debug */,
+				7065F41A221A3D2100A858EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7065F400221A3D2000A858EB /* Project object */;
+}

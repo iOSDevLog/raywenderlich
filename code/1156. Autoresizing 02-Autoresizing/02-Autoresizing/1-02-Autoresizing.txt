@@ -1,0 +1,32 @@
+➠1-2
+➠🐸CATIE ### What and why
+Autoresizing has been around since the beginning of iOS. It was the first way to create a view that could adapt automatically to a size change. And it's still useful in limited instances today.
+
+➠[slide 1]Autoresizing defines the flexibility of 6 attributes between a view and its superview: the left, top, right, and bottom margins, and the width and height. In this case "margin" just means space between _that_ edge of the view and the superview. 
+
+➠Each of these attributes is defined as "fixed" or "flexible", which defines how it will behave when the size of the autoresizing view's superview changes. If the attribute is "fixed", it will not change. Contrarily, a "flexible" attribute will change proportionally to the superview's size change.
+
+➠😺JESSY ## Interface builder
+Let's see how to set these in interface builder. 
+[slide 2]In the size inspector of a view that doesn't have any auto layout constraints defined, you'll see this "autoresizing" section. Here you can toggle the state of the lines for each margin, and the width and the height. 
+➠Notice that the width and height have arrows at the ends of the lines - they're "flexible" when set and "fixed" when unset. But the margins all have bars at the ends of the lines. They work the opposite way: "fixed" when set and "flexible" when unset.
+
+➠Whenever you over this UI, the thumbnail on the right will animate to show you how the selected view will respond to a change in the superview, with your current settings.
+
+➠🐸CATIE Limits
+[slide 3]Autoresizing is great for views that have simple rules for how they should interact with their superview. But for views that have to interact with other views, you're going to need a little more. 
+➠For example, here we have a title label that should be centered, and a button next to it. But if the button has text that gets a little long, 
+[slide 4] like with this German translation, the title should move over to prevent overlapping. 
+➠Autoresizing can't handle this type of scenario and that's why auto layout was created.
+
+➠Behind the scenes, the system can translate what you've set for autoresizing, into constraints. This is so that you can mix autoresizing views with other views that are using constraints. 
+[slide 5]There's a boolean property on UIView, translatesAutoresizingMaskIntoConstraints, that controls whether it will happen. 
+➠Interface Builder will automatically set its value to false if your view has constraints defined. But for views created in code, it defaults to true. 
+
+➠😺JESSY
+➠"translatesAutoresizingMaskIntoConstraints"… So what's that "mark" part? If you're like I was, when I was new at this, the name might start off being a little confusing for you. "Mask" has a standard meaning in layer-based rendering systems, and that's not what we're dealing with here. Let's get to the bottom of it.
+➠[slide 6]UIView has a property called "autoresizingMask", but its type is "UIViewAutoresizing". No "mask" in that name!
+➠[slide 7]However, the type does conform to "OptionSet"! Which is a clue, to the type's implementation: all of your 6 resizing options are represented by a bit being on or off. Collectively, those bits are known as a "mask".
+➠Of course, that really isn't important for us to know, to work with autoresizing! And in Swift, it feels pretty foreign! 
+➠[slide 8]If it were named today, UIViewAutoResizing might be called "AutoResizingOptions". But it's more specific than that, even. Each option, in the set, represents a type of flexibility. 
+➠So you may, as I do, want to think of "Autoresizing Mask", instead, as "AutoresizingFlexibilities"

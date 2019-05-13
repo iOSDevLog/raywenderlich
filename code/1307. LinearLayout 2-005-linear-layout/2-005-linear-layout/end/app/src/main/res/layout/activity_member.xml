@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:gravity="center_horizontal"
+  android:orientation="vertical"
+  tools:context="com.raywenderlich.android.octomembers.ui.member.MemberActivity">
+
+  <ImageView
+    android:id="@+id/memberAvatar"
+    android:layout_width="@dimen/detail_avatar_size"
+    android:layout_height="@dimen/detail_avatar_size"
+    android:contentDescription="@string/contentDescription_teamMemberAvatar"
+    tools:src="@drawable/ic_launcher_background" />
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+      style="@style/member_info"
+      android:text="@string/label_name" />
+
+    <TextView
+      android:id="@+id/memberName"
+      style="@style/member_info" />
+
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+      style="@style/member_info"
+      android:text="@string/label_login" />
+
+    <TextView
+      android:id="@+id/memberLogin"
+      style="@style/member_info" />
+
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+      style="@style/member_info"
+      android:text="@string/label_company" />
+
+    <TextView
+      android:id="@+id/memberCompany"
+      style="@style/member_info" />
+
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+      style="@style/member_info"
+      android:text="@string/label_email" />
+
+    <TextView
+      android:id="@+id/memberEmail"
+      style="@style/member_info" />
+
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+      style="@style/member_info"
+      android:text="@string/label_type" />
+
+    <TextView
+      android:id="@+id/memberType"
+      style="@style/member_info" />
+
+  </LinearLayout>
+
+</LinearLayout>

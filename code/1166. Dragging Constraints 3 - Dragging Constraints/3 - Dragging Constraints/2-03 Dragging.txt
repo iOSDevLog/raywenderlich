@@ -1,0 +1,10 @@
+➠2-3 - Dragging
+😺JESSY😺
+[Slide 1]Dragging between two views is another option for creating Auto Layout constraints. way. That works both in the main editor, and the document outline. It's not a single click drag, though. You'll either need to hold control when you click, or as I prefer, right-click.
+
+➠Which is a little more complicated with a trackpad, especially these days, with Force Click, but I'm sure you'll figure it out if you care to.
+
+➠🐸CATIE🐸 
+➠[Slide 2] The options you'll be presented with, in the resulting dialog, are based on the primary axis in which you dragged. They'll be focused on the horizontal, or the vertical.
+
+➠[Slide 3]Unless, of course, if you drag diagonally. Then you'll get all the options.

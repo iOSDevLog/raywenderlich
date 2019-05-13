@@ -1,0 +1,48 @@
+# Intro + Challenge 👹
+---
+> make sure just iPhone X is showing
+
+**Jessy 😺**  
+There are a bunch of ways you could have gone about this, but we'll try to go over one of the simplest we know. Then, you can compare methods!
+
+First, we select the Stack view, and delete its "Align Center x" constraint. 
+
+> delete it
+ 
+![width=40%](Images/Delete.png)
+
+Then, to the **Add New constraints** button!
+
+> click it
+
+
+Leave "constrain to margins" checked, and set the leading and trailing values to zero. 
+
+> zero out one of them
+
+You won't need to bother clicking on the little constraint symbols; they  automatically get activated when you change hen you change their value.
+
+> zero out the other
+
+With those set, Hit Return to add Add your 2 Constraints**.
+
+And that's it for the challenge!
+
+![width=40%](Images/Constraints.png)
+
+**Catie 🐸**  
+If you've gotten through that, there's one last thing worth learning about.
+
+> editor, what I did on camera here should get deleted.
+
+![width=40%](Images/Buttons.png)
+
+
+Interface Builder is showing an error because there's a tie between the "Privacy Policy" button and "FAQs" button for horizontal hugging priority. Auto layout doesn't know which button you'd prefer to get larger, now that there's more than enough room for them both. 
+
+But what we really want is for them to be equal. Select the inner stack view that encompasses these two buttons and change the distribution to **fill equally**. 
+
+> do that
+
+**Jessy 😺**  
+Now the buttons are the same size and Interface Builder (and therefore we), are happy.

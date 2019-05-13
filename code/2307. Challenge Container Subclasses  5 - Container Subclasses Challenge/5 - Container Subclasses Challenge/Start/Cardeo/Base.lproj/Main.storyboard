@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Lesson-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="LessonViewController" customModule="Cardeo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="eoj-C2-Qwm">
+                                <rect key="frame" x="0.0" y="126" width="414" height="654"/>
+                                <subviews>
+                                    <view opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5LE-CP-R3e" customClass="CardSuperview" customModule="Cardeo" customModuleProvider="target">
+                                        <rect key="frame" x="47.5" y="0.0" width="319" height="319"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="5LE-CP-R3e" secondAttribute="height" multiplier="1:1" id="2nL-pU-ITu"/>
+                                        </constraints>
+                                    </view>
+                                    <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4JW-e4-tUz" userLabel="Multiple Choice Superview">
+                                        <rect key="frame" x="47.5" y="335" width="319" height="319"/>
+                                        <connections>
+                                            <segue destination="tsT-JA-qwO" kind="embed" identifier="NamesSegue" id="DfT-fh-Iwr"/>
+                                        </connections>
+                                    </containerView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="4JW-e4-tUz" firstAttribute="width" secondItem="5LE-CP-R3e" secondAttribute="width" id="a5a-S7-FYX"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" name="Lesson Background"/>
+                        <constraints>
+                            <constraint firstItem="eoj-C2-Qwm" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="4/5" id="3Lk-XB-bxf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eoj-C2-Qwm" secondAttribute="trailing" id="8y6-b2-jZq"/>
+                            <constraint firstItem="eoj-C2-Qwm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="B0w-mH-QOH"/>
+                            <constraint firstItem="eoj-C2-Qwm" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="gEI-Jl-eMO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Lesson" image="Lesson" id="H6G-eu-pgH"/>
+                    <connections>
+                        <outlet property="cardSuperview" destination="5LE-CP-R3e" id="eRv-Le-AQV"/>
+                        <outlet property="celebrationView" destination="BRl-ki-5mT" id="aKk-nh-HBd"/>
+                        <outlet property="multipleChoiceSuperview" destination="4JW-e4-tUz" id="tz7-ci-AH4"/>
+                        <outlet property="stackView" destination="eoj-C2-Qwm" id="9Ym-hG-AJn"/>
+                        <outlet property="stackViewHeightConstraint" destination="3Lk-XB-bxf" id="fnl-Gc-lqH"/>
+                        <outlet property="streakBrokenLabel" destination="Tcd-Ku-uiB" id="e0w-ag-AUR"/>
+                        <outlet property="streakBrokenView" destination="OJw-Xs-ImA" id="wSo-KQ-xt8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <view hidden="YES" contentMode="scaleToFill" id="OJw-Xs-ImA">
+                    <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="enW-CI-U0l">
+                            <rect key="frame" x="0.0" y="23.5" width="300" height="263.5"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Streak Broken" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WHa-Ip-L14">
+                                    <rect key="frame" x="0.0" y="0.0" width="300" height="36"/>
+                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Tcd-Ku-uiB">
+                                    <rect key="frame" x="0.0" y="44" width="300" height="143.5"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="120"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MSO-Kz-soJ">
+                                    <rect key="frame" x="0.0" y="195.5" width="300" height="68"/>
+                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                    <inset key="contentEdgeInsets" minX="8" minY="16" maxX="8" maxY="16"/>
+                                    <state key="normal" title="Try Again" backgroundImage="button outline">
+                                        <color key="titleColor" name="Cardeo Purple"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="handleTryAgainTap" destination="BYZ-38-t0r" eventType="touchUpInside" id="ety-IJ-p3x"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="enW-CI-U0l" firstAttribute="centerX" secondItem="7hC-WO-Afe" secondAttribute="centerX" id="3UD-EP-36t"/>
+                        <constraint firstItem="enW-CI-U0l" firstAttribute="centerY" secondItem="7hC-WO-Afe" secondAttribute="centerY" id="8cQ-Ad-ot7"/>
+                        <constraint firstItem="enW-CI-U0l" firstAttribute="width" secondItem="OJw-Xs-ImA" secondAttribute="width" id="L4p-Zv-eFL"/>
+                        <constraint firstItem="enW-CI-U0l" firstAttribute="height" relation="lessThanOrEqual" secondItem="OJw-Xs-ImA" secondAttribute="height" id="hUm-BC-7Ty"/>
+                    </constraints>
+                    <viewLayoutGuide key="safeArea" id="7hC-WO-Afe"/>
+                </view>
+                <view hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" id="BRl-ki-5mT" customClass="CelebrationView" customModule="Cardeo" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="300" height="600"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oYK-Vo-0tD">
+                            <rect key="frame" x="0.0" y="0.0" width="300" height="600"/>
+                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="YEg-qt-0RT">
+                                <rect key="frame" x="0.0" y="0.0" width="300" height="600"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </view>
+                            <blurEffect style="light"/>
+                        </visualEffectView>
+                        <stackView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1000" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="UKC-62-PCP">
+                            <rect key="frame" x="22.5" y="45" width="255" height="510"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" image="Celebration Potoo" translatesAutoresizingMaskIntoConstraints="NO" id="5kF-hW-gJ2">
+                                    <rect key="frame" x="0.0" y="0.0" width="255" height="251"/>
+                                </imageView>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="100" baselineRelativeArrangement="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ecs-N9-mZd" userLabel="Streak Stack View">
+                                    <rect key="frame" x="0.0" y="259" width="255" height="251"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="751" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.01" translatesAutoresizingMaskIntoConstraints="NO" id="e3l-bC-xky">
+                                            <rect key="frame" x="0.0" y="0.0" width="255" height="179.5"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="150"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" text="in a row!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.01" translatesAutoresizingMaskIntoConstraints="NO" id="wph-e5-2Ez">
+                                            <rect key="frame" x="0.0" y="148" width="255" height="103"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="UKC-62-PCP" firstAttribute="height" relation="lessThanOrEqual" secondItem="BRl-ki-5mT" secondAttribute="height" multiplier="0.85" id="C4H-kS-eHv"/>
+                        <constraint firstItem="UKC-62-PCP" firstAttribute="centerX" secondItem="BRl-ki-5mT" secondAttribute="centerX" id="DDs-qT-QMp"/>
+                        <constraint firstItem="UKC-62-PCP" firstAttribute="width" relation="lessThanOrEqual" secondItem="BRl-ki-5mT" secondAttribute="width" multiplier="0.85" id="IQp-LP-3sE"/>
+                        <constraint firstItem="oYK-Vo-0tD" firstAttribute="centerX" secondItem="BRl-ki-5mT" secondAttribute="centerX" id="N1u-qg-V2M"/>
+                        <constraint firstItem="oYK-Vo-0tD" firstAttribute="width" secondItem="BRl-ki-5mT" secondAttribute="width" id="PbR-9r-l5j"/>
+                        <constraint firstItem="oYK-Vo-0tD" firstAttribute="centerY" secondItem="BRl-ki-5mT" secondAttribute="centerY" id="Q8P-C0-Ir9"/>
+                        <constraint firstItem="oYK-Vo-0tD" firstAttribute="height" secondItem="BRl-ki-5mT" secondAttribute="height" id="R4W-3n-t7G"/>
+                        <constraint firstItem="UKC-62-PCP" firstAttribute="centerY" secondItem="BRl-ki-5mT" secondAttribute="centerY" id="bUa-Vp-A1e"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="streakLabel" destination="e3l-bC-xky" id="ovr-me-1xD"/>
+                        <outlet property="streakStackView" destination="ecs-N9-mZd" id="lNu-GD-eJy"/>
+                    </connections>
+                </view>
+            </objects>
+            <point key="canvasLocation" x="-694" y="1112"/>
+        </scene>
+        <!--Lesson Names View Controller-->
+        <scene sceneID="35d-FG-iew">
+            <objects>
+                <viewController id="tsT-JA-qwO" customClass="LessonNamesViewController" customModule="Cardeo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BtO-jY-W5G">
+                        <rect key="frame" x="0.0" y="0.0" width="319" height="319"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="heV-q7-aZM">
+                                <rect key="frame" x="0.0" y="0.0" width="319" height="319"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dWR-HA-Jpj">
+                                        <rect key="frame" x="0.0" y="0.0" width="319" height="80"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <state key="normal" title="Button" backgroundImage="button outline"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uTy-3F-jjB">
+                                        <rect key="frame" x="0.0" y="80" width="319" height="79.5"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <state key="normal" title="Button" backgroundImage="button outline"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tSC-JS-UB6">
+                                        <rect key="frame" x="0.0" y="159.5" width="319" height="80"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <state key="normal" title="Button" backgroundImage="button outline"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VyR-bd-75d">
+                                        <rect key="frame" x="0.0" y="239.5" width="319" height="79.5"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <state key="normal" title="Button" backgroundImage="button outline"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="heV-q7-aZM" firstAttribute="centerY" secondItem="BtO-jY-W5G" secondAttribute="centerY" id="RVA-rH-8bK"/>
+                            <constraint firstItem="heV-q7-aZM" firstAttribute="height" secondItem="BtO-jY-W5G" secondAttribute="height" id="gCu-RZ-Fcp"/>
+                            <constraint firstItem="heV-q7-aZM" firstAttribute="width" secondItem="BtO-jY-W5G" secondAttribute="width" id="rla-fe-3BO"/>
+                            <constraint firstItem="heV-q7-aZM" firstAttribute="centerX" secondItem="BtO-jY-W5G" secondAttribute="centerX" id="uzL-XW-2l3"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GgZ-la-qcB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7" y="1229"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Celebration Potoo" width="1025" height="1024"/>
+        <image name="Lesson" width="62" height="57"/>
+        <image name="button outline" width="47.5" height="46.5"/>
+        <namedColor name="Cardeo Purple">
+            <color red="0.54500001668930054" green="0.23100000619888306" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Lesson Background">
+            <color red="0.2196078431372549" green="0.2196078431372549" blue="0.25882352941176473" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+    <color key="tintColor" name="Cardeo Purple"/>
+</document>

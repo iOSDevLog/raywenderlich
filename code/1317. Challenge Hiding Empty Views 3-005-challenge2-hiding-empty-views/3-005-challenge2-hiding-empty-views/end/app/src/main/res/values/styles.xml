@@ -1,0 +1,35 @@
+<resources>
+
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+  </style>
+
+  <style name="member_label" parent="AppTheme">
+    <item name="android:layout_width">0dp</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_weight">2</item>
+    <item name="android:gravity">end</item>
+    <item name="android:textSize">@dimen/detail_text_size</item>
+    <item name="android:paddingTop">@dimen/padding_half</item>
+    <item name="android:paddingBottom">@dimen/padding_half</item>
+    <item name="android:paddingStart">@dimen/padding_standard</item>
+    <item name="android:paddingEnd">@dimen/padding_half</item>
+  </style>
+
+  <style name="member_info" parent="AppTheme">
+    <item name="android:layout_width">0dp</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_weight">3</item>
+    <item name="android:textColor">@android:color/white</item>
+    <item name="android:textSize">@dimen/detail_text_size</item>
+    <item name="android:paddingTop">@dimen/padding_half</item>
+    <item name="android:paddingBottom">@dimen/padding_half</item>
+    <item name="android:paddingStart">@dimen/padding_half</item>
+    <item name="android:paddingEnd">@dimen/padding_standard</item>
+  </style>
+
+</resources>

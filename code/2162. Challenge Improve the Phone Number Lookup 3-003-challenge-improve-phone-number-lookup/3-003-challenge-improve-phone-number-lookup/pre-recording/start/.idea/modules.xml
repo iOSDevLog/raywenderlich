@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-671026028/3-003-challenge-improve-phone-number-lookup.iml" filepath="$PROJECT_DIR$/.idea/modules/-671026028/3-003-challenge-improve-phone-number-lookup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/3-003-challenge-improve-phone-number-lookup.iml" filepath="$PROJECT_DIR$/.idea/modules/3-003-challenge-improve-phone-number-lookup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-671026028/3-003-challenge-improve-phone-number-lookup_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-671026028/3-003-challenge-improve-phone-number-lookup_main.iml" group="3-003-challenge-improve-phone-number-lookup" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/3-003-challenge-improve-phone-number-lookup_main.iml" filepath="$PROJECT_DIR$/.idea/modules/3-003-challenge-improve-phone-number-lookup_main.iml" group="3-003-challenge-improve-phone-number-lookup" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-671026028/3-003-challenge-improve-phone-number-lookup_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-671026028/3-003-challenge-improve-phone-number-lookup_test.iml" group="3-003-challenge-improve-phone-number-lookup" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/3-003-challenge-improve-phone-number-lookup_test.iml" filepath="$PROJECT_DIR$/.idea/modules/3-003-challenge-improve-phone-number-lookup_test.iml" group="3-003-challenge-improve-phone-number-lookup" />
+    </modules>
+  </component>
+</project>

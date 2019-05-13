@@ -1,0 +1,19 @@
+# Useful aliases
+
+alias c=clear
+alias ll="ls -hl"
+alias ddd="cd ~/Library/Developer/Xcode/DerivedData"
+alias h=history
+
+alias profileme="history | awk '{print \$2}' | awk 'BEGIN{FS=\"|\"}{print \$1}' | sort | uniq -c | sort -n | tail -n 20 | sort -nr"
+
+# Define some colors
+
+export GREEN='\033[0;32m'
+export GRAY='\033[0;30m'
+export NONE='\033[0m' # No Color
+
+# Changing the prompt
+
+PS1="\n${GREEN}\w ${GRAY}\u@\h ${NONE}\n> "
+PS2=#  

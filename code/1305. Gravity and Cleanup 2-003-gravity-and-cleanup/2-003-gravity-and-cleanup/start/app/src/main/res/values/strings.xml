@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">Octo Members</string>
+  <string name="team_hint">Enter a team name</string>
+  <string name="team_button">SHOW MEMBERS</string>
+  <string name="default_team_name">raywenderlich</string>
+  <string name="error_retrieving_team">Error retrieving team</string>
+  <string name="error_retrieving_member">Error retrieving member</string>
+  <string name="error_team_name_empty">Team name cannot be empty</string>
+</resources>

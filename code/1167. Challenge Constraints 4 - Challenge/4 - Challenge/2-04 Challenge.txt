@@ -1,0 +1,16 @@
+➠2-4: Challenge
+
+➠😺JESSY😺
+In this challenge, you'll convert your stack view from using a center x constraint to constraints on the edges of the superview. The end result: more control over the stack view's width.
+
+➠First though, we need to understand what is currently setting the width of the stack view. There is no _constraint_ on the width itself, just a center x constraint. And there is no constraint on the width of the buttons inside the stack view... or is there?
+
+➠🐸CATIE🐸 
+Remember intrinsic content size? That's the constraint which is setting the width. The "Privacy Policy" and "FAQs" buttons each have an intrinsic content size. It's based on their titles, and the content insets we have defined. 
+
+➠[Slide 01] The nested stack view those two buttons are in has its distribution set to **Fill**. If we had something else setting the size of the stack view, the "fill" setting would cause the contents to expand to fill the stack view's size. 
+➠[Slide 02] But if the stack view's size isn't fixed, it will resize to fit its content. Since this stack view ends up being the widest view in the top-level stack view, it determines the width of that parent stack view.
+
+
+➠😺JESSY😺
+[Slide 03] For this challenge, let's say  we don't want the width to be flexible. Instead, have it take up all the available horizontal space in the view, within the margins.

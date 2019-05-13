@@ -1,0 +1,5 @@
+github "mxcl/PromiseKit" "4.3.2"
+github "onevcat/Kingfisher" "4.2.0"
+github "ReSwift/ReSwift" "4.0.0"
+github "kishikawakatsumi/KeychainAccess" "v3.1.0"
+github "ReactiveX/RxSwift" "4.0.0"

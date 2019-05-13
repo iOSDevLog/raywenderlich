@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:../Demo 1.playground">
+   </FileRef>
+   <FileRef
+      location = "group:../Demo 2.playground">
+   </FileRef>
+   <FileRef
+      location = "group:../Demo 3.playground">
+   </FileRef>
+   <FileRef
+      location = "group:../Demo 4.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Carthage/Checkouts/RxSwift/Rx.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Carthage/Checkouts/ReSwift/ReSwift.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Carthage/Checkouts/PromiseKit/PromiseKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Carthage/Checkouts/Kingfisher/Kingfisher.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:KooberApp.xcodeproj">
+   </FileRef>
+</Workspace>

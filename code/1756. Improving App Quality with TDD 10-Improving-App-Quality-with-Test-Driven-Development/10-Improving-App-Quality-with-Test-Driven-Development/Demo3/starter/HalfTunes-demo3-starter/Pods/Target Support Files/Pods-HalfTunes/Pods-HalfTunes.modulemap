@@ -1,0 +1,6 @@
+framework module Pods_HalfTunes {
+  umbrella header "Pods-HalfTunes-umbrella.h"
+
+  export *
+  module * { export * }
+}

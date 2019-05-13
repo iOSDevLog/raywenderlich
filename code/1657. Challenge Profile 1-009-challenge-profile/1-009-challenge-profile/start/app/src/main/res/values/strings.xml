@@ -1,0 +1,22 @@
+<resources>
+  <string name="app_name">W00tze</string>
+  <string name="title_repos">Repos</string>
+  <string name="title_gists">Gists</string>
+  <string name="title_profile">Profile</string>
+  <string name="login">Login</string>
+  <string name="logout">Logout</string>
+  <string name="avatar">Avatar</string>
+  <string name="screen_name_format">\@%1$s</string>
+  <string name="company_hint">company</string>
+  <string name="company_title">Company</string>
+  <string name="company_ok">OK</string>
+  <string name="new_gist">New Gist</string>
+  <string name="make_gist">Make Gist</string>
+  <string name="cancel">Cancel</string>
+  <string name="description">Description</string>
+  <string name="filename">Filename</string>
+  <string name="gist_content">Gist content</string>
+  <string name="username_hint">username</string>
+  <string name="username_title">GitHub Username</string>
+  <string name="username_ok">OK</string>
+</resources>

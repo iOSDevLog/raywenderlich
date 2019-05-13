@@ -1,0 +1,57 @@
+/**
+ * Copyright (c) 2017 Razeware LLC
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+import Foundation
+import UIKit
+
+public class HomeViewController: NiblessViewController {
+  let settingsViewControllerFactory: SettingsViewControllerFactory
+  let loadPersistedStateUseCaseFactory: LoadPersistedStateUseCaseFactory
+
+  public init(settingsViewControllerFactory: SettingsViewControllerFactory,
+              loadPersistedStateUseCaseFactory: LoadPersistedStateUseCaseFactory) {
+    self.settingsViewControllerFactory = settingsViewControllerFactory
+    self.loadPersistedStateUseCaseFactory = loadPersistedStateUseCaseFactory
+    super.init()
+  }
+
+  public override func loadView() {
+    self.view = HomeRootView(ixResponder: self)
+  }
+
+  public override func viewDidLoad() {
+    super.viewDidLoad()
+    restorePersistedState()
+  }
+
+  func restorePersistedState() {
+    let useCase = loadPersistedStateUseCaseFactory.makeLoadPersistedStateUseCase()
+    useCase.start()
+  }
+}
+
+extension HomeViewController: HomeIXResponder {
+  public func goToSettings() {
+    let profileViewController = settingsViewControllerFactory.makeSettingsViewController()
+    present(profileViewController, animated: true)
+  }
+}

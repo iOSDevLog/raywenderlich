@@ -1,0 +1,27 @@
+PODS:
+  - Crashlytics (3.10.1):
+    - Fabric (~> 1.7.5)
+  - Fabric (1.7.6)
+  - Mixpanel-swift (2.4.0):
+    - Mixpanel-swift/Complete (= 2.4.0)
+  - Mixpanel-swift/Complete (2.4.0)
+
+DEPENDENCIES:
+  - Crashlytics
+  - Fabric
+  - Mixpanel-swift
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Crashlytics
+    - Fabric
+    - Mixpanel-swift
+
+SPEC CHECKSUMS:
+  Crashlytics: aee1a064cbbf99b32efa3f056a5f458d846bc8ff
+  Fabric: f8d42c893bb187326a7968b62abe55c36a987a46
+  Mixpanel-swift: 535ba9c2c7e25b7974893ce8fd6a03c245034a6e
+
+PODFILE CHECKSUM: 593c3053a820b891635b0fbcd11de7160b40d73d
+
+COCOAPODS: 1.5.0

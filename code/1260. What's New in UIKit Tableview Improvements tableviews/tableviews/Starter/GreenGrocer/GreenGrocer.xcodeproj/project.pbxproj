@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		124D4FFB1F2F9D9000BB9DAA /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124D4FFA1F2F9D9000BB9DAA /* AddItemViewController.swift */; };
+		124D4FFF1F3036DC00BB9DAA /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124D4FFE1F3036DC00BB9DAA /* ListItem.swift */; };
+		12BE0E641F28537C00A606BA /* ShoppingListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BE0E631F28537C00A606BA /* ShoppingListCell.swift */; };
+		12BE0ECB1F2D0B0400A606BA /* ShoppingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BE0ECA1F2D0B0400A606BA /* ShoppingListViewController.swift */; };
+		12BE0ED31F2D829F00A606BA /* MenuGestureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BE0ED21F2D829F00A606BA /* MenuGestureController.swift */; };
+		12BF8C101D7F1EDD00507528 /* CoreSpotlight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12BF8C0F1D7F1EDD00507528 /* CoreSpotlight.framework */; };
+		2201AD251B63C3F90055A910 /* AppAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2201AD241B63C3F90055A910 /* AppAppearance.swift */; };
+		2288EB4D1B61071600D4717D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2288EB4C1B61071600D4717D /* AppDelegate.swift */; };
+		2288EB541B61071600D4717D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2288EB521B61071600D4717D /* Main.storyboard */; };
+		2288EB561B61071600D4717D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2288EB551B61071600D4717D /* Assets.xcassets */; };
+		2288EB591B61071600D4717D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2288EB571B61071600D4717D /* LaunchScreen.storyboard */; };
+		2288EB621B611C1700D4717D /* ProductTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2288EB611B611C1700D4717D /* ProductTableViewController.swift */; };
+		2288EB671B611FEF00D4717D /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2288EB661B611FEF00D4717D /* Product.swift */; };
+		2288EB6B1B612C2400D4717D /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2288EB6A1B612C2400D4717D /* DataStore.swift */; };
+		2288EB6D1B61383C00D4717D /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2288EB6C1B61383C00D4717D /* DataModel.swift */; };
+		2288EB6F1B614F0E00D4717D /* GreenGrocerSeed.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2288EB6E1B614F0E00D4717D /* GreenGrocerSeed.plist */; };
+		2288EB711B6157EC00D4717D /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2288EB701B6157EC00D4717D /* TabBarViewController.swift */; };
+		2288EB731B61585200D4717D /* DataStoreUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2288EB721B61585200D4717D /* DataStoreUtils.swift */; };
+		2288EB761B61704A00D4717D /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2288EB751B61704A00D4717D /* ProductTableViewCell.swift */; };
+		2288EB781B61768000D4717D /* ImageAttribution.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2288EB771B61768000D4717D /* ImageAttribution.txt */; };
+		2288EB7A1B617FF000D4717D /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2288EB791B617FF000D4717D /* NavigationViewController.swift */; };
+		2288EB7C1B61831D00D4717D /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2288EB7B1B61831D00D4717D /* ProductViewController.swift */; };
+		2288EB7E1B61887F00D4717D /* MultilineLabelThatWorks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2288EB7D1B61887F00D4717D /* MultilineLabelThatWorks.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		124D4FFA1F2F9D9000BB9DAA /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		124D4FFE1F3036DC00BB9DAA /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+		12BE0E631F28537C00A606BA /* ShoppingListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListCell.swift; sourceTree = "<group>"; };
+		12BE0ECA1F2D0B0400A606BA /* ShoppingListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListViewController.swift; sourceTree = "<group>"; };
+		12BE0ED21F2D829F00A606BA /* MenuGestureController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuGestureController.swift; sourceTree = "<group>"; };
+		12BF8C0F1D7F1EDD00507528 /* CoreSpotlight.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreSpotlight.framework; path = System/Library/Frameworks/CoreSpotlight.framework; sourceTree = SDKROOT; };
+		2201AD241B63C3F90055A910 /* AppAppearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppAppearance.swift; sourceTree = "<group>"; };
+		2288EB491B61071600D4717D /* GreenGrocer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenGrocer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2288EB4C1B61071600D4717D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2288EB531B61071600D4717D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2288EB551B61071600D4717D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2288EB581B61071600D4717D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2288EB5A1B61071600D4717D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2288EB611B611C1700D4717D /* ProductTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductTableViewController.swift; sourceTree = "<group>"; };
+		2288EB661B611FEF00D4717D /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		2288EB6A1B612C2400D4717D /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		2288EB6C1B61383C00D4717D /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		2288EB6E1B614F0E00D4717D /* GreenGrocerSeed.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GreenGrocerSeed.plist; sourceTree = "<group>"; };
+		2288EB701B6157EC00D4717D /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		2288EB721B61585200D4717D /* DataStoreUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStoreUtils.swift; sourceTree = "<group>"; };
+		2288EB751B61704A00D4717D /* ProductTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		2288EB771B61768000D4717D /* ImageAttribution.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ImageAttribution.txt; sourceTree = "<group>"; };
+		2288EB791B617FF000D4717D /* NavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		2288EB7B1B61831D00D4717D /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		2288EB7D1B61887F00D4717D /* MultilineLabelThatWorks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultilineLabelThatWorks.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2288EB461B61071600D4717D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12BF8C101D7F1EDD00507528 /* CoreSpotlight.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12213E961D8909D30059FC5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2288EB551B61071600D4717D /* Assets.xcassets */,
+				2288EB5A1B61071600D4717D /* Info.plist */,
+				2288EB771B61768000D4717D /* ImageAttribution.txt */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12BF8C0E1D7F1EDD00507528 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12BF8C0F1D7F1EDD00507528 /* CoreSpotlight.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2201AD231B63C3E90055A910 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				2201AD241B63C3F90055A910 /* AppAppearance.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		2288EB401B61071600D4717D = {
+			isa = PBXGroup;
+			children = (
+				2288EB4B1B61071600D4717D /* GreenGrocer */,
+				2288EB4A1B61071600D4717D /* Products */,
+				12BF8C0E1D7F1EDD00507528 /* Frameworks */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+		};
+		2288EB4A1B61071600D4717D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2288EB491B61071600D4717D /* GreenGrocer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2288EB4B1B61071600D4717D /* GreenGrocer */ = {
+			isa = PBXGroup;
+			children = (
+				2201AD231B63C3E90055A910 /* Utilities */,
+				2288EB741B61702C00D4717D /* Views */,
+				2288EB651B611EA500D4717D /* Data Layer */,
+				2288EB601B611BF300D4717D /* Controllers */,
+				2288EB4C1B61071600D4717D /* AppDelegate.swift */,
+				12213E961D8909D30059FC5E /* Supporting Files */,
+			);
+			path = GreenGrocer;
+			sourceTree = "<group>";
+		};
+		2288EB601B611BF300D4717D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2288EB701B6157EC00D4717D /* TabBarViewController.swift */,
+				2288EB791B617FF000D4717D /* NavigationViewController.swift */,
+				2288EB611B611C1700D4717D /* ProductTableViewController.swift */,
+				2288EB7B1B61831D00D4717D /* ProductViewController.swift */,
+				2288EB721B61585200D4717D /* DataStoreUtils.swift */,
+				12BE0ECA1F2D0B0400A606BA /* ShoppingListViewController.swift */,
+				12BE0ED21F2D829F00A606BA /* MenuGestureController.swift */,
+				124D4FFA1F2F9D9000BB9DAA /* AddItemViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		2288EB651B611EA500D4717D /* Data Layer */ = {
+			isa = PBXGroup;
+			children = (
+				2288EB6C1B61383C00D4717D /* DataModel.swift */,
+				2288EB661B611FEF00D4717D /* Product.swift */,
+				2288EB6A1B612C2400D4717D /* DataStore.swift */,
+				124D4FFE1F3036DC00BB9DAA /* ListItem.swift */,
+				2288EB6E1B614F0E00D4717D /* GreenGrocerSeed.plist */,
+			);
+			name = "Data Layer";
+			sourceTree = "<group>";
+		};
+		2288EB741B61702C00D4717D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2288EB521B61071600D4717D /* Main.storyboard */,
+				2288EB571B61071600D4717D /* LaunchScreen.storyboard */,
+				2288EB751B61704A00D4717D /* ProductTableViewCell.swift */,
+				2288EB7D1B61887F00D4717D /* MultilineLabelThatWorks.swift */,
+				12BE0E631F28537C00A606BA /* ShoppingListCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2288EB481B61071600D4717D /* GreenGrocer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2288EB5D1B61071600D4717D /* Build configuration list for PBXNativeTarget "GreenGrocer" */;
+			buildPhases = (
+				2288EB451B61071600D4717D /* Sources */,
+				2288EB461B61071600D4717D /* Frameworks */,
+				2288EB471B61071600D4717D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GreenGrocer;
+			productName = GreenGrocer;
+			productReference = 2288EB491B61071600D4717D /* GreenGrocer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2288EB411B61071600D4717D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Ray Wenderlich";
+				TargetAttributes = {
+					2288EB481B61071600D4717D = {
+						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0900;
+					};
+				};
+			};
+			buildConfigurationList = 2288EB441B61071600D4717D /* Build configuration list for PBXProject "GreenGrocer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2288EB401B61071600D4717D;
+			productRefGroup = 2288EB4A1B61071600D4717D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2288EB481B61071600D4717D /* GreenGrocer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2288EB471B61071600D4717D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2288EB591B61071600D4717D /* LaunchScreen.storyboard in Resources */,
+				2288EB781B61768000D4717D /* ImageAttribution.txt in Resources */,
+				2288EB561B61071600D4717D /* Assets.xcassets in Resources */,
+				2288EB541B61071600D4717D /* Main.storyboard in Resources */,
+				2288EB6F1B614F0E00D4717D /* GreenGrocerSeed.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2288EB451B61071600D4717D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12BE0ED31F2D829F00A606BA /* MenuGestureController.swift in Sources */,
+				2288EB711B6157EC00D4717D /* TabBarViewController.swift in Sources */,
+				2288EB7A1B617FF000D4717D /* NavigationViewController.swift in Sources */,
+				2288EB731B61585200D4717D /* DataStoreUtils.swift in Sources */,
+				2288EB6D1B61383C00D4717D /* DataModel.swift in Sources */,
+				12BE0E641F28537C00A606BA /* ShoppingListCell.swift in Sources */,
+				2288EB621B611C1700D4717D /* ProductTableViewController.swift in Sources */,
+				2288EB6B1B612C2400D4717D /* DataStore.swift in Sources */,
+				124D4FFB1F2F9D9000BB9DAA /* AddItemViewController.swift in Sources */,
+				2288EB7C1B61831D00D4717D /* ProductViewController.swift in Sources */,
+				2288EB671B611FEF00D4717D /* Product.swift in Sources */,
+				2288EB761B61704A00D4717D /* ProductTableViewCell.swift in Sources */,
+				2288EB4D1B61071600D4717D /* AppDelegate.swift in Sources */,
+				12BE0ECB1F2D0B0400A606BA /* ShoppingListViewController.swift in Sources */,
+				2288EB7E1B61887F00D4717D /* MultilineLabelThatWorks.swift in Sources */,
+				2201AD251B63C3F90055A910 /* AppAppearance.swift in Sources */,
+				124D4FFF1F3036DC00BB9DAA /* ListItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2288EB521B61071600D4717D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2288EB531B61071600D4717D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2288EB571B61071600D4717D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2288EB581B61071600D4717D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2288EB5B1B61071600D4717D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2288EB5C1B61071600D4717D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2288EB5E1B61071600D4717D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = GreenGrocer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.GreenGrocer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		2288EB5F1B61071600D4717D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = GreenGrocer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.GreenGrocer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2288EB441B61071600D4717D /* Build configuration list for PBXProject "GreenGrocer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2288EB5B1B61071600D4717D /* Debug */,
+				2288EB5C1B61071600D4717D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2288EB5D1B61071600D4717D /* Build configuration list for PBXNativeTarget "GreenGrocer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2288EB5E1B61071600D4717D /* Debug */,
+				2288EB5F1B61071600D4717D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2288EB411B61071600D4717D /* Project object */;
+}

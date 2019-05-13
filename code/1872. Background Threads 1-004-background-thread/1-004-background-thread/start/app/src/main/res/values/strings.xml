@@ -1,0 +1,10 @@
+<resources>
+  <string name="app_name">RWDC2018</string>
+  <string name="title_photos">Photos</string>
+  <string name="title_song">Song</string>
+  <string name="event_photo">Event photo</string>
+  <string name="banner_photo">Banner photo</string>
+  <string name="download">Download</string>
+  <string name="play">Play</string>
+  <string name="stop">Stop</string>
+</resources>

@@ -1,0 +1,36 @@
+{% extends 'layout.twig' %}
+
+{% block body %}
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-xs-12">
+        <div class="list">
+          <div class="row listheader">
+            <h1 class="title">Deskbook Staff List</h1>
+          </div>
+          <div class="row header">
+            <div class="col-lg-1">EmpId</div>
+            <div class="col-lg-3">Name</div>
+            <div class="col-lg-5">Email</div>
+            <div class="col-lg-3">Mobile</div>
+          </div>
+          {% for s in staffList %}
+            <div class="row hovereffect" onclick="javascript:navigate({{ s.id }});">
+              <div class="col-lg-1">{{ s.id }}</div>
+              <div class="col-lg-3">{{ s.name }}</div>
+              <div class="col-lg-5">{{ s.email }}</div>
+              <div class="col-lg-3">{{ s.mobile }}</div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+  function navigate(id) {
+    location.href = '/staff/'+id;
+  }
+  </script>
+
+{% endblock %}

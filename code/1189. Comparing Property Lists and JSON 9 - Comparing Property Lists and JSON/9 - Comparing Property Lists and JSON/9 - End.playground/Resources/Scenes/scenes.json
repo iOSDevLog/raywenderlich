@@ -1,0 +1,83 @@
+[
+  {
+    "stickers" : [
+      {
+        "normalizedPosition" : [
+          0.27000000000000002,
+          0.25
+        ],
+        "imageName" : "castle",
+        "name" : "Catwarts",
+        "birthday" : "1014-10-07T04:56:02Z"
+      },
+      {
+        "name" : "Professor Froggonagle",
+        "normalizedPosition" : [
+          0.14999999999999999,
+          0.65000000000000002
+        ],
+        "imageName" : "frog"
+      },
+      {
+        "normalizedPosition" : [
+          0.69999999999999996,
+          0.38
+        ],
+        "imageName" : "coiled snake",
+        "name" : "Mr. Basilisk",
+        "birthday" : "0002-03-17T04:56:02Z"
+      }
+    ],
+    "width" : 700,
+    "hasReverseGravity" : false,
+    "backgroundName" : "Forest"
+  },
+  {
+    "stickers" : [
+      {
+        "name" : "House Bark",
+        "normalizedPosition" : [
+          0.80000000000000004,
+          0.050000000000000003
+        ],
+        "imageName" : "castle"
+      },
+      {
+        "normalizedPosition" : [
+          0.20000000000000001,
+          0.59999999999999998
+        ],
+        "imageName" : "dog",
+        "name" : "Doggh Snow",
+        "birthday" : "1209-02-15T04:56:02Z"
+      }
+    ],
+    "width" : 700,
+    "hasReverseGravity" : false,
+    "backgroundName" : "Winterfence"
+  },
+  {
+    "stickers" : [
+      {
+        "normalizedPosition" : [
+          0.69999999999999996,
+          0.45000000000000001
+        ],
+        "imageName" : "space monkey",
+        "name" : "Space Count Monkula",
+        "birthday" : "3006-01-01T05:00:00Z"
+      },
+      {
+        "name" : "Castle Monkula",
+        "normalizedPosition" : [
+          0.20000000000000001,
+          0.20000000000000001
+        ],
+        "imageName" : "castle"
+      }
+    ],
+    "width" : 700,
+    "hasReverseGravity" : true,
+    "backgroundName" : "space"
+  }
+]

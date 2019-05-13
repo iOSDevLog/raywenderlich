@@ -1,0 +1,25 @@
+{
+  "stickers" : [
+    {
+      "normalizedPosition" : [
+        0.29999999999999999,
+        0.5
+      ],
+      "imageName" : "cat",
+      "name" : "David Meowie",
+      "birthday" : -1703530800
+    },
+    {
+      "normalizedPosition" : [
+        0.69999999999999996,
+        0.5
+      ],
+      "imageName" : "rocketmouse",
+      "name" : "Samouse",
+      "birthday" : -31604400
+    }
+  ],
+  "width" : 900,
+  "hasReverseGravity" : true,
+  "backgroundName" : "Space"
+}

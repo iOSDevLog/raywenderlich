@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="1-008-subjects-1_main" target="1.8" />
+      <module name="1-008-subjects-1_test" target="1.8" />
+      <module name="2-002-filtering-operators_main" target="1.8" />
+      <module name="2-002-filtering-operators_test" target="1.8" />
+      <module name="2-003-challenge-phone-number-lookup_main" target="1.8" />
+      <module name="2-003-challenge-phone-number-lookup_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

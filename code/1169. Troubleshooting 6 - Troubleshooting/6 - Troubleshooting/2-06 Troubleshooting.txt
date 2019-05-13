@@ -1,0 +1,20 @@
+➠2-6: Troubleshooting
+
+➠😺JESSY## Interface Builder
+Xcode allows you to type code that is not correct while you are still writing it, but the code must be made correct, to function at runtime. Interface Builder is similar, in that it lets you define constraints that don't match the frames of your views, even though they are expected to be correct at runtime. 
+
+➠This can result in warnings and errors showing you that what you see in Interface Builder doesn't match what the constraints have defined.
+
+➠🐸CATIE🐸 
+When you see these issues, if you're finished defining your constraints, but the frames of the views just don't match those constraints, there are two ways you can resolve the difference: you can update the frames of the views to match the constraints you have defined, or you can update the constraints to match the frames of the views.
+
+➠[Slide]In this example, you can see that the frame of the view does not match what the constraints have defined. If you choose to update the frames, you'll see the views adjust to match the constraints. If instead, you update the constraints, the views will stay where they are and the components of the constraints will change to match the frames.
+
+
+👯JESSY😺
+You're going to come across this kind of thing quite frequently, when designing in Interface Builder.
+👯CATIE🐸
+Let's check out some examples of what Interface Builder will display under those circumstances.
+👯JESSY😺 And, what you can do to deal with those situations.
+
+

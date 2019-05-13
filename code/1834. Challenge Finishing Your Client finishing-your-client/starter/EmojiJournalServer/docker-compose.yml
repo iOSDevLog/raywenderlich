@@ -1,0 +1,7 @@
+app:
+  image: ibmcom/swift-ubuntu:4.0.3
+  ports:
+    - "8080:8080"
+  volumes:
+    - .:/EmojiJournalServer
+  command: bash -c "cd /EmojiJournalServer && swift package --build-path .build-ubuntu clean && swift build --build-path .build-ubuntu && .build-ubuntu/x86_64-unknown-linux/debug/EmojiJournalServer"

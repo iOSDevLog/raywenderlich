@@ -1,0 +1,362 @@
+[
+
+  {
+    "id": 1,
+    "name": "Francisco Austin",
+    "mobile": "(660) 522-2179",
+    "email": "caz@magfaaru.si",
+    "image": "",
+    "department": "Engineering",
+    "title": "Lead Environmental Attorney",
+    "bio": "<div class=\"\">\n  <dl class=\"doctor-info-items\">\n    <dt>Undergraduate Education:</dt>\n    <dd>Texas Tech University</dd>\n    <dt>Graduate School:</dt>\n    <dd>Texas Tech University</dd>\n    <dt>Fellow:</dt>\n    <dd>Brown University</dd>\n    <dt>Bio:</dt>\n    <dd>Spent the 80's developing strategies for inflatable dolls in Los Angeles, CA. Spent the better part of the 90's getting to know glucose in Ocean City, NJ. Lead a team promoting etch-a-sketches in Las Vegas, NV. In 2009 I was building g.i. joes in Cuba. Crossed the country supervising the production of jack-in-the-boxes in Orlando, FL. Spent the 80's supervising the production of wool in New York, NY.</dd>\n <dt>Twitter:</dt>\n    <dd><a href=\"https://twitter.com/@RWDevCon\">@RWDevCon</a></dd></dd></dd>\n  </dl>\n</div>",
+    "twitter": "@oke"
+  },
+
+  {
+    "id": 2,
+    "name": "Arthur Obrien",
+    "mobile": "(542) 646-7547",
+    "email": "ifpape@vohde.pg",
+    "image": "",
+    "department": "Engineering",
+    "title": "Junior City Housing Manager",
+    "bio": "<div class=\"\">\n  <dl class=\"doctor-info-items\">\n    <dt>Undergraduate Education:</dt>\n    <dd>Brown University</dd>\n    <dt>Graduate School:</dt>\n    <dd>Syracuse University</dd>\n    <!-- <dt>Fellow:</dt>\n    <dd>Brown University</dd> -->\n    <dt>Bio:</dt>\n    <dd>In 2009 I was importing race cars in Jacksonville, FL. Have a strong interest in supervising the production of basketballs on Wall Street. Set new standards for buying and selling tattoos on the black market. Spent two years short selling puppets in Minneapolis, MN. Spent the 80's supervising the production of toy planes in Hanford, CA. Developed several new methods for merchandising human hair on Wall Street.</dd>\n <dt>Twitter:</dt>\n    <dd><a href=\"https://twitter.com/@RWDevCon\">@RWDevCon</a></dd></dd></dd>\n  </dl>\n</div>",
+    "twitter": "@ne"
+  },
+
+  {
+    "id": 3,
+    "name": "Clayton Perez",
+    "mobile": "(433) 402-5150",
+    "email": "topzirlid@ha.au",
+    "image": "",
+    "department": "Engineering",
+    "title": "Lead Designer",
+    "bio": "<div class=\"\">\n  <dl class=\"doctor-info-items\">\n    <dt>Undergraduate Education:</dt>\n    <dd>Brown University</dd>\n    <dt>Graduate School:</dt>\n    <dd>Syracuse University</dd>\n    <dt>Fellow:</dt>\n    <dd>Georgetown University</dd>\n    <dt>Bio:</dt>\n    <dd>What gets me going now is developing strategies for frisbees in Nigeria. A real dynamo when it comes to lecturing about lint in Washington, DC. Spent 2001-2008 merchandising bacon in the financial sector. Spent 2001-2007 consulting about inflatable dolls in Edison, NJ. Spent a weekend marketing tobacco in Libya. Spent the 80's licensing mannequins in the financial sector.</dd>\n <dt>Twitter:</dt>\n    <dd><a href=\"https://twitter.com/@RWDevCon\">@RWDevCon</a></dd></dd></dd>\n  </dl>\n</div>",
+    "twitter": "@eramemsu"
+  },
+
+  {
+    "id": 4,
+    "name": "Jared Tucker",
+    "mobile": "(831) 964-3680",
+    "email": "bunvow@azjap.to",
+    "image": "",
+    "department": "Engineering",
+    "title": "Apprentice Medical Technician",
+    "bio": "<div class=\"\">\n  <dl class=\"doctor-info-items\">\n    <dt>Undergraduate Education:</dt>\n    <dd>LaSalle Institute of Technology</dd>\n    <dt>Graduate School:</dt>\n    <dd>UCF Miami</dd>\n    <!-- <dt>Fellow:</dt>\n    <dd>Georgetown University</dd> -->\n    <dt>Bio:</dt>\n    <dd>Spent high school summers licensing plush toys in Salisbury, MD. Spent high school summers marketing cabbage in Minneapolis, MN. Spent two years managing Magic 8-Balls in Miami, FL. In 2009 I was consulting about squirt guns in Los Angeles, CA. Spent 2001-2007 buying and selling wooden horses in Suffolk, NY. Spent 2002-2010 developing strategies for saliva in Orlando, FL.</dd>\n <dt>Twitter:</dt>\n    <dd><a href=\"https://twitter.com/@RWDevCon\">@RWDevCon</a></dd></dd></dd>\n  </dl>\n</div>",
+    "twitter": "@pe"
+  },
+
+  {
+    "id": 5,
+    "name": "Ralph Alexander",
+    "mobile": "(877) 200-9899",
+    "email": "fopgi@volilor.mt",
+    "image": "",
+    "department": "Engineering",
+    "title": "Senior Trainer Translator",
+    "bio": "<div class=\"\">\n  <dl class=\"doctor-info-items\">\n    <dt>Undergraduate Education:</dt>\n    <dd>Brown University</dd>\n    <dt>Graduate School:</dt>\n    <dd>Syracuse University</dd>\n    <dt>Fellow:</dt>\n    <dd>Georgetown University</dd>\n    <dt>Bio:</dt>\n    <dd>What gets me going now is developing strategies for frisbees in Nigeria. A real dynamo when it comes to lecturing about lint in Washington, DC. Spent 2001-2008 merchandising bacon in the financial sector. Spent 2001-2007 consulting about inflatable dolls in Edison, NJ. Spent a weekend marketing tobacco in Libya. Spent the 80's licensing mannequins in the financial sector.</dd>\n <dt>Twitter:</dt>\n    <dd><a href=\"https://twitter.com/@RWDevCon\">@RWDevCon</a></dd></dd></dd>\n  </dl>\n</div>",
+    "twitter": "@ju"
+  },
+
+  {
+    "id": 6,
+    "name": "Emilie McKinney",
+    "mobile": "(443) 210-2989",
+    "email": "gim@ja.kg",
+    "image": "",
+    "department": "Engineering",
+    "title": "Junior Veterinarian",
+    "bio": "<div class=\"\">\n  <dl class=\"doctor-info-items\">\n    <dt>Undergraduate Education:</dt>\n    <dd>Brown University</dd>\n    <dt>Graduate School:</dt>\n    <dd>Syracuse University</dd>\n    <dt>Fellow:</dt>\n    <dd>Georgetown University</dd>\n    <dt>Bio:</dt>\n    <dd>What gets me going now is developing strategies for frisbees in Nigeria. A real dynamo when it comes to lecturing about lint in Washington, DC. Spent 2001-2008 merchandising bacon in the financial sector. Spent 2001-2007 consulting about inflatable dolls in Edison, NJ. Spent a weekend marketing tobacco in Libya. Spent the 80's licensing mannequins in the financial sector.</dd>\n <dt>Twitter:</dt>\n    <dd><a href=\"https://twitter.com/@RWDevCon\">@RWDevCon</a></dd></dd></dd>\n  </dl>\n</div>",
+    "twitter": "@sajhi"
+  },
+
+  {
+    "id": 7,
+    "name": "Leo Greene",
+    "mobile": "(644) 576-9739",
+    "email": "turaliw@luhdanej.kw",
+    "image": "",
+    "department": "Engineering",
+    "title": "Junior Seminar Presenter",
+    "bio": "<div class=\"\">\n  <dl class=\"doctor-info-items\">\n    <dt>Undergraduate Education:</dt>\n    <dd>Brown University</dd>\n    <dt>Graduate School:</dt>\n    <dd>Syracuse University</dd>\n    <dt>Fellow:</dt>\n    <dd>Georgetown University</dd>\n    <dt>Bio:</dt>\n    <dd>What gets me going now is developing strategies for frisbees in Nigeria. A real dynamo when it comes to lecturing about lint in Washington, DC. Spent 2001-2008 merchandising bacon in the financial sector. Spent 2001-2007 consulting about inflatable dolls in Edison, NJ. Spent a weekend marketing tobacco in Libya. Spent the 80's licensing mannequins in the financial sector.</dd>\n <dt>Twitter:</dt>\n    <dd><a href=\"https://twitter.com/@RWDevCon\">@RWDevCon</a></dd></dd></dd>\n  </dl>\n</div>",
+    "twitter": "@duoca"
+  },
+
+  {
+    "id": 8,
+    "name": "Wesley Blair",
+    "mobile": "(483) 756-3200",
+    "email": "duw@ag.bg",
+    "image": "",
+    "department": "Engineering",
+    "title": "Junior Network Administrator",
+    "bio": "<div class=\"\">\n  <dl class=\"doctor-info-items\">\n    <dt>Undergraduate Education:</dt>\n    <dd>Brown University</dd>\n    <dt>Graduate School:</dt>\n    <dd>Syracuse University</dd>\n    <dt>Fellow:</dt>\n    <dd>Georgetown University</dd>\n    <dt>Bio:</dt>\n    <dd>What gets me going now is developing strategies for frisbees in Nigeria. A real dynamo when it comes to lecturing about lint in Washington, DC. Spent 2001-2008 merchandising bacon in the financial sector. Spent 2001-2007 consulting about inflatable dolls in Edison, NJ. Spent a weekend marketing tobacco in Libya. Spent the 80's licensing mannequins in the financial sector.</dd>\n <dt>Twitter:</dt>\n    <dd><a href=\"https://twitter.com/@RWDevCon\">@RWDevCon</a></dd></dd></dd>\n  </dl>\n</div>",
+    "twitter": "@tur"
+  },
+
+  {
+    "id": 9,
+    "name": "Stella Rivera",
+    "mobile": "(480) 758-8028",
+    "email": "bup@za.net",
+    "image": "",
+    "department": "Engineering",
+    "title": "Senior Membership Chairman",
+    "bio": "<div class=\"\">\n  <dl class=\"doctor-info-items\">\n    <dt>Undergraduate Education:</dt>\n    <dd>Texas Tech University</dd>\n    <dt>Graduate School:</dt>\n    <dd>Texas Tech University</dd>\n    <dt>Fellow:</dt>\n    <dd>Brown University</dd>\n    <dt>Bio:</dt>\n    <dd>Spent the 80's developing strategies for inflatable dolls in Los Angeles, CA. Spent the better part of the 90's getting to know glucose in Ocean City, NJ. Lead a team promoting etch-a-sketches in Las Vegas, NV. In 2009 I was building g.i. joes in Cuba. Crossed the country supervising the production of jack-in-the-boxes in Orlando, FL. Spent the 80's supervising the production of wool in New York, NY.</dd>\n <dt>Twitter:</dt>\n    <dd><a href=\"https://twitter.com/@RWDevCon\">@RWDevCon</a></dd></dd></dd>\n  </dl>\n</div>",
+    "twitter": "@are"
+  },
+
+  {
+    "id": 10,
+    "name": "Nell Hunt",
+    "mobile": "(665) 393-9672",
+    "email": "zik@punsahil.nl",
+    "image": "",
+    "department": "Engineering",
+    "title": "Apprentice Sanitation Engineer",
+    "bio": "<div class=\"\">\n  <dl class=\"doctor-info-items\">\n    <dt>Undergraduate Education:</dt>\n    <dd>Brown University</dd>\n    <dt>Graduate School:</dt>\n    <dd>Syracuse University</dd>\n    <dt>Fellow:</dt>\n    <dd>Georgetown University</dd>\n    <dt>Bio:</dt>\n    <dd>What gets me going now is developing strategies for frisbees in Nigeria. A real dynamo when it comes to lecturing about lint in Washington, DC. Spent 2001-2008 merchandising bacon in the financial sector. Spent 2001-2007 consulting about inflatable dolls in Edison, NJ. Spent a weekend marketing tobacco in Libya. Spent the 80's licensing mannequins in the financial sector.</dd>\n <dt>Twitter:</dt>\n    <dd><a href=\"https://twitter.com/@RWDevCon\">@RWDevCon</a></dd></dd></dd>\n  </dl>\n</div>",
+    "twitter": "@boucnu"
+  },
+
+  {
+    "id": 11,
+    "name": "Caroline George",
+    "mobile": "(939) 507-2845",
+    "email": "su@kimpu.si",
+    "image": "",
+    "department": "Engineering",
+    "title": "Senior Designer",
+    "bio": "<div class=\"\">\n  <dl class=\"doctor-info-items\">\n    <dt>Undergraduate Education:</dt>\n    <dd>LaSalle Institute of Technology</dd>\n    <dt>Graduate School:</dt>\n    <dd>UCF Miami</dd>\n    <!-- <dt>Fellow:</dt>\n    <dd>Georgetown University</dd> -->\n    <dt>Bio:</dt>\n    <dd>Practiced in the art of writing about toy trucks in Suffolk, NY. Spent several years managing jungle gyms in the government sector. Crossed the country writing about trumpets for the underprivileged. Earned praise for deploying ice cream in Ocean City, NJ. Spent 2002-2009 testing the market for basketballs in Atlantic City, NJ. At the moment I'm importing muffins in Orlando, FL.</dd>\n <dt>Twitter:</dt>\n    <dd><a href=\"https://twitter.com/@RWDevCon\">@RWDevCon</a></dd></dd></dd></dd>\n  </dl>\n</div>",
+    "twitter": "@ibelana"
+  },
+
+  {
+    "id": 12,
+    "name": "Allie Flores",
+    "mobile": "(823) 669-2720",
+    "email": "ali@zesfetpa.al",
+    "image": "",
+    "department": "Engineering",
+    "title": "Senior Tax Specialist",
+    "bio": "<div class=\"\">\n  <dl class=\"doctor-info-items\">\n    <dt>Undergraduate Education:</dt>\n    <dd>LaSalle Institute of Technology</dd>\n    <dt>Graduate School:</dt>\n    <dd>UCF Miami</dd>\n    <!-- <dt>Fellow:</dt>\n    <dd>Georgetown University</dd> -->\n    <dt>Bio:</dt>\n    <dd>Spent high school summers licensing plush toys in Salisbury, MD. Spent high school summers marketing cabbage in Minneapolis, MN. Spent two years managing Magic 8-Balls in Miami, FL. In 2009 I was consulting about squirt guns in Los Angeles, CA. Spent 2001-2007 buying and selling wooden horses in Suffolk, NY. Spent 2002-2010 developing strategies for saliva in Orlando, FL.</dd>\n <dt>Twitter:</dt>\n    <dd><a href=\"https://twitter.com/@RWDevCon\">@RWDevCon</a></dd>\n  </dl>\n</div>",
+    "twitter": "@paekefe"
+  },
+
+  {
+    "id": 13,
+    "name": "Callie Johnson",
+    "mobile": "(401) 617-8722",
+    "email": "sutate@ad.co.uk",
+    "image": "",
+    "department": "Engineering",
+    "title": "Senior Chief Executive Officer",
+    "bio": "<div class=\"\">\n  <dl class=\"doctor-info-items\">\n    <dt>Undergraduate Education:</dt>\n    <dd>Brown University</dd>\n    <dt>Graduate School:</dt>\n    <dd>Syracuse University</dd>\n    <dt>Fellow:</dt>\n    <dd>Georgetown University</dd>\n    <dt>Bio:</dt>\n    <dd>What gets me going now is developing strategies for frisbees in Nigeria. A real dynamo when it comes to lecturing about lint in Washington, DC. Spent 2001-2008 merchandising bacon in the financial sector. Spent 2001-2007 consulting about inflatable dolls in Edison, NJ. Spent a weekend marketing tobacco in Libya. Spent the 80's licensing mannequins in the financial sector.</dd>\n <dt>Twitter:</dt>\n    <dd><a href=\"https://twitter.com/@RWDevCon\">@RWDevCon</a></dd></dd></dd>\n  </dl>\n</div>",
+    "twitter": "@at"
+  },
+
+  {
+    "id": 14,
+    "name": "Jesse Copeland",
+    "mobile": "(228) 553-6814",
+    "email": "gubonbaf@mi.sn",
+    "image": "",
+    "department": "Engineering",
+    "title": "Senior Administrative Analyst",
+    "bio": "<div class=\"\">\n  <dl class=\"doctor-info-items\">\n    <dt>Undergraduate Education:</dt>\n    <dd>LaSalle Institute of Technology</dd>\n    <dt>Graduate School:</dt>\n    <dd>UCF Miami</dd>\n    <!-- <dt>Fellow:</dt>\n    <dd>Georgetown University</dd> -->\n    <dt>Bio:</dt>\n    <dd>Practiced in the art of writing about toy trucks in Suffolk, NY. Spent several years managing jungle gyms in the government sector. Crossed the country writing about trumpets for the underprivileged. Earned praise for deploying ice cream in Ocean City, NJ. Spent 2002-2009 testing the market for basketballs in Atlantic City, NJ. At the moment I'm importing muffins in Orlando, FL.</dd>\n <dt>Twitter:</dt>\n    <dd><a href=\"https://twitter.com/@RWDevCon\">@RWDevCon</a></dd></dd></dd>\n  </dl>\n</div>",
+    "twitter": "@bas"
+  },
+
+  {
+    "id": 15,
+    "name": "Maggie Little",
+    "mobile": "(315) 818-3550",
+    "email": "buwana@suoskab.gu",
+    "image": "",
+    "department": "Engineering",
+    "title": "Junior Software Test Engineer",
+    "bio": "<div class=\"\">\n  <dl class=\"doctor-info-items\">\n    <dt>Undergraduate Education:</dt>\n    <dd>LaSalle Institute of Technology</dd>\n    <dt>Graduate School:</dt>\n    <dd>UCF Miami</dd>\n    <!-- <dt>Fellow:</dt>\n    <dd>Georgetown University</dd> -->\n    <dt>Bio:</dt>\n    <dd>Practiced in the art of writing about toy trucks in Suffolk, NY. Spent several years managing jungle gyms in the government sector. Crossed the country writing about trumpets for the underprivileged. Earned praise for deploying ice cream in Ocean City, NJ. Spent 2002-2009 testing the market for basketballs in Atlantic City, NJ. At the moment I'm importing muffins in Orlando, FL.</dd>\n <dt>Twitter:</dt>\n    <dd><a href=\"https://twitter.com/@RWDevCon\">@RWDevCon</a></dd></dd></dd>\n  </dl>\n</div>",
+    "twitter": "@ejzinjak"
+  },
+
+  {
+    "id": 16,
+    "name": "Violet Ramos",
+    "mobile": "(983) 922-6775",
+    "email": "favuni@sanhocva.net",
+    "image": "",
+    "department": "Engineering",
+    "title": "Junior Warehouse Manager",
+    "bio": "<div class=\"\">\n  <dl class=\"doctor-info-items\">\n    <dt>Undergraduate Education:</dt>\n    <dd>LaSalle Institute of Technology</dd>\n    <!-- <dt>Graduate School:</dt>\n    <dd>UCF Miami</dd>\n    <dt>Fellow:</dt>\n    <dd>Georgetown University</dd> -->\n    <dt>Bio:</dt>\n    <dd>Set new standards for deploying gravy in New York, NY. In 2009 I was getting to know bagpipes in Africa. Spent college summers buying and selling cellos in Miami, FL. Uniquely-equipped for investing in pogo sticks on the black market. Had a brief career writing about methane in Bethesda, MD. Spent 2002-2010 buying and selling salsa in Ohio.</dd>\n <dt>Twitter:</dt>\n    <dd><a href=\"https://twitter.com/@RWDevCon\">@RWDevCon</a></dd></dd></dd>\n  </dl>\n</div>",
+    "twitter": "@iwi"
+  },
+
+  {
+    "id": 17,
+    "name": "Walter Patterson",
+    "mobile": "(401) 937-9511",
+    "email": "hugome@untubis.sz",
+    "image": "",
+    "department": "Engineering",
+    "title": "Lead Graphic Designer",
+    "bio": "<div class=\"\">\n  <dl class=\"doctor-info-items\">\n    <dt>Undergraduate Education:</dt>\n    <dd>LaSalle Institute of Technology</dd>\n    <dt>Graduate School:</dt>\n    <dd>UCF Miami</dd>\n    <!-- <dt>Fellow:</dt>\n    <dd>Georgetown University</dd> -->\n    <dt>Bio:</dt>\n    <dd>Spent high school summers licensing plush toys in Salisbury, MD. Spent high school summers marketing cabbage in Minneapolis, MN. Spent two years managing Magic 8-Balls in Miami, FL. In 2009 I was consulting about squirt guns in Los Angeles, CA. Spent 2001-2007 buying and selling wooden horses in Suffolk, NY. Spent 2002-2010 developing strategies for saliva in Orlando, FL.</dd>\n <dt>Twitter:</dt>\n    <dd><a href=\"https://twitter.com/@RWDevCon\">@RWDevCon</a></dd></dd></dd>\n  </dl>\n</div>",
+    "twitter": "@wopbaw"
+  },
+
+  {
+    "id": 18,
+    "name": "Annie Neal",
+    "mobile": "(772) 412-5656",
+    "email": "nan@ropluk.et",
+    "image": "",
+    "department": "Engineering",
+    "title": "Junior Business Manager",
+    "bio": "<div class=\"\">\n  <dl class=\"doctor-info-items\">\n    <dt>Undergraduate Education:</dt>\n    <dd>Texas Tech University</dd>\n    <dt>Graduate School:</dt>\n    <dd>Texas Tech University</dd>\n    <dt>Fellow:</dt>\n    <dd>Brown University</dd>\n    <dt>Bio:</dt>\n    <dd>Spent the 80's developing strategies for inflatable dolls in Los Angeles, CA. Spent the better part of the 90's getting to know glucose in Ocean City, NJ. Lead a team promoting etch-a-sketches in Las Vegas, NV. In 2009 I was building g.i. joes in Cuba. Crossed the country supervising the production of jack-in-the-boxes in Orlando, FL. Spent the 80's supervising the production of wool in New York, NY.</dd>\n <dt>Twitter:</dt>\n    <dd><a href=\"https://twitter.com/@RWDevCon\">@RWDevCon</a></dd></dd></dd>\n  </dl>\n</div>",
+    "twitter": "@wetgug"
+  },
+
+  {
+    "id": 19,
+    "name": "Lulu Adkins",
+    "mobile": "(246) 282-3607",
+    "email": "jules@wa.ro",
+    "image": "",
+    "department": "Engineering",
+    "title": "Lead Paralegal",
+    "bio": "<div class=\"\">\n  <dl class=\"doctor-info-items\">\n    <dt>Undergraduate Education:</dt>\n    <dd>Brown University</dd>\n    <dt>Graduate School:</dt>\n    <dd>Syracuse University</dd>\n    <dt>Fellow:</dt>\n    <dd>Georgetown University</dd>\n    <dt>Bio:</dt>\n    <dd>What gets me going now is developing strategies for frisbees in Nigeria. A real dynamo when it comes to lecturing about lint in Washington, DC. Spent 2001-2008 merchandising bacon in the financial sector. Spent 2001-2007 consulting about inflatable dolls in Edison, NJ. Spent a weekend marketing tobacco in Libya. Spent the 80's licensing mannequins in the financial sector.</dd>\n <dt>Twitter:</dt>\n    <dd><a href=\"https://twitter.com/@RWDevCon\">@RWDevCon</a></dd></dd></dd>\n  </dl>\n</div>",
+    "twitter": "@ce"
+  },
+
+  {
+    "id": 20,
+    "name": "Cordelia Bryan",
+    "mobile": "(821) 575-3153",
+    "email": "efjoge@mutojdah.zw",
+    "image": "",
+    "department": "Engineering",
+    "title": "Lead Management Consultant",
+    "bio": "<div class=\"\">\n  <dl class=\"doctor-info-items\">\n    <dt>Undergraduate Education:</dt>\n    <dd>LaSalle Institute of Technology</dd>\n    <!-- <dt>Graduate School:</dt>\n    <dd>UCF Miami</dd>\n    <dt>Fellow:</dt>\n    <dd>Georgetown University</dd> -->\n    <dt>Bio:</dt>\n    <dd>Set new standards for deploying gravy in New York, NY. In 2009 I was getting to know bagpipes in Africa. Spent college summers buying and selling cellos in Miami, FL. Uniquely-equipped for investing in pogo sticks on the black market. Had a brief career writing about methane in Bethesda, MD. Spent 2002-2010 buying and selling salsa in Ohio.</dd>\n <dt>Twitter:</dt>\n    <dd><a href=\"https://twitter.com/@RWDevCon\">@RWDevCon</a></dd></dd></dd>\n  </dl>\n</div>",
+    "twitter": "@dapicih"
+  },
+
+  {
+    "id": 21,
+    "name": "Alex Herrera",
+    "mobile": "(255) 394-2252",
+    "email": "ziv@bove.sk",
+    "image": "",
+    "department": "Engineering",
+    "title": "Junior Computer Operator",
+    "bio": "<div class=\"\">\n  <dl class=\"doctor-info-items\">\n    <dt>Undergraduate Education:</dt>\n    <dd>LaSalle Institute of Technology</dd>\n    <!-- <dt>Graduate School:</dt>\n    <dd>UCF Miami</dd>\n    <dt>Fellow:</dt>\n    <dd>Georgetown University</dd> -->\n    <dt>Bio:</dt>\n    <dd>Set new standards for deploying gravy in New York, NY. In 2009 I was getting to know bagpipes in Africa. Spent college summers buying and selling cellos in Miami, FL. Uniquely-equipped for investing in pogo sticks on the black market. Had a brief career writing about methane in Bethesda, MD. Spent 2002-2010 buying and selling salsa in Ohio.</dd>\n <dt>Twitter:</dt>\n    <dd><a href=\"https://twitter.com/@RWDevCon\">@RWDevCon</a></dd></dd></dd>\n  </dl>\n</div>",
+    "twitter": "@rozarez"
+  },
+
+  {
+    "id": 22,
+    "name": "Esther Stevens",
+    "mobile": "(614) 758-4266",
+    "email": "iro@ihavelo.mn",
+    "image": "",
+    "department": "Engineering",
+    "title": "Lead Electro Optical Engineer",
+    "bio": "<div class=\"\">\n  <dl class=\"doctor-info-items\">\n    <dt>Undergraduate Education:</dt>\n    <dd>LaSalle Institute of Technology</dd>\n    <!-- <dt>Graduate School:</dt>\n    <dd>UCF Miami</dd>\n    <dt>Fellow:</dt>\n    <dd>Georgetown University</dd> -->\n    <dt>Bio:</dt>\n    <dd>Set new standards for deploying gravy in New York, NY. In 2009 I was getting to know bagpipes in Africa. Spent college summers buying and selling cellos in Miami, FL. Uniquely-equipped for investing in pogo sticks on the black market. Had a brief career writing about methane in Bethesda, MD. Spent 2002-2010 buying and selling salsa in Ohio.</dd>\n <dt>Twitter:</dt>\n    <dd><a href=\"https://twitter.com/@RWDevCon\">@RWDevCon</a></dd></dd></dd>\n  </dl>\n</div>",
+    "twitter": "@ew"
+  },
+
+  {
+    "id": 23,
+    "name": "Jane Hogan",
+    "mobile": "(510) 964-3477",
+    "email": "iju@opo.bi",
+    "image": "",
+    "department": "Engineering",
+    "title": "Senior Motion Picture Director",
+    "bio": "<div class=\"\">\n  <dl class=\"doctor-info-items\">\n    <dt>Undergraduate Education:</dt>\n    <dd>LaSalle Institute of Technology</dd>\n    <!-- <dt>Graduate School:</dt>\n    <dd>UCF Miami</dd>\n    <dt>Fellow:</dt>\n    <dd>Georgetown University</dd> -->\n    <dt>Bio:</dt>\n    <dd>Set new standards for deploying gravy in New York, NY. In 2009 I was getting to know bagpipes in Africa. Spent college summers buying and selling cellos in Miami, FL. Uniquely-equipped for investing in pogo sticks on the black market. Had a brief career writing about methane in Bethesda, MD. Spent 2002-2010 buying and selling salsa in Ohio.</dd>\n <dt>Twitter:</dt>\n    <dd><a href=\"https://twitter.com/@RWDevCon\">@RWDevCon</a></dd></dd></dd>\n  </dl>\n</div>",
+    "twitter": "@dalu"
+  },
+
+  {
+    "id": 24,
+    "name": "Nicholas Marsh",
+    "mobile": "(541) 790-9975",
+    "email": "kuridito@ligulli.gf",
+    "image": "",
+    "department": "Engineering",
+    "title": "Junior Fashion Merchandiser",
+    "bio": "<div class=\"\">\n  <dl class=\"doctor-info-items\">\n    <dt>Undergraduate Education:</dt>\n    <dd>Texas Tech University</dd>\n    <dt>Graduate School:</dt>\n    <dd>Texas Tech University</dd>\n    <dt>Fellow:</dt>\n    <dd>Brown University</dd>\n    <dt>Bio:</dt>\n    <dd>Spent the 80's developing strategies for inflatable dolls in Los Angeles, CA. Spent the better part of the 90's getting to know glucose in Ocean City, NJ. Lead a team promoting etch-a-sketches in Las Vegas, NV. In 2009 I was building g.i. joes in Cuba. Crossed the country supervising the production of jack-in-the-boxes in Orlando, FL. Spent the 80's supervising the production of wool in New York, NY.</dd>\n <dt>Twitter:</dt>\n    <dd><a href=\"https://twitter.com/@RWDevCon\">@RWDevCon</a></dd></dd></dd>\n  </dl>\n</div>",
+    "twitter": "@lausiwe"
+  },
+
+  {
+    "id": 25,
+    "name": "Sadie McCarthy",
+    "mobile": "(827) 970-4477",
+    "email": "ubafi@wu.cz",
+    "image": "",
+    "department": "Engineering",
+    "title": "Junior Stockbroker",
+    "bio": "<div class=\"\">\n  <dl class=\"doctor-info-items\">\n    <dt>Undergraduate Education:</dt>\n    <dd>LaSalle Institute of Technology</dd>\n    <!-- <dt>Graduate School:</dt>\n    <dd>UCF Miami</dd>\n    <dt>Fellow:</dt>\n    <dd>Georgetown University</dd> -->\n    <dt>Bio:</dt>\n    <dd>Set new standards for deploying gravy in New York, NY. In 2009 I was getting to know bagpipes in Africa. Spent college summers buying and selling cellos in Miami, FL. Uniquely-equipped for investing in pogo sticks on the black market. Had a brief career writing about methane in Bethesda, MD. Spent 2002-2010 buying and selling salsa in Ohio.</dd>\n <dt>Twitter:</dt>\n    <dd><a href=\"https://twitter.com/@RWDevCon\">@RWDevCon</a></dd></dd></dd>\n  </dl>\n</div>",
+    "twitter": "@jov"
+  },
+
+  {
+    "id": 26,
+    "name": "Wesley Woods",
+    "mobile": "(946) 761-7407",
+    "email": "jellavtez@itulemdu.dm",
+    "image": "",
+    "department": "Engineering",
+    "title": "Senior TV Programmer",
+    "bio": "<div class=\"\">\n  <dl class=\"doctor-info-items\">\n    <dt>Undergraduate Education:</dt>\n    <dd>LaSalle Institute of Technology</dd>\n    <dt>Graduate School:</dt>\n    <dd>UCF Miami</dd>\n    <!-- <dt>Fellow:</dt>\n    <dd>Georgetown University</dd> -->\n    <dt>Bio:</dt>\n    <dd>Practiced in the art of writing about toy trucks in Suffolk, NY. Spent several years managing jungle gyms in the government sector. Crossed the country writing about trumpets for the underprivileged. Earned praise for deploying ice cream in Ocean City, NJ. Spent 2002-2009 testing the market for basketballs in Atlantic City, NJ. At the moment I'm importing muffins in Orlando, FL.</dd>\n <dt>Twitter:</dt>\n    <dd><a href=\"https://twitter.com/@RWDevCon\">@RWDevCon</a></dd></dd></dd>\n  </dl>\n</div>",
+    "twitter": "@dinrirpit"
+  },
+
+  {
+    "id": 27,
+    "name": "Ann Vega",
+    "mobile": "(502) 558-9285",
+    "email": "ren@tazmej.cn",
+    "image": "",
+    "department": "Engineering",
+    "title": "Senior Political Scientist",
+    "bio": "<div class=\"\">\n  <dl class=\"doctor-info-items\">\n    <dt>Undergraduate Education:</dt>\n    <dd>LaSalle Institute of Technology</dd>\n    <dt>Graduate School:</dt>\n    <dd>UCF Miami</dd>\n    <!-- <dt>Fellow:</dt>\n    <dd>Georgetown University</dd> -->\n    <dt>Bio:</dt>\n    <dd>Practiced in the art of writing about toy trucks in Suffolk, NY. Spent several years managing jungle gyms in the government sector. Crossed the country writing about trumpets for the underprivileged. Earned praise for deploying ice cream in Ocean City, NJ. Spent 2002-2009 testing the market for basketballs in Atlantic City, NJ. At the moment I'm importing muffins in Orlando, FL.</dd>\n <dt>Twitter:</dt>\n    <dd><a href=\"https://twitter.com/@RWDevCon\">@RWDevCon</a></dd></dd></dd>\n  </dl>\n</div>",
+    "twitter": "@ehlamam"
+  },
+
+  {
+    "id": 28,
+    "name": "Ruby George",
+    "mobile": "(811) 486-9298",
+    "email": "kaulus@jeh.ai",
+    "image": "",
+    "department": "Engineering",
+    "title": "Apprentice Administrative Asst.",
+    "bio": "<div class=\"\">\n  <dl class=\"doctor-info-items\">\n    <dt>Undergraduate Education:</dt>\n    <dd>LaSalle Institute of Technology</dd>\n    <!-- <dt>Graduate School:</dt>\n    <dd>UCF Miami</dd>\n    <dt>Fellow:</dt>\n    <dd>Georgetown University</dd> -->\n    <dt>Bio:</dt>\n    <dd>Set new standards for deploying gravy in New York, NY. In 2009 I was getting to know bagpipes in Africa. Spent college summers buying and selling cellos in Miami, FL. Uniquely-equipped for investing in pogo sticks on the black market. Had a brief career writing about methane in Bethesda, MD. Spent 2002-2010 buying and selling salsa in Ohio.</dd>\n <dt>Twitter:</dt>\n    <dd><a href=\"https://twitter.com/@RWDevCon\">@RWDevCon</a></dd></dd></dd>\n  </dl>\n</div>",
+    "twitter": "@kahauwa"
+  },
+
+  {
+    "id": 29,
+    "name": "Mildred Evans",
+    "mobile": "(761) 462-6335",
+    "email": "vodvaaf@parih.ax",
+    "image": "",
+    "department": "Engineering",
+    "title": "Junior Legal Secretary",
+    "bio": "<div class=\"\">\n  <dl class=\"doctor-info-items\">\n    <dt>Undergraduate Education:</dt>\n    <dd>LaSalle Institute of Technology</dd>\n    <!-- <dt>Graduate School:</dt>\n    <dd>UCF Miami</dd>\n    <dt>Fellow:</dt>\n    <dd>Georgetown University</dd> -->\n    <dt>Bio:</dt>\n    <dd>Set new standards for deploying gravy in New York, NY. In 2009 I was getting to know bagpipes in Africa. Spent college summers buying and selling cellos in Miami, FL. Uniquely-equipped for investing in pogo sticks on the black market. Had a brief career writing about methane in Bethesda, MD. Spent 2002-2010 buying and selling salsa in Ohio.</dd>\n <dt>Twitter:</dt>\n    <dd><a href=\"https://twitter.com/@RWDevCon\">@RWDevCon</a></dd></dd></dd>\n  </dl>\n</div>",
+    "twitter": "@duba"
+  },
+
+  {
+    "id": 30,
+    "name": "Madge Martinez",
+    "mobile": "(927) 885-8621",
+    "email": "se@iz.sx",
+    "image": "",
+    "department": "Engineering",
+    "title": "Apprentice Lead Software Test Engineer",
+    "bio": "<div class=\"\">\n  <dl class=\"doctor-info-items\">\n    <dt>Undergraduate Education:</dt>\n    <dd>Texas Tech University</dd>\n    <dt>Graduate School:</dt>\n    <dd>Texas Tech University</dd>\n    <dt>Fellow:</dt>\n    <dd>Brown University</dd>\n    <dt>Bio:</dt>\n    <dd>Spent the 80's developing strategies for inflatable dolls in Los Angeles, CA. Spent the better part of the 90's getting to know glucose in Ocean City, NJ. Lead a team promoting etch-a-sketches in Las Vegas, NV. In 2009 I was building g.i. joes in Cuba. Crossed the country supervising the production of jack-in-the-boxes in Orlando, FL. Spent the 80's supervising the production of wool in New York, NY.</dd>\n <dt>Twitter:</dt>\n    <dd><a href=\"https://twitter.com/@RWDevCon\">@RWDevCon</a></dd></dd></dd>\n  </dl>\n</div>",
+    "twitter": "@omo"
+  }
+]

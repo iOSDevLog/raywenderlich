@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="RHm-Yf-sZS">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Palette-->
+        <scene sceneID="9hI-mK-0cE">
+            <objects>
+                <viewController id="42y-0T-Civ" userLabel="Palette" customClass="PaletteViewController" customModule="Happy_AR_Painter" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kaD-1S-aQr">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select brush color and type:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PHL-av-do2">
+                                <rect key="frame" x="0.0" y="38" width="320" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Emr-rE-fHA">
+                                <rect key="frame" x="0.0" y="38" width="320" height="270"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="270" id="BM1-xi-I4s"/>
+                                </constraints>
+                            </pickerView>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="929-2o-Naw">
+                                <rect key="frame" x="136" y="407" width="51" height="31"/>
+                                <connections>
+                                    <action selector="spinningShapesSwitchChanged:" destination="42y-0T-Civ" eventType="valueChanged" id="JT7-RX-Mmm"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Flz-cI-nXS">
+                                <rect key="frame" x="106" y="412" width="22" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yes" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N0y-cI-05o">
+                                <rect key="frame" x="193" y="412" width="28" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="nAf-iE-dSN">
+                                <rect key="frame" x="14" y="324" width="292" height="31"/>
+                                <connections>
+                                    <action selector="brushSizeSliderChanged:" destination="42y-0T-Civ" eventType="valueChanged" id="jCL-CL-mIr"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brush size" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Avu-7E-GNt">
+                                <rect key="frame" x="0.0" y="295" width="320" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="QLF-oJ-aI8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Paint spinning shapes?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gqm-aO-dw6">
+                                <rect key="frame" x="0.0" y="376" width="320" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="ll1-Hg-dNg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="N0y-cI-05o" firstAttribute="centerY" secondItem="Flz-cI-nXS" secondAttribute="centerY" id="1Pv-A9-16r"/>
+                            <constraint firstItem="Flz-cI-nXS" firstAttribute="centerY" secondItem="929-2o-Naw" secondAttribute="centerY" id="4If-7h-d42"/>
+                            <constraint firstItem="Emr-rE-fHA" firstAttribute="leading" secondItem="Gqm-aO-dw6" secondAttribute="leading" id="5OV-CU-RwS"/>
+                            <constraint firstItem="Emr-rE-fHA" firstAttribute="trailing" secondItem="zma-kt-IMu" secondAttribute="trailing" id="8Tq-Wh-tIp"/>
+                            <constraint firstItem="Emr-rE-fHA" firstAttribute="top" secondItem="PHL-av-do2" secondAttribute="bottom" constant="-21" id="8xz-ny-9j2"/>
+                            <constraint firstItem="PHL-av-do2" firstAttribute="trailing" secondItem="zma-kt-IMu" secondAttribute="trailing" id="C0z-Vw-DRD"/>
+                            <constraint firstItem="Avu-7E-GNt" firstAttribute="trailing" secondItem="zma-kt-IMu" secondAttribute="trailing" id="FJJ-qd-QOQ"/>
+                            <constraint firstItem="nAf-iE-dSN" firstAttribute="leading" secondItem="zma-kt-IMu" secondAttribute="leading" constant="16" id="Hpy-Rf-ldm"/>
+                            <constraint firstItem="PHL-av-do2" firstAttribute="top" secondItem="zma-kt-IMu" secondAttribute="top" constant="18" id="Nx3-Pq-eo5"/>
+                            <constraint firstItem="Avu-7E-GNt" firstAttribute="top" secondItem="Emr-rE-fHA" secondAttribute="bottom" constant="-13" id="OPC-eC-GAl"/>
+                            <constraint firstItem="Emr-rE-fHA" firstAttribute="leading" secondItem="zma-kt-IMu" secondAttribute="leading" id="QzI-9n-qLJ"/>
+                            <constraint firstItem="N0y-cI-05o" firstAttribute="centerY" secondItem="929-2o-Naw" secondAttribute="centerY" id="WxI-mz-Nus"/>
+                            <constraint firstItem="Avu-7E-GNt" firstAttribute="leading" secondItem="zma-kt-IMu" secondAttribute="leading" id="Yba-u2-vfu"/>
+                            <constraint firstItem="929-2o-Naw" firstAttribute="top" secondItem="Gqm-aO-dw6" secondAttribute="bottom" constant="10" id="a4m-Nq-ZzI"/>
+                            <constraint firstItem="PHL-av-do2" firstAttribute="leading" secondItem="zma-kt-IMu" secondAttribute="leading" id="apa-db-dvb"/>
+                            <constraint firstItem="Emr-rE-fHA" firstAttribute="leading" secondItem="PHL-av-do2" secondAttribute="leading" id="cze-vE-8tg"/>
+                            <constraint firstItem="zma-kt-IMu" firstAttribute="trailing" secondItem="nAf-iE-dSN" secondAttribute="trailing" constant="16" id="gff-sf-bz7"/>
+                            <constraint firstItem="N0y-cI-05o" firstAttribute="leading" secondItem="929-2o-Naw" secondAttribute="trailing" constant="8" id="h1y-qg-o4l"/>
+                            <constraint firstItem="929-2o-Naw" firstAttribute="centerX" secondItem="kaD-1S-aQr" secondAttribute="centerX" id="nrs-I3-V8D"/>
+                            <constraint firstItem="929-2o-Naw" firstAttribute="leading" secondItem="Flz-cI-nXS" secondAttribute="trailing" constant="8" id="oCH-AN-VAK"/>
+                            <constraint firstItem="Gqm-aO-dw6" firstAttribute="top" secondItem="nAf-iE-dSN" secondAttribute="bottom" constant="22" id="sy8-SO-lce"/>
+                            <constraint firstItem="Emr-rE-fHA" firstAttribute="trailing" secondItem="Gqm-aO-dw6" secondAttribute="trailing" id="uER-uJ-1ke"/>
+                            <constraint firstItem="nAf-iE-dSN" firstAttribute="top" secondItem="Avu-7E-GNt" secondAttribute="bottom" constant="8" id="vtl-be-7cn"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="zma-kt-IMu"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Brush settings" image="palette-icon" id="HUi-86-D2Q"/>
+                    <connections>
+                        <outlet property="brushSettingsPicker" destination="Emr-rE-fHA" id="1N1-4n-YdP"/>
+                        <outlet property="brushSizeSlider" destination="nAf-iE-dSN" id="4aH-yB-fCP"/>
+                        <outlet property="spinningShapesSwitch" destination="929-2o-Naw" id="qlk-Ie-tqm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3as-Rk-Ara" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="380.625" y="462.67605633802816"/>
+        </scene>
+        <!--Canvas-->
+        <scene sceneID="MpU-7B-EWy">
+            <objects>
+                <viewController id="rtR-W7-VhI" userLabel="Canvas" customClass="CanvasViewController" customModule="Happy_AR_Painter" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3HE-fx-6Th">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="skj-uR-qMl">
+                                <rect key="frame" x="0.0" y="20" width="320" height="499"/>
+                            </arscnView>
+                            <button opaque="NO" alpha="0.75" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MeJ-zg-HRN">
+                                <rect key="frame" x="16" y="466" width="288" height="33"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="17"/>
+                                <state key="normal" title="Paint">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="MeJ-zg-HRN" firstAttribute="leading" secondItem="Ajc-lx-rLv" secondAttribute="leading" constant="16" id="8uX-gT-8fv"/>
+                            <constraint firstItem="Ajc-lx-rLv" firstAttribute="bottom" secondItem="skj-uR-qMl" secondAttribute="bottom" id="9T1-Sy-70N"/>
+                            <constraint firstItem="Ajc-lx-rLv" firstAttribute="trailing" secondItem="MeJ-zg-HRN" secondAttribute="trailing" constant="16" id="Ap3-ky-Ye1"/>
+                            <constraint firstItem="skj-uR-qMl" firstAttribute="top" secondItem="Ajc-lx-rLv" secondAttribute="top" id="Grz-a9-p6n"/>
+                            <constraint firstItem="skj-uR-qMl" firstAttribute="leading" secondItem="Ajc-lx-rLv" secondAttribute="leading" id="g3p-mz-Qce"/>
+                            <constraint firstItem="Ajc-lx-rLv" firstAttribute="bottom" secondItem="MeJ-zg-HRN" secondAttribute="bottom" constant="20" id="vm7-4v-EZS"/>
+                            <constraint firstItem="Ajc-lx-rLv" firstAttribute="trailing" secondItem="skj-uR-qMl" secondAttribute="trailing" id="yFi-Pf-pkJ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Ajc-lx-rLv"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Paint" image="paintbrush-icon" id="Nat-nv-7Rm"/>
+                    <connections>
+                        <outlet property="canvas" destination="skj-uR-qMl" id="zI6-9T-Cas"/>
+                        <outlet property="paintButton" destination="MeJ-zg-HRN" id="0bb-BB-k9n"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lDc-kU-9p7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="381.60000000000002" y="-202.84857571214394"/>
+        </scene>
+        <!--Custom Tab Bar Controller-->
+        <scene sceneID="eFd-tW-jQ5">
+            <objects>
+                <tabBarController id="RHm-Yf-sZS" customClass="CustomTabBarController" customModule="Happy_AR_Painter" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="uWI-aE-tIc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="rtR-W7-VhI" kind="relationship" relationship="viewControllers" id="4ls-AJ-e99"/>
+                        <segue destination="42y-0T-Civ" kind="relationship" relationship="viewControllers" id="xPq-Ce-hQx"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s6s-wx-jLv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-569" y="131"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="paintbrush-icon" width="25" height="25"/>
+        <image name="palette-icon" width="25" height="25"/>
+    </resources>
+</document>

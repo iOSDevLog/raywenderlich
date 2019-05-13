@@ -1,0 +1,8 @@
+<resources>
+  <string name="app_name">PropertyFinder</string>
+  <string name="welcome">Search for houses to buy!</string>
+  <string name="instruction">Search by place-name or zip code</string>
+  <string name="button_go">Go</string>
+  <string name="description_house">House</string>
+  <string name="default_place">london</string>
+</resources>

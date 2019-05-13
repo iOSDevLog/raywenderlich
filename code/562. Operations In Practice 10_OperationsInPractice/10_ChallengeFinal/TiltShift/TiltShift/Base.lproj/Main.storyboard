@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AXu-aj-txy">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tilt Shift Table View Controller-->
+        <scene sceneID="WJ0-cz-asV">
+            <objects>
+                <tableViewController id="AXu-aj-txy" customClass="TiltShiftTableViewController" customModule="TiltShift" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="311" sectionHeaderHeight="28" sectionFooterHeight="28" id="daf-Ha-VKT">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="TiltShiftCell" rowHeight="320" id="uUF-z8-Zt3" customClass="ImageTableViewCell" customModule="TiltShift" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="600" height="320"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="uUF-z8-Zt3" id="Hqz-jp-xHI">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="320"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="W39-yW-FNs">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="319.5"/>
+                                            <animations/>
+                                        </imageView>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bZe-26-ti8">
+                                            <rect key="frame" x="0.0" y="268" width="600" height="52"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CWi-Nc-kTV">
+                                                    <rect key="frame" x="8" y="8" width="584" height="36"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="30"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <animations/>
+                                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.44489020270270269" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstItem="CWi-Nc-kTV" firstAttribute="top" secondItem="bZe-26-ti8" secondAttribute="topMargin" id="3iN-Zr-R9U"/>
+                                                <constraint firstItem="CWi-Nc-kTV" firstAttribute="leading" secondItem="bZe-26-ti8" secondAttribute="leadingMargin" id="Jm6-ao-20O"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="CWi-Nc-kTV" secondAttribute="bottom" id="Kfe-GJ-NBa"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="CWi-Nc-kTV" secondAttribute="trailing" id="Wtc-Yz-z5l"/>
+                                            </constraints>
+                                        </view>
+                                        <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="nVa-gw-Svq">
+                                            <rect key="frame" x="282" y="141" width="37" height="37"/>
+                                            <animations/>
+                                        </activityIndicatorView>
+                                    </subviews>
+                                    <animations/>
+                                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstItem="nVa-gw-Svq" firstAttribute="centerX" secondItem="Hqz-jp-xHI" secondAttribute="centerX" id="9yl-5C-5S5"/>
+                                        <constraint firstAttribute="trailing" secondItem="bZe-26-ti8" secondAttribute="trailing" id="Kcv-PI-q8l"/>
+                                        <constraint firstItem="nVa-gw-Svq" firstAttribute="centerY" secondItem="Hqz-jp-xHI" secondAttribute="centerY" id="M0G-kd-rzd"/>
+                                        <constraint firstItem="W39-yW-FNs" firstAttribute="top" secondItem="Hqz-jp-xHI" secondAttribute="top" id="SWK-in-VOB"/>
+                                        <constraint firstAttribute="bottom" secondItem="W39-yW-FNs" secondAttribute="bottom" id="YhQ-VU-2Dk"/>
+                                        <constraint firstAttribute="trailing" secondItem="W39-yW-FNs" secondAttribute="trailing" id="eMU-fG-hw2"/>
+                                        <constraint firstAttribute="bottom" secondItem="bZe-26-ti8" secondAttribute="bottom" id="h5p-ua-4b0"/>
+                                        <constraint firstItem="W39-yW-FNs" firstAttribute="leading" secondItem="Hqz-jp-xHI" secondAttribute="leading" id="p6h-hf-CEc"/>
+                                        <constraint firstItem="bZe-26-ti8" firstAttribute="leading" secondItem="Hqz-jp-xHI" secondAttribute="leading" id="yxu-XD-byl"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <animations/>
+                                <connections>
+                                    <outlet property="activityIndicator" destination="nVa-gw-Svq" id="ZWj-Jz-0F8"/>
+                                    <outlet property="titleLabel" destination="CWi-Nc-kTV" id="4E6-7w-a2a"/>
+                                    <outlet property="tsImageView" destination="W39-yW-FNs" id="8Nt-RA-6JC"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="AXu-aj-txy" id="LUz-5h-GuR"/>
+                            <outlet property="delegate" destination="AXu-aj-txy" id="Flp-WP-ied"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nS2-EN-DWs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="161" y="182"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,7 @@
+#set("content") {
+  <h1>Acronyms</h1>
+
+  #embed("acronymsTable")
+}
+
+#embed("base")

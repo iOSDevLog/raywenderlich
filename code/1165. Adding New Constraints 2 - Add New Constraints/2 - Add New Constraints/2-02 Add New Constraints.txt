@@ -1,0 +1,20 @@
+➠2-2: 😺JESSY😺 ## Creating Constraints
+You _can_ create constraints in code, but you can do a whole lot just with Interface Builder. Xcode's UI offers several ways to create constraints.
+
+➠But no matter which method you use, you'll ultimately be creating the same types of constraint objects. So we'll show you some options, and you'll find your own find your own way of working that combines them to your liking.
+
+➠🐸CATIE🐸 
+➠[slide 1]First, we'll be working with the Add New Constraints button at the bottom of the editor.
+➠It's useful for creating constraints between a single view and its nearest neighbor. That works on all four sides. You can also create fixed width or height constraints with it. 
+
+➠[Slide 2] Next to "Add New Constraints" is the "Align" button. One way to use it, is by selecting several views, pressing it, and then aligning at least one of their edges.
+
+➠It's also possible to use the Align button for just one view, to center it in its superview. But we'll primarily be using other methods for that, in this section.
+[slide out]
+➠Let's see the Add New Constraints button in action!
+
+
+➠Interlude 😺JESSY😺
+[slide 1]The top section of the Add New Constraints panel allows you to add constraints to multiple edges of your view, in quick succession. 
+
+Constraining to margins is frequently helpful, both to provide a native-feeling look to your app, and to avoid getting your views getting obscured by other UI. But, if you want to constrain to the exact edges of other views, you can uncheck the "Constrain to Margins" box!

@@ -1,0 +1,29 @@
+1-03 - Stack Views
+
+➠🐸CATIE🐸
+Have you been wondering how to lay out a bunch of views in relation to each other ? It’s my pleasure to introduce you to stack views. 
+
+➠[Slide 01] You can think of a stack view as a container that lays out its subviews for you. You tell the stack view which direction you want to stack the views in, horizontally or vertically, and like magic, you’ve got a nice clean layout.
+
+➠[Slide 02] Take a good look at this example. There are three buttons, laid out vertically. All three are the same width and there's some standard spacing between them. Stack views really shine when building a layout like this. We'll create this layout together and let the stack view do all the work!  
+
+➠Stack views can be extremely powerful, flexible tools, so let’s give them a try. Right now!
+
+
+
+
+➠Interlude 😺JESSY😺 
+A stack view is a non-rendering view. That means it has no visible elements, not even a background. Its only purpose is to manage the layout of its subviews.
+
+➠[Slide 03] Stack views have several properties that control the layout of subviews. The one you’ve seen already is the axis, which determines if the stack view will arrange its subviews horizontally or vertically. 
+
+➠There are two more properties that control how subviews are positioned along the direction of the axis: spacing and distribution. 
+
+➠[Slide 04] For now you can think of spacing as the minimum space between the views. It can be more complex than this, but this is a solid starting definition.
+
+➠[Slide 05] **Distribution** determines how views are positioned along the axis. In addition to positioning, some distribution options will resize subviews, or affect the spacing.
+
+➠[Slide 06]
+**Alignment** is a property on a stack view that determines how subviews are arranged *perpendicular* to their axis. For example, should these views be centered vertically or aligned with the top of the stack view? 
+
+➠Let’s head back to our pirate handbook, and find out what these properties are set to by default.

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>EmojiJournal</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset='utf-8'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link href="./css/emoji.css" rel="stylesheet">
+        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;amp;subset=latin,latin-ext">
+        <link rel="stylesheet" href="/css/index.css">
+    </head>
+    <div class='menu-container'>
+        <div class="wrapper">
+            <div class='title'><h1>😎 EmojiJournal 😎</h1></div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <main class="cards">
+            <article class="card">
+                <div class="add-new-card">
+                    <input id="add-new-emoji-field" type="emoji-field" class="emoji-text-field" placeholder="How you feelin'?" data-emojiable="true" maxlength=1>
+                    <div class="add-new-button">
+                        <input type="image" class="add-new-image" src="./img/plusSign.jpg" alt="Add New Entry" type="submit" onClick="submitForm()"/>
+                    </div>
+                </div>
+            </article>
+            {% for entry in entries %}
+            <article class="card" style="background-color: #{{ entry.emojiBGColor }};">
+                <div class="top-content-box">
+                    <div class="emoji-date">
+                        <p>{{ entry.date}}<br>{{ entry.time }}</p>
+                    </div>
+                    <input id={{ entry.id }} class="delete-button" type="submit" value="&#10005;" onClick="deleteEntry(this.id)" onEntry="hideEmojiPicker()">
+                        </div>
+                <p class="emoji-text">{{ entry.emoji }}</p>
+            </article>
+            {% endfor %}
+        </main>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="/js/config.js"></script>
+    <script src="/js/util.js"></script>
+    <script src="/js/jquery.emojiarea.js"></script>
+    <script src="/js/emoji-picker.js"></script>
+    <script>
+        $(function() {
+          window.emojiPicker = new EmojiPicker({emojiable_selector: '[data-emojiable=true]', assetsPath: '/img/', popupButtonClasses: 'fa fa-smile-o'});
+          window.emojiPicker.discover();
+          });
+    </script>
+</html>
+
+<script type="text/javascript">
+    function submitForm() {
+        var emoji = document.getElementById("add-new-emoji-field").value;
+        var date = Math.floor((Date.now() / 1000) - 978307200) // swift uses 1/1/2001 as epoch, JS uses 1/1/1970;
+        if (emoji == "") {
+            alert("You must enter an emoji!");
+            return;
+        }
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", "/entries");
+        xhr.setRequestHeader("Content-Type", "application/json");
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState == XMLHttpRequest.DONE) {
+                location.reload();
+            }
+        }
+        var body = JSON.stringify({ "emoji": emoji, "date": date });
+        xhr.send(body);
+    }
+</script>
+
+<script type="text/javascript">
+    function deleteEntry(entryID) {
+        var xhr = new XMLHttpRequest();
+        xhr.open("delete", "/entries/" + entryID);
+        xhr.setRequestHeader("Content-Type", "application/json");
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState == XMLHttpRequest.DONE) {
+                location.reload();
+            }
+        }
+        xhr.send();
+    }
+</script>
+
+<script type="text/javascript">
+    function hideEmojiPicker() {
+        alert("should hide picker now");
+    }
+</script>

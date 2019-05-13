@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MemberCell" rowHeight="80" id="8Xk-mC-WCw" customClass="MemberCellTableViewCell" customModule="GitHubKMP" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8Xk-mC-WCw" id="SzZ-iU-Wr2">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="79.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oiv-Ba-qFb">
+                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="80" id="6pG-ZK-waW"/>
+                            <constraint firstAttribute="width" constant="80" id="mX6-Nr-ZJY"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TTG-NW-R3i">
+                        <rect key="frame" x="88" y="29" width="255" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="TTG-NW-R3i" secondAttribute="trailing" constant="16" id="71U-Ka-8lt"/>
+                    <constraint firstItem="oiv-Ba-qFb" firstAttribute="top" secondItem="SzZ-iU-Wr2" secondAttribute="top" id="YjS-tW-Ah8"/>
+                    <constraint firstItem="TTG-NW-R3i" firstAttribute="top" secondItem="SzZ-iU-Wr2" secondAttribute="topMargin" constant="18" id="a5J-LW-piT"/>
+                    <constraint firstAttribute="bottom" secondItem="oiv-Ba-qFb" secondAttribute="bottom" id="lg8-7t-TR4"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="TTG-NW-R3i" secondAttribute="bottom" constant="19" id="mE9-NE-vfD"/>
+                    <constraint firstItem="TTG-NW-R3i" firstAttribute="leading" secondItem="oiv-Ba-qFb" secondAttribute="trailing" constant="8" id="pkh-E3-VSo"/>
+                    <constraint firstItem="oiv-Ba-qFb" firstAttribute="leading" secondItem="SzZ-iU-Wr2" secondAttribute="leading" id="y2Q-Zc-E5l"/>
+                    <constraint firstItem="TTG-NW-R3i" firstAttribute="leading" secondItem="oiv-Ba-qFb" secondAttribute="trailing" constant="8" id="zD3-vY-qvp"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="memberAvatar" destination="oiv-Ba-qFb" id="ejy-FW-TCK"/>
+                <outlet property="memberLogin" destination="TTG-NW-R3i" id="C6k-oo-bEa"/>
+            </connections>
+            <point key="canvasLocation" x="-90.400000000000006" y="101.64917541229386"/>
+        </tableViewCell>
+    </objects>
+</document>

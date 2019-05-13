@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+  <dict>
+    <key>Name</key>
+    <string>World&apos;s Largest Office Chair</string>
+    <key>Address</key>
+    <string>625 Noble Street, Anniston, Alabama</string>
+    <key>Image</key>
+    <string>ALANNchair_8960.jpg</string>
+  </dict>
+  <dict>
+    <key>Name</key>
+    <string>World&apos;s Largest Basket</string>
+    <key>Address</key>
+    <string>1500 E Main Street, Newark, Ohio</string>
+    <key>Image</key>
+    <string>OHNEWbasket07a.jpg</string>
+  </dict>
+  <dict>
+    <key>Name</key>
+    <string>World&apos;s Largest Hairball</string>
+    <key>Address</key>
+    <string>403 S 4th Street, Garden City, Kansas</string>
+    <key>Image</key>
+    <string>KSGARhairball_derek.jpg</string>
+  </dict>
+  <dict>
+    <key>Name</key>
+    <string>World&apos;s Most Confusing Clock</string>
+    <key>Address</key>
+    <string>1 Irving Place, New York, New York</string>
+    <key>Image</key>
+    <string>metronome.png</string>
+  </dict>
+  <dict>
+    <key>Name</key>
+    <string>Bubblegum Alley</string>
+    <key>Address</key>
+    <string>733 Higuera St, San Luis Obispo, CA 93401</string>
+    <key>Image</key>
+    <string>bubblegum-alley.jpg</string>
+  </dict>
+  <dict>
+    <key>Name</key>
+    <string>Cadillac Ranch</string>
+    <key>Address</key>
+    <string>13651 I-40 Frontage Rd, Amarillo, TX 79124</string>
+    <key>Image</key>
+    <string>cadillac-ranch.jpg</string>
+  </dict>
+  <dict>
+    <key>Name</key>
+    <string>Carhenge</string>
+    <key>Address</key>
+    <string>2151 Co Rd 59, Alliance, NE 69301</string>
+    <key>Image</key>
+    <string>carhenge.jpg</string>
+  </dict>
+  <dict>
+    <key>Name</key>
+    <string>Dog Bark Park Inn</string>
+    <key>Address</key>
+    <string>2421 Business Loop 95, Cottonwood, ID 83522</string>
+    <key>Image</key>
+    <string>dog-bark-park.jpg</string>
+  </dict>
+  <dict>
+    <key>Name</key>
+    <string>Enchanted Highway</string>
+    <key>Address</key>
+    <string>607 Main St, Regent, ND 58650</string>
+    <key>Image</key>
+    <string>enchanted-highway.jpg</string>
+  </dict>
+  <dict>
+    <key>Name</key>
+    <string>Hole N" The Rock</string>
+    <key>Address</key>
+    <string>11037 US-191, Moab, UT 84532</string>
+    <key>Image</key>
+    <string>holenrock.jpg</string>
+  </dict>
+  <dict>
+    <key>Name</key>
+    <string>Winchester House</string>
+    <key>Address</key>
+    <string>525 S Winchester Blvd, San Jose, CA 95128</string>
+    <key>Image</key>
+    <string>winchester-house.jpg</string>
+  </dict>
+  <dict>
+    <key>Name</key>
+    <string>Washington's Tooth</string>
+    <key>Address</key>
+    <string>54 Pearl St., New York, NY</string>
+    <key>Image</key>
+    <string>washingtons-tooth.jpg</string>
+  </dict>
+  <dict>
+    <key>Name</key>
+    <string>Ghostbusters Headquarters</string>
+    <key>Address</key>
+    <string>14 N. Moore St., New York, NY</string>
+    <key>Image</key>
+    <string>ghostbuster-hq.jpg</string>
+  </dict>
+</array>
+</plist>

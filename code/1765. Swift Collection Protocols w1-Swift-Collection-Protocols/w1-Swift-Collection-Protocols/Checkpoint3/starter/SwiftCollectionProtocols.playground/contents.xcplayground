@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios'>
+    <pages>
+        <page name='1. LinkedList'/>
+        <page name='2. Sequence'/>
+        <page name='3. Collection'/>
+        <page name='4. BidirectionalCollection'/>
+        <page name='5. MutableCollection'/>
+        <page name='6. RangeReplaceableCollection'/>
+        <page name='7. RandomAccessCollection'/>
+    </pages>
+</playground>

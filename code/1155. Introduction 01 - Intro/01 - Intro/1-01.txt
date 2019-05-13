@@ -1,0 +1,60 @@
+# Beginning Auto Layout
+
+➠(RW)
+👯CATIE🐸 Hey what’s up everybody, I'm Catie.  
+👯JESSY😺 And I'm Jessy! Welcome to our course on Beginning Auto Layout.  
+👯CATIE🐸 In this course, you’ll learn the basics of auto layout.  
+👯JESSY😺 You'll get familiar with the layout tools at your disposal, working entirely in Interface Builder.  
+👯CATIE🐸 Let’s get started!
+
+➠(Udemy)
+👯CATIE🐸 Hey what’s up everybody, I'm Catie.  
+👯JESSY😺 And I'm Jessy! Welcome to our course on Beginning Auto Layout.  
+👯CATIE🐸 In this section, and the following one, you’ll learn the basics of auto layout.  
+👯JESSY😺 You'll get familiar with the layout tools at your disposal, working entirely in Interface Builder.  
+👯CATIE🐸 Let’s get started!
+
+
+➠🐸CATIE🐸  
+When you're creating an app, you want to make sure the layout works on all size of iOS device.  
+[Slide 01 - In] As of late 2017, you've got 4 iPhone sizes to contend with. 
+
+➠[Slide 02] Not only does your app need to work in portrait mode all of these phones, you need to consider landscape as well. 
+
+➠[Slide 03] Even if you choose not to support landscape on iPhone, what about larger devices, like the iPad and iPad Pro. These devices have a much larger screen with a completely different aspect ratio. 
+
+➠[Slide 04] iPads also have a quite handy feature called "split screen" that lets you run two apps at once, side by side. Your app might be running at one third, one half, or two thirds the total screen size. 
+
+
+➠😺JESSY😺
+[Slide 05] You could write code to calculate the size of all of your views to support all of these situations. That would take you an awfully long time, but luckily! There's no need to do that.
+
+➠[Slide 06] This is what Auto Layout is for. Auto Layout offers you powerful tools to define the layout of your app so that it will adjust to fit on any screen size.
+
+
+➠🐸CATIE🐸 
+[Slide 07] In this section, you'll focus on one of Apple's latest Auto Layout tools, the Stack View. 
+
+Stack Views let you quickly group different views, and customize their layout with a few simple properties like alignment and spacing.
+
+➠Stack views can be quite powerful tools for building very complex layouts if you dig into them.
+
+[Slide 08] We'll also show you one of the earliest tools that Apple introduced to help create flexible layouts: Autoresizing.
+
+
+➠😺JESSY😺
+[Slide 09] In section two, you'll learn about the basic building block of auto layout - the layout constraint. Stack Views and Autoresizing all turns into constraints behind the scene.
+
+
+➠(RW)
+👯JESSY😺  That’s it for this introductory video. [Slide 10]
+👯CATIE🐸  We'd like to give a big thanks to Jerry Beers.  
+👯JESSY😺  This iOS 11 course is an update to his iOS 10 course of the same name. 
+👯CATIE🐸  You can thank Jerry for the excellent app theme we'll be working with: Pirates!
+👯JESSY😺  Coming up next, find out what autoresizing is!
+
+➠(Udemy)
+👯JESSY😺  That’s it for this introductory video.
+👯CATIE🐸  In these next two sections, we'll work on an app that every modern-day pirate needs - a handbook app. 
+👯JESSY😺  We'll make it work on any device in any orientation.
+👯CATIE🐸  Coming up next, find out what autoresizing is!

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0OP-0L-ZDv">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--EmojiJournal-->
+        <scene sceneID="ybR-Qy-zs5">
+            <objects>
+                <tableViewController id="hfo-la-iHM" customClass="JournalTableViewController" customModule="EmojiJournalMobileApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="EI3-ES-Hq4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="EmojiJournalCell" rowHeight="349" id="f9i-yn-mXS" customClass="JournalTableViewCell" customModule="EmojiJournalMobileApp" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="349"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="f9i-yn-mXS" id="zWC-wD-lHw">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="349"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8tP-RT-zPH">
+                                            <rect key="frame" x="16" y="92" width="343" height="222"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DateLabel DateLabel DateLabel DateLabel" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tHe-RV-ElO">
+                                            <rect key="frame" x="16" y="35" width="343" height="25"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="25" id="fvM-pB-FLy"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jfI-zc-chw">
+                                            <rect key="frame" x="16" y="318" width="343" height="20"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="20" id="xM0-pO-aqL"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DCw-TL-3to">
+                                            <rect key="frame" x="16" y="68" width="343" height="20"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="5CH-Gd-ffp"/>
+                                                <constraint firstAttribute="height" constant="20" id="z06-z1-yfh"/>
+                                            </constraints>
+                                        </view>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DateLabel DateLabel DateLabel DateLabel" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AnD-Q8-ffQ">
+                                            <rect key="frame" x="16" y="11" width="343" height="25"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="25" id="qg2-GB-bOO"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="AnD-Q8-ffQ" firstAttribute="leading" secondItem="zWC-wD-lHw" secondAttribute="leadingMargin" id="82B-Dd-L1F"/>
+                                        <constraint firstItem="tHe-RV-ElO" firstAttribute="leading" secondItem="zWC-wD-lHw" secondAttribute="leadingMargin" id="89Y-cN-dPs"/>
+                                        <constraint firstItem="tHe-RV-ElO" firstAttribute="top" secondItem="AnD-Q8-ffQ" secondAttribute="bottom" constant="-1" id="8fr-3y-baS"/>
+                                        <constraint firstItem="8tP-RT-zPH" firstAttribute="top" secondItem="DCw-TL-3to" secondAttribute="bottom" constant="4" id="8gR-d8-N6r"/>
+                                        <constraint firstItem="jfI-zc-chw" firstAttribute="top" secondItem="8tP-RT-zPH" secondAttribute="bottom" constant="4" id="ELd-hH-rI9"/>
+                                        <constraint firstItem="8tP-RT-zPH" firstAttribute="leading" secondItem="zWC-wD-lHw" secondAttribute="leadingMargin" id="IbU-af-E38"/>
+                                        <constraint firstItem="tHe-RV-ElO" firstAttribute="trailing" secondItem="zWC-wD-lHw" secondAttribute="trailingMargin" id="JXt-eg-SH5"/>
+                                        <constraint firstItem="8tP-RT-zPH" firstAttribute="trailing" secondItem="zWC-wD-lHw" secondAttribute="trailingMargin" id="LhQ-bn-d8m"/>
+                                        <constraint firstItem="AnD-Q8-ffQ" firstAttribute="top" secondItem="zWC-wD-lHw" secondAttribute="topMargin" id="Pvq-9S-eU9"/>
+                                        <constraint firstItem="DCw-TL-3to" firstAttribute="trailing" secondItem="zWC-wD-lHw" secondAttribute="trailingMargin" id="Ypk-vV-dgs"/>
+                                        <constraint firstItem="jfI-zc-chw" firstAttribute="leading" secondItem="zWC-wD-lHw" secondAttribute="leadingMargin" id="bTS-bO-bAh"/>
+                                        <constraint firstItem="DCw-TL-3to" firstAttribute="leading" secondItem="zWC-wD-lHw" secondAttribute="leadingMargin" id="cYp-LR-44T"/>
+                                        <constraint firstItem="jfI-zc-chw" firstAttribute="bottom" secondItem="zWC-wD-lHw" secondAttribute="bottomMargin" id="f0f-Ry-bU3"/>
+                                        <constraint firstItem="jfI-zc-chw" firstAttribute="trailing" secondItem="zWC-wD-lHw" secondAttribute="trailingMargin" id="s6Q-f3-TGe"/>
+                                        <constraint firstItem="DCw-TL-3to" firstAttribute="top" secondItem="tHe-RV-ElO" secondAttribute="bottom" constant="8" id="vvz-I0-bXk"/>
+                                        <constraint firstItem="AnD-Q8-ffQ" firstAttribute="trailing" secondItem="zWC-wD-lHw" secondAttribute="trailingMargin" id="zsz-Lc-QmJ"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="dateLabel" destination="AnD-Q8-ffQ" id="pyc-nX-ed7"/>
+                                    <outlet property="emojiLabel" destination="8tP-RT-zPH" id="pBw-AW-dC6"/>
+                                    <outlet property="timeLabel" destination="tHe-RV-ElO" id="PiS-pH-shI"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="hfo-la-iHM" id="zFr-M0-MJC"/>
+                            <outlet property="delegate" destination="hfo-la-iHM" id="7HC-t1-N6q"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="EmojiJournal" id="SWN-kZ-Kya">
+                        <rightBarButtonItems>
+                            <barButtonItem systemItem="add" id="0ZO-Dh-WH7">
+                                <connections>
+                                    <segue destination="95m-Ks-iNp" kind="show" identifier="addNewEmojiSegue" id="Rh3-Lk-2rP"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem systemItem="refresh" id="q2d-wE-TEm">
+                                <connections>
+                                    <action selector="refresh" destination="hfo-la-iHM" id="8Zi-k8-aZy"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bdb-Sx-MnR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1396" y="204.64767616191907"/>
+        </scene>
+        <!--Add Emoji-->
+        <scene sceneID="Fr6-aV-vzy">
+            <objects>
+                <viewController id="95m-Ks-iNp" customClass="AddEmojiViewController" customModule="EmojiJournalMobileApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="g01-Qs-7XN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How are you feeling today?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="MKp-95-AeM">
+                                <rect key="frame" x="16" y="82" width="343" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="bNt-T1-kBt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4ln-Ki-VRo">
+                                <rect key="frame" x="73" y="158" width="228" height="193"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="193" id="gfR-Bl-l3c"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="95m-Ks-iNp" id="vxu-FO-27C"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4ln-Ki-VRo" firstAttribute="top" secondItem="MKp-95-AeM" secondAttribute="bottom" constant="27" id="6JV-Ye-G6v"/>
+                            <constraint firstItem="MKp-95-AeM" firstAttribute="leading" secondItem="0I6-3A-q8j" secondAttribute="leading" constant="16" id="A0Y-TL-Hv9"/>
+                            <constraint firstItem="4ln-Ki-VRo" firstAttribute="leading" secondItem="0I6-3A-q8j" secondAttribute="leading" constant="73" id="KeH-iD-Lg2"/>
+                            <constraint firstItem="MKp-95-AeM" firstAttribute="top" secondItem="0I6-3A-q8j" secondAttribute="top" constant="18" id="S95-Q3-HSC"/>
+                            <constraint firstItem="0I6-3A-q8j" firstAttribute="trailing" secondItem="4ln-Ki-VRo" secondAttribute="trailing" constant="74" id="hUb-T7-qeu"/>
+                            <constraint firstItem="0I6-3A-q8j" firstAttribute="trailing" secondItem="MKp-95-AeM" secondAttribute="trailing" constant="16" id="iRH-9y-Ttl"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="0I6-3A-q8j"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Add Emoji" id="5cE-f1-Txp">
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="NBw-X8-Nf4">
+                            <connections>
+                                <action selector="saveEmoji" destination="95m-Ks-iNp" id="cse-2S-sx2"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="emojiTextField" destination="4ln-Ki-VRo" id="G4m-o4-Z0O"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dTa-tr-acK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2341.5999999999999" y="204.64767616191907"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="zm3-Td-dWC">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0OP-0L-ZDv" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hqu-tq-f6I">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="hfo-la-iHM" kind="relationship" relationship="rootViewController" id="9Zz-Ka-3Rp"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="904-2M-epz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="587.20000000000005" y="205.09745127436284"/>
+        </scene>
+    </scenes>
+</document>

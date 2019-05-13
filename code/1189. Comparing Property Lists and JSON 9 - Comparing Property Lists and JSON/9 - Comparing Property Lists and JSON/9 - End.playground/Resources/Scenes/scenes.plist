@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>backgroundName</key>
+		<string>Forest</string>
+		<key>hasReverseGravity</key>
+		<false/>
+		<key>stickers</key>
+		<array>
+			<dict>
+				<key>birthday</key>
+				<date>1014-10-07T04:56:02Z</date>
+				<key>imageName</key>
+				<string>castle</string>
+				<key>name</key>
+				<string>Catwarts</string>
+				<key>normalizedPosition</key>
+				<array>
+					<real>0.27000000000000002</real>
+					<real>0.25</real>
+				</array>
+			</dict>
+			<dict>
+				<key>imageName</key>
+				<string>frog</string>
+				<key>name</key>
+				<string>Professor Froggonagle</string>
+				<key>normalizedPosition</key>
+				<array>
+					<real>0.14999999999999999</real>
+					<real>0.65000000000000002</real>
+				</array>
+			</dict>
+			<dict>
+				<key>birthday</key>
+				<date>0002-03-17T04:56:02Z</date>
+				<key>imageName</key>
+				<string>coiled snake</string>
+				<key>name</key>
+				<string>Mr. Basilisk</string>
+				<key>normalizedPosition</key>
+				<array>
+					<real>0.69999999999999996</real>
+					<real>0.38</real>
+				</array>
+			</dict>
+		</array>
+		<key>width</key>
+		<integer>700</integer>
+	</dict>
+	<dict>
+		<key>backgroundName</key>
+		<string>Winterfence</string>
+		<key>hasReverseGravity</key>
+		<false/>
+		<key>stickers</key>
+		<array>
+			<dict>
+				<key>imageName</key>
+				<string>castle</string>
+				<key>name</key>
+				<string>House Bark</string>
+				<key>normalizedPosition</key>
+				<array>
+					<real>0.80000000000000004</real>
+					<real>0.050000000000000003</real>
+				</array>
+			</dict>
+			<dict>
+				<key>birthday</key>
+				<date>1209-02-15T04:56:02Z</date>
+				<key>imageName</key>
+				<string>dog</string>
+				<key>name</key>
+				<string>Doggh Snow</string>
+				<key>normalizedPosition</key>
+				<array>
+					<real>0.20000000000000001</real>
+					<real>0.59999999999999998</real>
+				</array>
+			</dict>
+		</array>
+		<key>width</key>
+		<integer>700</integer>
+	</dict>
+	<dict>
+		<key>backgroundName</key>
+		<string>space</string>
+		<key>hasReverseGravity</key>
+		<true/>
+		<key>stickers</key>
+		<array>
+			<dict>
+				<key>birthday</key>
+				<date>3006-01-01T05:00:00Z</date>
+				<key>imageName</key>
+				<string>space monkey</string>
+				<key>name</key>
+				<string>Space Count Monkula</string>
+				<key>normalizedPosition</key>
+				<array>
+					<real>0.69999999999999996</real>
+					<real>0.45000000000000001</real>
+				</array>
+			</dict>
+			<dict>
+				<key>imageName</key>
+				<string>castle</string>
+				<key>name</key>
+				<string>Castle Monkula</string>
+				<key>normalizedPosition</key>
+				<array>
+					<real>0.20000000000000001</real>
+					<real>0.20000000000000001</real>
+				</array>
+			</dict>
+		</array>
+		<key>width</key>
+		<integer>700</integer>
+	</dict>
+</array>
+</plist>

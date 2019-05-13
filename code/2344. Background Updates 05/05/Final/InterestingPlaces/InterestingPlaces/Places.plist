@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>World&apos;s Largest Office Chair</string>
+		<key>Latitude</key>
+		<real>33.6525</real>
+		<key>Longitude</key>
+		<real>-85.8292</real>
+		<key>Image</key>
+		<string>ALANNchair_8960.jpg</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>World&apos;s Largest Basket</string>
+		<key>Latitude</key>
+		<real>40.063502</real>
+		<key>Longitude</key>
+		<real>-82.345305</real>
+		<key>Image</key>
+		<string>OHNEWbasket07a.jpg</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>World&apos;s Largest Hairball</string>
+		<key>Latitude</key>
+		<real>37.960591</real>
+		<key>Longitude</key>
+		<real>-100.870308</real>
+		<key>Image</key>
+		<string>KSGARhairball_derek.jpg</string>
+	</dict>
+  <dict>
+    <key>Name</key>
+    <string>World&apos;s Most Confusing Clock</string>
+    <key>Latitude</key>
+    <real>40.7345854</real>
+    <key>Longitude</key>
+    <real>-73.989688</real>
+    <key>Image</key>
+    <string>metronome.png</string>
+  </dict>
+  <dict>
+    <key>Name</key>
+    <string>Bubblegum Alley</string>
+    <key>Latitude</key>
+    <real>35.279026</real>
+    <key>Longitude</key>
+    <real>-120.66376</real>
+    <key>Image</key>
+    <string>bubblegum-alley.jpg</string>
+  </dict>
+  <dict>
+    <key>Name</key>
+    <string>Cadillac Ranch</string>
+    <key>Latitude</key>
+    <real>35.187221</real>
+    <key>Longitude</key>
+    <real>-101.987041</real>
+    <key>Image</key>
+    <string>cadillac-ranch.jpg</string>
+  </dict>
+  <dict>
+    <key>Name</key>
+    <string>Carhenge</string>
+    <key>Latitude</key>
+    <real>42.142293</real>
+    <key>Longitude</key>
+    <real>-102.857987</real>
+    <key>Image</key>
+    <string>carhenge.jpg</string>
+  </dict>
+  <dict>
+    <key>Name</key>
+    <string>Dog Bark Park Inn</string>
+    <key>Latitude</key>
+    <real>46.057531</real>
+    <key>Longitude</key>
+    <real>-116.344491</real>
+    <key>Image</key>
+    <string>dog-bark-park.jpg</string>
+  </dict>
+  <dict>
+    <key>Name</key>
+    <string>Enchanted Highway</string>
+    <key>Latitude</key>
+    <real>46.423596</real>
+    <key>Longitude</key>
+    <real>-102.552351</real>
+    <key>Image</key>
+    <string>enchanted-highway.jpg</string>
+  </dict>
+  <dict>
+    <key>Name</key>
+    <string>Hole N" The Rock</string>
+    <key>Latitude</key>
+    <real>38.575976</real>
+    <key>Longitude</key>
+    <real>-109.550751</real>
+    <key>Image</key>
+    <string>holenrock.jpg</string>
+  </dict>
+  <dict>
+    <key>Name</key>
+    <string>Winchester House</string>
+    <key>Latitude</key>
+    <real>37.318361</real>
+    <key>Longitude</key>
+    <real>-121.950761</real>
+    <key>Image</key>
+    <string>winchester-house.jpg</string>
+  </dict>
+  <dict>
+    <key>Name</key>
+    <string>Washington's Tooth</string>
+    <key>Latitude</key>
+    <real>40.703442</real>
+    <key>Longitude</key>
+    <real>-74.011347</real>
+    <key>Image</key>
+    <string>washingtons-tooth.jpg</string>
+  </dict>
+  <dict>
+    <key>Name</key>
+    <string>GhostBusters Headquarters</string>
+    <key>Latitude</key>
+    <real>40.7196</real>
+    <key>Longitude</key>
+    <real>-74.0066</real>
+    <key>Image</key>
+    <string>ghostbuster-hq.jpg</string>
+  </dict>
+</array>
+</plist>

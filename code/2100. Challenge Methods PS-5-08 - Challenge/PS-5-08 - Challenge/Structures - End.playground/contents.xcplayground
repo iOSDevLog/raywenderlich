@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='rendered' executeOnSourceChanges='false'>
+    <pages>
+        <page name='Structures'/>
+        <page name='Challenge - Structures'/>
+        <page name='Properties'/>
+        <page name='Challenge - Properties'/>
+        <page name='Methods'/>
+        <page name='Challenge - Methods'/>
+    </pages>
+</playground>

@@ -1,0 +1,23 @@
+1-06 # Nesting Stack Views
+
+➠👯CATIE🐸  In this exercise, we’ll get back to using stack views. 
+👯JESSY😺  Now that you understand intrinsic content size, we can dig a little deeper.
+👯CATIE🐸  Literally! We’re going to put a stack view inside of a stack view.
+
+➠😺JESSY😺
+Most app designs have groups of views that are lined up. As you’ve seen, stack views are great for that! 
+
+➠[Slide 01 - In] But unless you’re using a table view, not every view on the screen is going to be lined up! 
+
+➠[Slide 02] Even within table view cells, you’ll often see layouts like these. That's what our next feature is for - nesting.
+
+➠[Slide 03] By embedding stack views inside each other, you can create organized groups of views, each with spacing, alignment, and distribution values that work for that group. 
+
+➠[Slide 04] Then, even with complex layouts, you can stack multiple stack views together and configure that parent stack view to look exactly right. 
+
+➠[Slide 05] If you plan out stack views like this, it’s almost a trivial thing to add a new view, or stack view, to this layout. 
+
+➠🐸CATIE🐸  
+[Slide 06]Enough talk! 
+
+Pirates are people of *action*. Let’s add one more button to our Pirate Handbook, and try nesting stack views.

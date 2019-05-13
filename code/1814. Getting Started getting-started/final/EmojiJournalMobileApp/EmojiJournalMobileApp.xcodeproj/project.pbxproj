@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		534A904B201ABA070064BB58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534A904A201ABA070064BB58 /* AppDelegate.swift */; };
+		534A9050201ABA070064BB58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 534A904E201ABA070064BB58 /* Main.storyboard */; };
+		534A9052201ABA070064BB58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 534A9051201ABA070064BB58 /* Assets.xcassets */; };
+		534A9055201ABA070064BB58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 534A9053201ABA070064BB58 /* LaunchScreen.storyboard */; };
+		534A9252201AD59C0064BB58 /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534A9251201AD59C0064BB58 /* JournalEntry.swift */; };
+		539EB8B8201B9DA600ECA5AE /* JournalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539EB8B7201B9DA600ECA5AE /* JournalTableViewController.swift */; };
+		539EB8BA201B9E5D00ECA5AE /* JournalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539EB8B9201B9E5D00ECA5AE /* JournalTableViewCell.swift */; };
+		539EB8BE201BC57000ECA5AE /* AddEmojiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539EB8BD201BC57000ECA5AE /* AddEmojiViewController.swift */; };
+		5F03E2359C4FB9026162CE1F /* Pods_EmojiJournalMobileApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9E6058A0A689BDAC333EDE /* Pods_EmojiJournalMobileApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2AB18F1E8A859066D3F72D9C /* Pods-EmojiJournalMobileApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmojiJournalMobileApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EmojiJournalMobileApp/Pods-EmojiJournalMobileApp.debug.xcconfig"; sourceTree = "<group>"; };
+		534A9047201ABA070064BB58 /* EmojiJournalMobileApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiJournalMobileApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		534A904A201ABA070064BB58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		534A904F201ABA070064BB58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		534A9051201ABA070064BB58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		534A9054201ABA070064BB58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		534A9056201ABA070064BB58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		534A9251201AD59C0064BB58 /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
+		539EB8B7201B9DA600ECA5AE /* JournalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalTableViewController.swift; sourceTree = "<group>"; };
+		539EB8B9201B9E5D00ECA5AE /* JournalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalTableViewCell.swift; sourceTree = "<group>"; };
+		539EB8BD201BC57000ECA5AE /* AddEmojiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmojiViewController.swift; sourceTree = "<group>"; };
+		D80050AB0FE845D6A5CF973F /* Pods-EmojiJournalMobileApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmojiJournalMobileApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-EmojiJournalMobileApp/Pods-EmojiJournalMobileApp.release.xcconfig"; sourceTree = "<group>"; };
+		FF9E6058A0A689BDAC333EDE /* Pods_EmojiJournalMobileApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmojiJournalMobileApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		534A9044201ABA070064BB58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F03E2359C4FB9026162CE1F /* Pods_EmojiJournalMobileApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		534A903E201ABA070064BB58 = {
+			isa = PBXGroup;
+			children = (
+				534A9049201ABA070064BB58 /* EmojiJournalMobileApp */,
+				534A9048201ABA070064BB58 /* Products */,
+				BDB2327DFAF23504A0503FD5 /* Pods */,
+				7281F696AB6899374F72C10D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		534A9048201ABA070064BB58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				534A9047201ABA070064BB58 /* EmojiJournalMobileApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		534A9049201ABA070064BB58 /* EmojiJournalMobileApp */ = {
+			isa = PBXGroup;
+			children = (
+				534A9051201ABA070064BB58 /* Assets.xcassets */,
+				539EB8C1201BCC6600ECA5AE /* Model */,
+				539EB8C0201BCC5A00ECA5AE /* View */,
+				539EB8BF201BCC3B00ECA5AE /* Controllers */,
+				534A9056201ABA070064BB58 /* Info.plist */,
+			);
+			path = EmojiJournalMobileApp;
+			sourceTree = "<group>";
+		};
+		539EB8BF201BCC3B00ECA5AE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				534A904A201ABA070064BB58 /* AppDelegate.swift */,
+				539EB8BD201BC57000ECA5AE /* AddEmojiViewController.swift */,
+				539EB8B7201B9DA600ECA5AE /* JournalTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		539EB8C0201BCC5A00ECA5AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				534A9053201ABA070064BB58 /* LaunchScreen.storyboard */,
+				534A904E201ABA070064BB58 /* Main.storyboard */,
+				539EB8B9201B9E5D00ECA5AE /* JournalTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		539EB8C1201BCC6600ECA5AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				534A9251201AD59C0064BB58 /* JournalEntry.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7281F696AB6899374F72C10D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF9E6058A0A689BDAC333EDE /* Pods_EmojiJournalMobileApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDB2327DFAF23504A0503FD5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AB18F1E8A859066D3F72D9C /* Pods-EmojiJournalMobileApp.debug.xcconfig */,
+				D80050AB0FE845D6A5CF973F /* Pods-EmojiJournalMobileApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		534A9046201ABA070064BB58 /* EmojiJournalMobileApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 534A9059201ABA070064BB58 /* Build configuration list for PBXNativeTarget "EmojiJournalMobileApp" */;
+			buildPhases = (
+				72F5017D852390BC9015816E /* [CP] Check Pods Manifest.lock */,
+				534A9043201ABA070064BB58 /* Sources */,
+				534A9044201ABA070064BB58 /* Frameworks */,
+				534A9045201ABA070064BB58 /* Resources */,
+				7F1CFA63CC38BAB8D6B5E148 /* [CP] Embed Pods Frameworks */,
+				A046F466D140FE3615770498 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmojiJournalMobileApp;
+			productName = EmojiJournalMobileApp;
+			productReference = 534A9047201ABA070064BB58 /* EmojiJournalMobileApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		534A903F201ABA070064BB58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Razeware;
+				TargetAttributes = {
+					534A9046201ABA070064BB58 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 534A9042201ABA070064BB58 /* Build configuration list for PBXProject "EmojiJournalMobileApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 534A903E201ABA070064BB58;
+			productRefGroup = 534A9048201ABA070064BB58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				534A9046201ABA070064BB58 /* EmojiJournalMobileApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		534A9045201ABA070064BB58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				534A9055201ABA070064BB58 /* LaunchScreen.storyboard in Resources */,
+				534A9052201ABA070064BB58 /* Assets.xcassets in Resources */,
+				534A9050201ABA070064BB58 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		72F5017D852390BC9015816E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EmojiJournalMobileApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F1CFA63CC38BAB8D6B5E148 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EmojiJournalMobileApp/Pods-EmojiJournalMobileApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ISEmojiView/ISEmojiView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ISEmojiView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EmojiJournalMobileApp/Pods-EmojiJournalMobileApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A046F466D140FE3615770498 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EmojiJournalMobileApp/Pods-EmojiJournalMobileApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		534A9043201ABA070064BB58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				539EB8BE201BC57000ECA5AE /* AddEmojiViewController.swift in Sources */,
+				534A9252201AD59C0064BB58 /* JournalEntry.swift in Sources */,
+				539EB8BA201B9E5D00ECA5AE /* JournalTableViewCell.swift in Sources */,
+				539EB8B8201B9DA600ECA5AE /* JournalTableViewController.swift in Sources */,
+				534A904B201ABA070064BB58 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		534A904E201ABA070064BB58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				534A904F201ABA070064BB58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		534A9053201ABA070064BB58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				534A9054201ABA070064BB58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		534A9057201ABA070064BB58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		534A9058201ABA070064BB58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		534A905A201ABA070064BB58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AB18F1E8A859066D3F72D9C /* Pods-EmojiJournalMobileApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RQ632LL2X3;
+				INFOPLIST_FILE = EmojiJournalMobileApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.EmojiJournalMobileApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		534A905B201ABA070064BB58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D80050AB0FE845D6A5CF973F /* Pods-EmojiJournalMobileApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RQ632LL2X3;
+				INFOPLIST_FILE = EmojiJournalMobileApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.EmojiJournalMobileApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		534A9042201ABA070064BB58 /* Build configuration list for PBXProject "EmojiJournalMobileApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				534A9057201ABA070064BB58 /* Debug */,
+				534A9058201ABA070064BB58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		534A9059201ABA070064BB58 /* Build configuration list for PBXNativeTarget "EmojiJournalMobileApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				534A905A201ABA070064BB58 /* Debug */,
+				534A905B201ABA070064BB58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 534A903F201ABA070064BB58 /* Project object */;
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <item
+    android:id="@+id/navigation_photos"
+    android:icon="@drawable/ic_baseline_photo_library_24px"
+    android:title="@string/title_photos" />
+
+  <item
+    android:id="@+id/navigation_song"
+    android:icon="@drawable/ic_baseline_music_note_24px"
+    android:title="@string/title_song" />
+
+</menu>

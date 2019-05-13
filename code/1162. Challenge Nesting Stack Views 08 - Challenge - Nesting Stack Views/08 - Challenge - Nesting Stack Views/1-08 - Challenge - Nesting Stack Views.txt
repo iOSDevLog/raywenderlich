@@ -1,0 +1,15 @@
+➠1-08 # Challenge #5: Nested Stack Views
+
+➠🐸CATIE🐸 
+Before you set sail into the next section, and explore the briny depths of Auto Layout, we've got a challenge to help you hone your stack view skills!
+
+➠😺JESSY😺
+Your challenge is to use everything you've learned so far to build this layout:
+
+➠[Slide 01 - In] It may look quite complex, but start your challenge off by breaking it down into groups, and thinking about how to stack them together! 
+
+➠[Slide 02] Here's how we're thinking about it.
+
+➠Go ahead and give this a try using the Challenge Start file. It has all the images you need included. Then, come back when you’re ready to see how we stacked everything together!
+
+[Challenge Monster Slide]

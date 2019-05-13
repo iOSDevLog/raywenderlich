@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ewm-MD-Xev">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Settings-->
+        <scene sceneID="ppJ-TQ-ivf">
+            <objects>
+                <tableViewController id="VZU-iE-Bx4" customClass="SettingsViewController" customModule="ApplesToOranges" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" keyboardDismissMode="onDrag" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="t7h-24-f2R">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="p8n-Mn-GHQ">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="73"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Edit the number of calories" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DW0-gS-W3T">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="73"/>
+                                    <color key="backgroundColor" red="0.34117648010000001" green="0.62352943419999995" blue="0.16862745579999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="DW0-gS-W3T" firstAttribute="top" secondItem="p8n-Mn-GHQ" secondAttribute="top" id="7Ua-nr-tod"/>
+                                <constraint firstItem="DW0-gS-W3T" firstAttribute="leading" secondItem="p8n-Mn-GHQ" secondAttribute="leading" id="J8D-hh-SyY"/>
+                                <constraint firstAttribute="trailing" secondItem="DW0-gS-W3T" secondAttribute="trailing" id="ePA-Vu-W9D"/>
+                                <constraint firstAttribute="bottom" secondItem="DW0-gS-W3T" secondAttribute="bottom" id="zMV-rK-rTI"/>
+                            </constraints>
+                        </view>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FruitSettingsCell" rowHeight="50" id="3qM-bd-yU3" customClass="SettingsCell" customModule="ApplesToOranges" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="101" width="375" height="50"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3qM-bd-yU3" id="ykn-zV-7UC">
+                                    <rect key="frame" x="0.0" y="0.0" width="341" height="49.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🍎🍐🍊🍋🍌" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DbP-sd-DfC">
+                                            <rect key="frame" x="16" y="11" width="155" height="28"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="500" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Hli-fg-pVK" customClass="NumericalInputTextField" customModule="ApplesToOranges" customModuleProvider="target">
+                                            <rect key="frame" x="241" y="10.5" width="80" height="30"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="80" id="YLt-8A-ReR"/>
+                                            </constraints>
+                                            <nil key="textColor"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                            <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="max">
+                                                    <real key="value" value="1001"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="textFieldEditingDidEnd:" destination="VZU-iE-Bx4" eventType="editingDidEnd" id="6aA-v3-RXT"/>
+                                            </connections>
+                                        </textField>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="DbP-sd-DfC" firstAttribute="leading" secondItem="ykn-zV-7UC" secondAttribute="leadingMargin" id="6LN-QR-2tb"/>
+                                        <constraint firstItem="Hli-fg-pVK" firstAttribute="centerY" secondItem="ykn-zV-7UC" secondAttribute="centerY" id="Hpn-6G-gaC"/>
+                                        <constraint firstItem="DbP-sd-DfC" firstAttribute="top" secondItem="ykn-zV-7UC" secondAttribute="topMargin" id="Jx8-2E-ZHE"/>
+                                        <constraint firstAttribute="trailing" secondItem="Hli-fg-pVK" secondAttribute="trailing" constant="20" id="P8a-Qz-p6Z"/>
+                                        <constraint firstItem="Hli-fg-pVK" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="DbP-sd-DfC" secondAttribute="trailing" constant="8" symbolic="YES" id="Vo2-J4-x0m"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="DbP-sd-DfC" secondAttribute="bottom" id="Vy4-kS-YOK"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="caloriesTextField" destination="Hli-fg-pVK" id="48H-Zs-2v8"/>
+                                    <outlet property="fruitNameLabel" destination="DbP-sd-DfC" id="Ofn-sY-rb4"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="VZU-iE-Bx4" id="tDo-Tu-Tsh"/>
+                            <outlet property="delegate" destination="VZU-iE-Bx4" id="mbq-lt-1TE"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Settings" image="tab-bar-settings" id="ZKf-Hd-cv8"/>
+                    <navigationItem key="navigationItem" title="Settings" id="ypZ-ki-cUf"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="APy-y8-rAo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4085.5999999999999" y="-759.67016491754134"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="xJ2-py-eeN">
+            <objects>
+                <navigationController id="ewm-MD-Xev" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Settings" id="F8E-dz-L7o"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ee6-zI-oO7">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="VZU-iE-Bx4" kind="relationship" relationship="rootViewController" id="sJT-hQ-yJ6"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3AD-5d-h27" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3250" y="-759"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tab-bar-settings" width="33" height="33"/>
+    </resources>
+</document>

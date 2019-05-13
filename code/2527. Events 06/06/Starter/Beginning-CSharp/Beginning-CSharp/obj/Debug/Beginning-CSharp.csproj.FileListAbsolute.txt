@@ -1,0 +1,7 @@
+C:\Users\Brian\source\repos\Beginning-CSharp\Beginning-CSharp\bin\Debug\Beginning-CSharp.exe.config
+C:\Users\Brian\source\repos\Beginning-CSharp\Beginning-CSharp\bin\Debug\Beginning-CSharp.exe
+C:\Users\Brian\source\repos\Beginning-CSharp\Beginning-CSharp\bin\Debug\Beginning-CSharp.pdb
+C:\Users\Brian\source\repos\Beginning-CSharp\Beginning-CSharp\obj\Debug\Beginning-CSharp.csprojAssemblyReference.cache
+C:\Users\Brian\source\repos\Beginning-CSharp\Beginning-CSharp\obj\Debug\Beginning-CSharp.csproj.CoreCompileInputs.cache
+C:\Users\Brian\source\repos\Beginning-CSharp\Beginning-CSharp\obj\Debug\Beginning-CSharp.exe
+C:\Users\Brian\source\repos\Beginning-CSharp\Beginning-CSharp\obj\Debug\Beginning-CSharp.pdb

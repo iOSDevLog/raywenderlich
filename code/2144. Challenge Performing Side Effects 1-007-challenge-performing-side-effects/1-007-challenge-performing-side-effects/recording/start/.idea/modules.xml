@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1964681470/1-007-challenge-performing-side-effects.iml" filepath="$PROJECT_DIR$/.idea/modules/-1964681470/1-007-challenge-performing-side-effects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1-007-challenge-performing-side-effects.iml" filepath="$PROJECT_DIR$/.idea/modules/1-007-challenge-performing-side-effects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1964681470/1-007-challenge-performing-side-effects_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1964681470/1-007-challenge-performing-side-effects_main.iml" group="1-007-challenge-performing-side-effects" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1-007-challenge-performing-side-effects_main.iml" filepath="$PROJECT_DIR$/.idea/modules/1-007-challenge-performing-side-effects_main.iml" group="1-007-challenge-performing-side-effects" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1964681470/1-007-challenge-performing-side-effects_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-1964681470/1-007-challenge-performing-side-effects_test.iml" group="1-007-challenge-performing-side-effects" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1-007-challenge-performing-side-effects_test.iml" filepath="$PROJECT_DIR$/.idea/modules/1-007-challenge-performing-side-effects_test.iml" group="1-007-challenge-performing-side-effects" />
+    </modules>
+  </component>
+</project>

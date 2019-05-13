@@ -1,0 +1,39 @@
+PODS:
+  - ISEmojiView (0.0.6)
+  - KituraKit (0.0.1):
+    - KituraKit/CircuitBreaker (= 0.0.1)
+    - KituraKit/KituraContracts (= 0.0.1)
+    - KituraKit/SwiftyRequest (= 0.0.1)
+  - KituraKit/CircuitBreaker (0.0.1):
+    - KituraKit/CircuitBreaker/LoggerAPI (= 0.0.1)
+  - KituraKit/CircuitBreaker/LoggerAPI (0.0.1)
+  - KituraKit/KituraContracts (0.0.1):
+    - KituraKit/KituraContracts/LoggerAPI (= 0.0.1)
+  - KituraKit/KituraContracts/LoggerAPI (0.0.1)
+  - KituraKit/SwiftyRequest (0.0.1):
+    - KituraKit/SwiftyRequest/CircuitBreaker (= 0.0.1)
+  - KituraKit/SwiftyRequest/CircuitBreaker (0.0.1):
+    - KituraKit/SwiftyRequest/CircuitBreaker/LoggerAPI (= 0.0.1)
+  - KituraKit/SwiftyRequest/CircuitBreaker/LoggerAPI (0.0.1)
+
+DEPENDENCIES:
+  - ISEmojiView
+  - KituraKit (from `https://github.com/IBM-Swift/KituraKit.git`, branch `pod`)
+
+EXTERNAL SOURCES:
+  KituraKit:
+    :branch: pod
+    :git: https://github.com/IBM-Swift/KituraKit.git
+
+CHECKOUT OPTIONS:
+  KituraKit:
+    :commit: 7eaebb86d51ebf3d53307bc88d2f767f19edcf91
+    :git: https://github.com/IBM-Swift/KituraKit.git
+
+SPEC CHECKSUMS:
+  ISEmojiView: 2ab7c5ad9c58a318cefcf407af374464ccc56f1d
+  KituraKit: 6fac253244ad92e900766cabf74a36857fba5463
+
+PODFILE CHECKSUM: bd640677adc88986222d0bfc4c8c0abc987273ad
+
+COCOAPODS: 1.3.1

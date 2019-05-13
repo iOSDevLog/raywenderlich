@@ -1,0 +1,100 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  flex: 0 0 300px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  height: 300px;
+  overflow: hidden;
+}
+.card img {
+  max-width: 100%;
+}
+.card .add-new-image {
+  width: 80%;
+  align-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card .add-new-card {
+
+}
+.card .emoji-text {
+  font-size: 125px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.card .top-content-box {
+  display: -webkit-flex;
+  display: flex
+}
+.top-content-box .emoji-date {
+  width: 50%;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin-left: 0;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-top: 10px;
+  color: white;
+}
+.top-content-box .delete-button {
+  background: none;
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+  color: white;
+  font-size: 25px;
+  width: 50px;
+  height: 50px;
+  border: none;
+  cursor:pointer;
+}
+
+.card .add-new-text {
+  text-align: center;
+  font-size: 30px;
+}
+
+.menu-container {
+    background: #2dc8f3;
+    background: -moz-linear-gradient(-45deg, #2dc8f3 0%, #1497e2 100%);
+    background: -webkit-linear-gradient(-45deg, #2dc8f3 0%,#1497e2 100%);
+    background: linear-gradient(135deg, #2dc8f3 0%,#1497e2 100%);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.title {
+  text-align: center;
+}
+
+.title h1 {
+    color: white;
+}
+
+*:focus {
+  outline: none;
+}
+
+ .wrapper{
+    max-width: calc(320px *4);
+    margin: 0 auto;
+  }
+
+@media screen and (max-width: 768px) { 
+
+  .wrapper{
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+}
+

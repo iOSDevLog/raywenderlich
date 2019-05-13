@@ -1,0 +1,14 @@
+<resources>
+  <string name="app_name">DataDrop</string>
+  <string name="title_activity_map">DataDrop</string>
+  <string name="make_a_drop">Make a Drop</string>
+  <string name="drop">Drop</string>
+  <string name="cancel">Cancel</string>
+  <string name="list_drops">List drops</string>
+  <string name="marker_color">Default marker color</string>
+  <string name="clear_all_drops">Clear all drops</string>
+  <string name="clear_all_drops_title">Clear All Drops?</string>
+  <string name="all_drops">All Drops</string>
+  <string name="no_drops">No drops.</string>
+  <string name="map_type">Map type</string>
+</resources>

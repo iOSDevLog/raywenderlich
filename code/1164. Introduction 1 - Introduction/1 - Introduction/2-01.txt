@@ -1,0 +1,59 @@
+➠2-1
+
+👯CATIE🐸 Hey, welcome back!
+👯JESSY😺 This is Part 2 of Beginning Auto Layout
+CATIE🐸 We're going to be focusing purely on constraints, the building blocks of auto layout.
+
+
+
+➠😺JESSY## What is a constraint?
+[Slide 1]A constraint is simply a rule that defines the relationship between views. The purpose of the rule is to allow the layout system to determine the x and y position, and width and height, of a view. 
+
+➠This relationship can be between a view and its superview, or a view and another neighbor. Even the view –and itself!- is an option. For example, if a view's width should equal its height. 
+
+➠Usually the relationship _is_ between two views, but in some cases, it can be between a view and a constant. An example of that would be: the view's height should equal 50 points.
+
+➠CATIE🐸
+For convenience, you can specify other attributes –like the center– as long as the rectangle Jessy mentioned can be fully initialized from what you specify. Again, that comprises position, width, and height. Every view in your hierarchy needs these clearly defined.
+
+➠For example, if you define the horizontal center and the width of a view, the x position can be calculated. Or, if you define the leading and trailing edge of a view, its width can be derived from those. 
+
+
+➠😺JESSY## Formula
+[slide 2]This is the formula that is used to determine one of the layout attributes for a view, using a constraint. The layout attribute is equal to a number that is multiplied by another attribute, plus a constant. Let's take a look at some examples.
+
+➠[slide 3]Here we specify that the top edge of a view is equal to one times the top of its superview, plus a constant of twenty. That will result in a y position of twenty, for this view.
+
+➠[slide 4]This dictates that a text field's leading edge is equal to one times the trailing edge of a label, plus a constant of eight. That yields a space of eight between the two views.
+
+➠CATIE🐸
+➠[slide 5]Here, the height of a view is equal to 0.5 times the height of its superview, plus a constant of zero. That will result in a view that always has half the height of its superview.
+
+➠[slide 6]Finally here we specify that the height of a button is equal to one times "not an attribute", which is the same as zero, plus a constant of fifty. That gives us a button with a fixed height of fifty.
+[slide out]
+Each of these formulas, used in a constraint, would define just one aspect of the layout for a view. No single one is enough to completely define the layout, but when you define enough correct constraints, each attribute of each view in the hierarchy can be determined.
+
+
+➠😺JESSY## Terms
+[slide7]Before we move on, let's talk about some terminology. Several of the terms used by layout are common enough, like "top" and "bottom". But some might not seem as obvious, like "leading" and "trailing". These two terms are used instead of "left" and "right" to make support for right-to-left languages easier. 
+
+➠If you define a constraint on the "leading" edge of a view, that will translate to the left side of the view in left-to-right languages, and the right side of the view in right-to-left languages. All you have to do is define the leading edge constraint and the layout system will automatically do the right thing.
+
+➠CATIE🐸
+[slide8]Another term to know is "layout guide". These guides are not visible on the screen, but represent spacing that can be used to make layouts easier. The most common used to be known as the "top layout guide": a property of view controllers. In iOS 11, this has changed to be incorporated into the "safe area layout guide".
+
+➠In both systems, if a view controller is displayed in a navigation controller, the guide will automatically adjust to the bottom of the navigation bar. But if the view is displayed at the top level, it will move to the bottom of the status bar.
+
+➠The final term we'll talk about is margins. A view can define an internal margin to allow space between its edge and its subviews. When you're creating constraints, you can choose to create the constraint to the view's edge or its margin.
+
+
+➠😺JESSY ## When to use manual constraints
+We've already seen two ways of creating your layout without having to manually create constraints: using autoresizing, and stack views. So when would you want to use constraints? 
+➠Well, autoresizing masks are simple and quick ways to specify how your view should resize, but they're pretty limited and they only define the relationship between a view and its superview. 
+
+➠Note, that, if you do opt for manual constraints, you don't have to do anything to account for overriding the autoresizing mask, as long as you're working in Interface Builder. That's _not_ true when creating views in code, but we won't be getting into that in this section.
+
+➠CATIE🐸
+➠Stack views are the primary way that you should usually create your layout, but even if you use stack views, there may be places where you want to augment with constraints, like an aspect ratio constraint, or to set the minimum size of a button to make sure the hit target is big enough.
+
+And now, let's create some Auto Layout Constraints!

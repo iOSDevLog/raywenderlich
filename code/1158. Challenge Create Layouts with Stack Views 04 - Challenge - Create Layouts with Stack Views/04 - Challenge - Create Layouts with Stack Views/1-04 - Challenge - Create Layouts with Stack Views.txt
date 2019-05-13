@@ -1,0 +1,12 @@
+1-04 - Challenge: Create Layouts with Stack Views
+
+➠🐸CATIE🐸
+You've set up one basic stack view. It's time to try creating a few more.
+
+➠[Slide 01 - In] In this challenge, you'll use a stack view to create these two layouts. We've got a starter project ready for you, with this reference image included. 
+
+➠You’ll also find this cool pirate flag imported into the project for you. The colors and font sizes aren’t really important here, so style your views however you’d like.
+
+➠Pause the video, give it a try, and then come back to find out what we did.
+
+[Challenge Monster Slide]

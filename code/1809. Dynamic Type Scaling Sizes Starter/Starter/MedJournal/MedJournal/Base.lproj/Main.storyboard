@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Baseline standard spacing" minToolsVersion="9.0"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="AmericanTypewriter.ttc">
+            <string>AmericanTypewriter</string>
+            <string>AmericanTypewriter-Semibold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="wvr-eT-jj3" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="DBt-qt-gQm" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Fvw-WM-bMh">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wvr-eT-jj3" userLabel="Navigation Controller" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Appointments" image="first" id="acW-dT-cKf"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="eIj-vD-Eve">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="yZU-Uf-a3M" kind="relationship" relationship="rootViewController" id="YzE-dg-cvC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ycg-Id-Gtu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="830" y="-322"/>
+        </scene>
+        <!--Appointments-->
+        <scene sceneID="b8p-YW-dX6">
+            <objects>
+                <tableViewController id="yZU-Uf-a3M" customClass="AppointmentsViewController" customModule="MedJournal" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="7Q3-Vk-TLx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="appointmentCell" id="8Mt-xo-SG9" customClass="AppointmentCell" customModule="MedJournal" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8Mt-xo-SG9" id="uP8-nA-tMU">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7/1/17" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eGu-TQ-jV7">
+                                            <rect key="frame" x="16" y="11" width="55" height="21"/>
+                                            <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dr. Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xjP-Yd-Etl">
+                                            <rect key="frame" x="150" y="11" width="75" height="21"/>
+                                            <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10:00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rbm-eR-Fxh">
+                                            <rect key="frame" x="313" y="11" width="47" height="21"/>
+                                            <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="eGu-TQ-jV7" firstAttribute="firstBaseline" secondItem="xjP-Yd-Etl" secondAttribute="firstBaseline" id="0Hz-Pf-bRS"/>
+                                        <constraint firstItem="eGu-TQ-jV7" firstAttribute="leading" secondItem="uP8-nA-tMU" secondAttribute="leadingMargin" id="0SO-dT-4wQ"/>
+                                        <constraint firstAttribute="trailing" secondItem="rbm-eR-Fxh" secondAttribute="trailing" constant="15" id="LDb-tg-ycp"/>
+                                        <constraint firstItem="xjP-Yd-Etl" firstAttribute="baseline" secondItem="rbm-eR-Fxh" secondAttribute="baseline" id="Rc2-GM-lZd"/>
+                                        <constraint firstItem="eGu-TQ-jV7" firstAttribute="baseline" secondItem="xjP-Yd-Etl" secondAttribute="baseline" id="S9h-mA-5To"/>
+                                        <constraint firstItem="rbm-eR-Fxh" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="xjP-Yd-Etl" secondAttribute="trailing" constant="8" symbolic="YES" id="Szr-l0-Gbf"/>
+                                        <constraint firstItem="xjP-Yd-Etl" firstAttribute="centerX" secondItem="uP8-nA-tMU" secondAttribute="centerX" id="lVS-Xk-bgJ"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="eGu-TQ-jV7" secondAttribute="bottom" constant="1" id="lsr-fp-IaA"/>
+                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="eGu-TQ-jV7" secondAttribute="trailingMargin" id="oke-tC-3IG"/>
+                                        <constraint firstItem="eGu-TQ-jV7" firstAttribute="top" secondItem="uP8-nA-tMU" secondAttribute="topMargin" id="vhD-Bp-EWc"/>
+                                        <constraint firstItem="xjP-Yd-Etl" firstAttribute="firstBaseline" secondItem="rbm-eR-Fxh" secondAttribute="firstBaseline" id="vyj-lw-ULN"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="dateLabel" destination="eGu-TQ-jV7" id="ygC-xm-61T"/>
+                                    <outlet property="doctorNameLabel" destination="xjP-Yd-Etl" id="QWK-f6-gmG"/>
+                                    <outlet property="timeLabel" destination="rbm-eR-Fxh" id="umd-Sx-KLk"/>
+                                    <segue destination="rLk-gD-RcZ" kind="show" identifier="doctorDetail" id="c0a-Lj-112"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="yZU-Uf-a3M" id="Ztg-UL-dGg"/>
+                            <outlet property="delegate" destination="yZU-Uf-a3M" id="Gh9-8K-lgH"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Appointments" id="ve5-VJ-pMR"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QCQ-dr-3Vh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1574" y="-322"/>
+        </scene>
+        <!--Doctor-->
+        <scene sceneID="TU7-uZ-PMc">
+            <objects>
+                <viewController id="rLk-gD-RcZ" customClass="DoctorViewController" customModule="MedJournal" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="63P-QK-yu2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" image="profile" translatesAutoresizingMaskIntoConstraints="NO" id="5F2-Hy-6Jt">
+                                <rect key="frame" x="16" y="80" width="128" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="5F2-Hy-6Jt" secondAttribute="height" multiplier="1:1" id="LLX-JG-aDf"/>
+                                    <constraint firstAttribute="width" constant="128" id="lj2-HT-uCw"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ujo-Js-7Hf">
+                                <rect key="frame" x="152" y="80" width="47" height="20"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Semibold" family="American Typewriter" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="321-555-1234" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ErB-Jb-DoO">
+                                <rect key="frame" x="152" y="103" width="90" height="16"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="123 Main Street, Suite 250" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kl9-Qo-R82">
+                                <rect key="frame" x="152" y="119" width="168.5" height="16"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City, ST 54321" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o4C-1x-CGc">
+                                <rect key="frame" x="152" y="135" width="91.5" height="16"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Notes" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tt0-1y-nP6">
+                                <rect key="frame" x="16" y="216" width="54" height="23.5"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ErB-Jb-DoO" secondAttribute="trailing" id="1nm-3O-M6r"/>
+                            <constraint firstItem="o4C-1x-CGc" firstAttribute="leading" secondItem="kl9-Qo-R82" secondAttribute="leading" id="2Df-ZC-Tnj"/>
+                            <constraint firstItem="o4C-1x-CGc" firstAttribute="firstBaseline" secondItem="kl9-Qo-R82" secondAttribute="baseline" constant="16" symbolic="YES" id="B20-IA-Pkz"/>
+                            <constraint firstItem="tt0-1y-nP6" firstAttribute="leading" secondItem="5F2-Hy-6Jt" secondAttribute="leading" id="FiM-ly-AOn"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="kl9-Qo-R82" secondAttribute="trailing" id="Hj1-Kf-1bG"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="tt0-1y-nP6" secondAttribute="trailing" id="HtB-Y6-Cdq"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ujo-Js-7Hf" secondAttribute="trailing" id="JG8-ax-SiD"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="o4C-1x-CGc" secondAttribute="trailing" id="Mj2-zR-Ofb"/>
+                            <constraint firstItem="ErB-Jb-DoO" firstAttribute="leading" secondItem="ujo-Js-7Hf" secondAttribute="leading" id="Pt9-69-buG"/>
+                            <constraint firstItem="ujo-Js-7Hf" firstAttribute="leading" secondItem="5F2-Hy-6Jt" secondAttribute="trailing" constant="8" id="Tcd-A3-Omd"/>
+                            <constraint firstItem="5F2-Hy-6Jt" firstAttribute="leading" secondItem="bNH-Ce-z3U" secondAttribute="leading" constant="16" id="Tzg-fl-GcP"/>
+                            <constraint firstItem="5F2-Hy-6Jt" firstAttribute="top" secondItem="bNH-Ce-z3U" secondAttribute="top" constant="16" id="Xew-0s-DXX"/>
+                            <constraint firstItem="ujo-Js-7Hf" firstAttribute="top" secondItem="5F2-Hy-6Jt" secondAttribute="top" id="ZBO-sb-2PA"/>
+                            <constraint firstItem="tt0-1y-nP6" firstAttribute="firstBaseline" relation="greaterThanOrEqual" secondItem="o4C-1x-CGc" secondAttribute="baseline" constant="24" symbolType="layoutAnchor" id="e1C-yo-heR"/>
+                            <constraint firstItem="kl9-Qo-R82" firstAttribute="leading" secondItem="ErB-Jb-DoO" secondAttribute="leading" id="iqt-dN-7de"/>
+                            <constraint firstItem="kl9-Qo-R82" firstAttribute="firstBaseline" secondItem="ErB-Jb-DoO" secondAttribute="baseline" constant="16" symbolic="YES" id="q6v-UU-VxK"/>
+                            <constraint firstItem="ErB-Jb-DoO" firstAttribute="firstBaseline" secondItem="ujo-Js-7Hf" secondAttribute="baseline" constant="20" symbolic="YES" id="qr6-dm-ZAs"/>
+                            <constraint firstItem="tt0-1y-nP6" firstAttribute="top" secondItem="5F2-Hy-6Jt" secondAttribute="bottom" priority="250" constant="8" symbolic="YES" id="rGC-gO-X9K"/>
+                            <constraint firstItem="tt0-1y-nP6" firstAttribute="top" relation="greaterThanOrEqual" secondItem="5F2-Hy-6Jt" secondAttribute="bottom" constant="8" symbolic="YES" id="uRe-Vf-o5K"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bNH-Ce-z3U"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Doctor" id="BmK-FB-mS9"/>
+                    <connections>
+                        <outlet property="addressLabel" destination="kl9-Qo-R82" id="8cY-PT-fhH"/>
+                        <outlet property="cityStateZipLabel" destination="o4C-1x-CGc" id="5fd-7R-r95"/>
+                        <outlet property="nameLabel" destination="ujo-Js-7Hf" id="CeB-Pb-BzV"/>
+                        <outlet property="notesLabel" destination="tt0-1y-nP6" id="qIx-Oj-KoG"/>
+                        <outlet property="phoneLabel" destination="ErB-Jb-DoO" id="9l2-Gt-JnE"/>
+                        <outlet property="profileImageView" destination="5F2-Hy-6Jt" id="uNb-H0-9er"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ghR-4B-gDr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2332" y="-322.48875562218893"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="HAi-MK-Jb8">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="DBt-qt-gQm" userLabel="Navigation Controller" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Medicine" image="second" id="cPa-gy-q4n"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Fvx-Hk-Pde">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Z4L-Qc-NgT" kind="relationship" relationship="rootViewController" id="dSW-zh-8LE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LMz-mj-pko" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="830" y="358"/>
+        </scene>
+        <!--Medicine-->
+        <scene sceneID="ZNP-ei-NEk">
+            <objects>
+                <tableViewController id="Z4L-Qc-NgT" customClass="MedicineViewController" customModule="MedJournal" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="39s-VK-lYy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="medicineCell" textLabel="qQU-bI-s9c" detailTextLabel="ykG-oT-AcO" style="IBUITableViewCellStyleValue1" id="iCS-iN-ARs">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="iCS-iN-ARs" id="Oty-gh-bCc">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qQU-bI-s9c">
+                                            <rect key="frame" x="16" y="12" width="37.5" height="20"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ykG-oT-AcO">
+                                            <rect key="frame" x="310.5" y="12" width="48.5" height="20"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Z4L-Qc-NgT" id="3vT-p3-q8b"/>
+                            <outlet property="delegate" destination="Z4L-Qc-NgT" id="inQ-dZ-hRJ"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Medicine" id="HIY-cN-zOB"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4GY-O8-o1F" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1574" y="358"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="first" width="30" height="30"/>
+        <image name="profile" width="128" height="128"/>
+        <image name="second" width="30" height="30"/>
+    </resources>
+</document>

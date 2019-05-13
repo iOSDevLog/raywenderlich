@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="xJU-ux-9OD">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Face Tracker-->
+        <scene sceneID="zgH-zt-Co2">
+            <objects>
+                <viewController id="1Rn-yF-2gt" customClass="VideoViewController" customModule="FaceTracker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="346-f4-CFP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XiK-UQ-tYj">
+                                <rect key="frame" x="145" y="390" width="128" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="03v-A2-gyy">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="03v-A2-gyy" firstAttribute="top" secondItem="346-f4-CFP" secondAttribute="top" constant="64" id="8R6-db-Vsf"/>
+                            <constraint firstItem="05c-E1-xm3" firstAttribute="trailing" secondItem="03v-A2-gyy" secondAttribute="trailing" id="atp-mu-Q0l"/>
+                            <constraint firstItem="05c-E1-xm3" firstAttribute="bottom" secondItem="03v-A2-gyy" secondAttribute="bottom" id="bMR-cq-i6D"/>
+                            <constraint firstItem="03v-A2-gyy" firstAttribute="leading" secondItem="05c-E1-xm3" secondAttribute="leading" id="hnc-aT-YQI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="05c-E1-xm3"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Face Tracker" id="YZQ-he-OrT"/>
+                    <connections>
+                        <outlet property="cameraView" destination="03v-A2-gyy" id="k3K-bf-DOU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NxQ-Lo-pBe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="560.79999999999995" y="174.96251874062969"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="d6F-cZ-94L">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="xJU-ux-9OD" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="BB0-gN-Zfp">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="1Rn-yF-2gt" kind="relationship" relationship="rootViewController" id="hr0-du-ftU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OMB-Om-H5D" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-122" y="175"/>
+        </scene>
+    </scenes>
+</document>

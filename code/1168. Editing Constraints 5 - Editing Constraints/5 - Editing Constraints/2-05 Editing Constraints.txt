@@ -1,0 +1,30 @@
+➠2-5 Editing Constraints
+
+➠😺JESSY
+You may have noticed by now, that the constraints you create can be edited, thereafter!
+➠ Of course, that's handy if you have constraints defined, and your design changes. 
+
+➠[Slide 1]But some particular constraints can only be made by first creating some other constraint and then editing it. For example, a proportional height constraint is created by starting with an equal height constraint and then editing the multiplier to make it proportional.
+
+➠CATIE🐸 Viewing Constraints
+[Slide 2]In Interface Builder, when you select a view, the Size inspector will list all the constraints involving that view. There's even a graphical representation of the constraints that are defined at the top of the list. If you click on one of the blue lines in that view, it will filter the list to show only the constraints impacting that property. You can click again to clear the filter.
+
+➠[Slide 3]Next to each constraint in the list is an "Edit" button. Clicking this gives you a popup that you can use to quickly edit the most common properties of the constraint.
+
+➠😺JESSY## Inspecting Constraints
+[Slide 4]There are some properties that you can't edit from the quick edit view. Instead, they're accessed in the size inspector –not for a constrained view– but, for a constraint itself. Of course, you'll need a constraint selected, first.
+
+➠To select one, you've got a few options:
+
+➠You can double click on a constraint in the Size inspector.
+Or, select the constraint in the document outline.
+You can also click on a constraint in the editor, but for that, you'll need to be skilled at clicking on single-pixel-wide lines.
+
+➠[Slide 5]In addition to same properties from the quick edit view, you've you can change whether the constraint is connected to a view's margin or its edge. That can be done in the "First Item" or "Second Item" drop-down.
+
+➠CATIE🐸
+When you create a constraint, attributes get matched. So, for example, with a center x constraint between a view and its superview, the constraint will line up the center x of the view with the center x of the superview. 
+➠But you can edit the constraint to use different attributes, as long as they're in the same direction. So you could, say, modify the constraint so that the _leading edge_ of the view lines up with the center x of the superview. 
+➠In this way, you can edit constraints to be more advanced than what you could create directly.
+
+Lastly, if don't need a constraint anymore, just select it and hit delete!

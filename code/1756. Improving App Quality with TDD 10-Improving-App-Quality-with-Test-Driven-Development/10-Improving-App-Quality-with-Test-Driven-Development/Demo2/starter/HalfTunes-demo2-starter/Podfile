@@ -1,0 +1,12 @@
+
+target 'HalfTunes' do
+  use_frameworks!
+
+  # Pods for HalfTunes
+
+  target 'HalfTunesTests' do
+    inherit! :search_paths
+    pod 'Mockingjay'
+  end
+
+end

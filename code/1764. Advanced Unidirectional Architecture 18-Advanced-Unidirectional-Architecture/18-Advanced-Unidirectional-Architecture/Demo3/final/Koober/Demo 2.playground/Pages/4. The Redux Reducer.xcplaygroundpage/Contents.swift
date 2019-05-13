@@ -1,0 +1,57 @@
+/*:
+ [Table of Contents](Table%20of%20Contents) | [Previous](@previous) | [Next](@next)
+ ****
+ # The Redux Reducer
+ In this demo the reducer now has some logic. Reducers should be free functions meaning they should never perform side effects. Reducers are designed to perform state transformations such as converting a raw data model to a presentable display model for the view. Another thing to note is reducers are run on the main thread so they need to be fast.
+
+ This reducer:
+ * handles storing the `AppState` restored from persistence.
+ */
+import Foundation
+import ReSwift
+
+func reduce(action: Action, state: AppState?) -> AppState {
+  var appState = state ?? AppState(UserProfile.makeEmpty())
+
+  switch action {
+  case let action as LoadedPersistedState:
+    appState = action.appState
+  default:
+    break
+  }
+
+  return appState
+}
+/*:
+ ## Step by step
+ ### The Reducer free function
+ When an action is dispatched to the redux store, this function will be called with the action and previous app state. The responsibility of this function is to return the new state based on the action.
+ */
+func reduce_(action: Action, state: AppState?) -> AppState {
+/*:
+ ### Make a copy of the existing state
+ In the following line, if the redux store is created with a `nil` value for the initial state, a new `AppState` is created. Notice that the state is stored in a variable instead of a constant. This line *copies* the existing state into a mutable struct variable so that the reducer can modify the copy and return the modified copy as the new redux store state.
+ */
+var appState = state ?? AppState(UserProfile.makeEmpty())
+/*:
+ ### Handle action
+ Mutate new state based on action that caused the reducer to be called. This is a very typical reducer implementation using a swtich statement to determine what kind of action was dispatched.
+ */
+  switch action {
+  case let action as LoadedPersistedState:
+    appState = action.appState
+  default:
+    break
+  }
+
+/*:
+ ### Return modified copy
+ Return the new state. This will trigger change events if the new state is different than the previous state based on `Equatable`.
+ */
+  return appState
+}
+/*:
+ ****
+ [Table of Contents](Table%20of%20Contents) | [Previous](@previous) | [Next](@next)
+ */
+

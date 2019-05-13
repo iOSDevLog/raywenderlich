@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/839315613/2-002-filtering-operators.iml" filepath="$PROJECT_DIR$/.idea/modules/839315613/2-002-filtering-operators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2-002-filtering-operators.iml" filepath="$PROJECT_DIR$/.idea/modules/2-002-filtering-operators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/839315613/2-002-filtering-operators_main.iml" filepath="$PROJECT_DIR$/.idea/modules/839315613/2-002-filtering-operators_main.iml" group="2-002-filtering-operators" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2-002-filtering-operators_main.iml" filepath="$PROJECT_DIR$/.idea/modules/2-002-filtering-operators_main.iml" group="2-002-filtering-operators" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/839315613/2-002-filtering-operators_test.iml" filepath="$PROJECT_DIR$/.idea/modules/839315613/2-002-filtering-operators_test.iml" group="2-002-filtering-operators" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2-002-filtering-operators_test.iml" filepath="$PROJECT_DIR$/.idea/modules/2-002-filtering-operators_test.iml" group="2-002-filtering-operators" />
+    </modules>
+  </component>
+</project>
